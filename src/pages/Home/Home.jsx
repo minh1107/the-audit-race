@@ -10,7 +10,6 @@ import Rules from './Rules'
 const Home = () => {
   return (
     <div>
-      <Header />
       <Slide />    
       <Overview /> 
       <TarSharing />  

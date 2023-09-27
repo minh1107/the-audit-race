@@ -2,6 +2,7 @@ import Footer from '@/pages/Home/Footer'
 import '@/assets/fonts/globals.css'
 import { Roboto } from 'next/font/google'
 import '@/scss/main.scss'
+import Header from '@/pages/Home/Header'
 
 const roboto = Roboto({ subsets: ['latin'],  weight: ["100", "300", "400", "500", "700", "900"], })
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
+        <Header />
         {children}
         <Footer />
       </body>

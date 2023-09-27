@@ -7,13 +7,15 @@ import Link from 'next/link'
 import ButtonCustom from '@/components/tags/ButtonCustom'
 import Line from '@/components/common/Line'
 import Line2 from '@/components/common/Line2'
+import { useRouter } from 'next/navigation'
 
 const Header = () => {
+    const router = useRouter()
     return (
-    <div className='fixed z-10 top-0 header whitespace-nowrap'>
+    <div className='absolute z-10 top-0 header whitespace-nowrap overflow-x-hidden'>
         <div className=' flex text-main h-[5.94vw] items-center mx-[13.16vw] mr-[16.19vw]'>
             <Image src={logoImg} alt='logo' className='w-[9/875vw] h-[2.00894vw] mr-[2.5vw]'/>
-            <ul className='flex gap-[0.25vw] mr-[1.5vw]'>
+            <ul className='flex gap-[0.25vw] mr-[1.5vw] max-md:hidden'>
             {
                 headerPaths?.map((item) => (
                     <Link href={item?.link} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
@@ -22,7 +24,7 @@ const Header = () => {
                 ))
             }
             </ul>
-            <ButtonCustom text={'Đăng kí dự thi'} />
+            <Link href={'/form-register'}><ButtonCustom text={'Đăng kí dự thi'} /></Link>
         </div>
         <Line2 />
     </div>

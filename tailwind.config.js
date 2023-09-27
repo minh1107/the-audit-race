@@ -24,7 +24,8 @@ module.exports = {
       },
       fontFamily: {
         exoFont: ['exo'],
-        atmospheric: ['Atmospheric']
+        atmospheric: ['Atmospheric'],
+        arial: ['Arial']
       }
     },
   },
