@@ -1,0 +1,12 @@
+.slide {
+    .line {
+        background-color: red;
+    }
+    .blur__bottom {
+        background: linear-gradient(to top, #01036d, #2b2ed100);
+        height: 10vw;
+        position: absolute;
+        bottom: 0;
+        width: 100vw;
+    }    
+}

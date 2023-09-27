@@ -1,0 +1,32 @@
+'use client'
+import React from 'react'
+import logoImg from '@/assets/images/logo.png'
+import Image from 'next/image'
+import { headerPaths } from '@/utils/paths'
+import Link from 'next/link'
+import ButtonCustom from '@/components/tags/ButtonCustom'
+import Line from '@/components/common/Line'
+import Line2 from '@/components/common/Line2'
+
+const Header = () => {
+    return (
+    <div className='fixed z-10 top-0 header whitespace-nowrap'>
+        <div className=' flex text-main h-[5.94vw] items-center mx-[13.16vw] mr-[16.19vw]'>
+            <Image src={logoImg} alt='logo' className='w-[9/875vw] h-[2.00894vw] mr-[2.5vw]'/>
+            <ul className='flex gap-[0.25vw] mr-[1.5vw]'>
+            {
+                headerPaths?.map((item) => (
+                    <Link href={item?.link} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
+                        {item?.name}
+                    </Link>
+                ))
+            }
+            </ul>
+            <ButtonCustom text={'Đăng kí dự thi'} />
+        </div>
+        <Line2 />
+    </div>
+  )
+}
+
+export default Header
