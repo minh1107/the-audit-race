@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,h2,h3,h4,h5,p,span{
+  margin: 0;
+  padding: 0;
+}
+
 .text__shadow {
   text-shadow: '0px 0px 9px #EC4AE7, 0px 0px 3px #FA75F6, 2px 4px 4px rgba(0, 0, 0, 0.40)'
 }
@@ -69,6 +74,20 @@
   font-weight: 700;
   line-height: 4.5vw; /* 150% */
   margin-left: 13.27vw;
+}
+
+.text__stroke {
+  background: linear-gradient(180deg, #F07DED 100%, #EC4AE7 100%, #F281EF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px transparent;
+  color: #01026d;
+}
+
+.text__gradient2 {
+  background: var(--gradient-2, linear-gradient(180deg, #FFC6FD 0%, #FF9EFC 48.96%, #FFC6FD 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 

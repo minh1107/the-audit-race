@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import bgImg from '@/assets/images/background2.png'
+import bgImg from '@/assets/images/bg2.png'
 import comment from '@/assets/images/svg/comment.svg'
 import buttonLeft from  '@/assets/images/svg/buttonLeft.svg'
 import buttonRight from  '@/assets/images/svg/buttonRight.svg'
