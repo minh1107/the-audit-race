@@ -6,6 +6,10 @@ import Overview from './Overview'
 import TimeDown from './TimeDown'
 import TarSharing from './TarSharing'
 import Rules from './Rules'
+import FinalRules from './FinalRules'
+import Reward from './Reward'
+import Partners from './Partners'
+import Registers from './Register'
 
 const Home = () => {
   return (
@@ -15,6 +19,10 @@ const Home = () => {
       <Overview /> 
       <TarSharing />  
       <Rules />
+      <FinalRules />
+      <Reward />
+      <Partners />
+      <Registers />
     </div>
   )
 }
