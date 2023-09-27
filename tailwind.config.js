@@ -23,7 +23,8 @@ module.exports = {
         
       },
       fontFamily: {
-        exoFont: ['exo']
+        exoFont: ['exo'],
+        atmospheric: ['Atmospheric']
       }
     },
   },

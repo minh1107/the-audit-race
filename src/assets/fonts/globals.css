@@ -157,3 +157,19 @@
   font-style: italic;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'exo';
+  src: url('exo/Exo-ExtraBold.ttf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atmospheric';
+  src: url('a_atmospheric/aAtmospheric.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
