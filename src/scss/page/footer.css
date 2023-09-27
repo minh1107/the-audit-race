@@ -33,7 +33,6 @@
 }
 
 .bg-footer {
-    background: url('/src/assets/images/backgroundFooter.jpg'), lightgray -905.016px 0.092px / 263.158% 100% no-repeat;
     height: 19rem;
     flex-shrink: 0;
 }
@@ -47,4 +46,12 @@
     font-weight: 700;
     line-height: 1rem; 
     letter-spacing: 0.03125rem;
+}
+
+@media only screen and (max-width: 768px) { 
+    .list-footer li{
+        font-size: 3.2vw;
+        text-align: left;
+    }
+    
 }

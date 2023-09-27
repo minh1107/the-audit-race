@@ -145,14 +145,14 @@ const FormRegister = () => {
 
   return (
     <div className='overflow-x-hidden'>
-      <div className='relative '>
-        <Image src={bgImg} alt='' className='h-[38vw] w-screen'/>
+      <div className='relative z-40'>
+        <Image src={bgImg} alt='' className='h-[38vw] w-screen z-40'/>
         <div className='coating h-[38vw] w-screen absolute top-0'></div>
         <div className='form__title z-50 absolute font-exoFont left-[6.44vw] bottom-[2.64vw] uppercase'>Đăng ký dự thi</div>
         <div className='blur__bottom z-20'></div>
       </div>
       <div className='bg-[#000155] relative'>
-        <Image src={bgBlur} className='absolute top-0 right-[-30%] bg__blur ' alt='background blur'/>
+        <Image src={bgBlur} className='absolute top-0 right-[-30%] bg__blur' alt='background blur'/>
         <Image src={bgBlur} className='absolute top-[20%] left-[-30%] bg__blur ' alt='background blur'/>
         <Image src={bgBlur} className='absolute top-[40%] right-[-30%] bg__blur ' alt='background blur'/>
         <Image src={bgBlur} className='absolute top-[60%] left-[-30%] bg__blur ' alt='background blur'/>
@@ -182,7 +182,7 @@ const FormRegister = () => {
               </div>
             </div>
           </div>
-          <div className='w-[0.10019vw] h-auto line__vertical max-md:hidden'></div>
+          <div className='w-[0.10019vw] h-auto  line__vertical max-md:hidden translate-y-[-1.5vw]'>""</div>
           <div className='ml-[5.16vw] form-register max-md:ml-0 max-md:pl-[3vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
               <h1 className='form-register__title text-[4.1875vw] mb-[8.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
               max-md:mb-[6.4vw]'>
