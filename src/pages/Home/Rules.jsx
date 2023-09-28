@@ -17,7 +17,7 @@ const data = [
 ]
 const Rules = () => {
   return (
-    <div className='rules relative w-full pt-[5.625vw] pb-[17.625vw] mt-[-0.1vw] max-md:pt-[14.6vw]'>
+    <div className='rules relative w-full pt-[5.625vw] pb-[17.625vw] mt-[-0.1vw] max-md:pt-[14.6vw]' id='thele'>
         <Image fill src={timelineImg} alt='timelineBg' className='absolute !top-0 !left-0 object-cover z-[-1]'></Image>
         <div className='flex justify-between px-[6.25vw]'>
             <Image src={titleImg} alt='rules__title' width={359} height={143} className='w-[22.4375vw] max-md:hidden'></Image>

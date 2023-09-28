@@ -13,7 +13,7 @@ const data=[{title: 'Nhà tài trợ bạch kim', partner: [{title:'SAPP',src:'/
 ]
 const Partners = () => {
   return (
-    <div className='relative w-full pt-[5.625vw] pb-[17.625vw] px-[6.25vw] mt-[-0.1vw] max-md:pl-[6.25vw] max-md:pr-0 max-md:pt-[17.8vw] max-md:mt-[-0.7vw]'>
+    <div className='relative w-full pt-[5.625vw] pb-[17.625vw] px-[6.25vw] mt-[-0.1vw] max-md:pl-[6.25vw] max-md:pr-0 max-md:pt-[17.8vw] max-md:mt-[-0.7vw]' id='doitac'>
         <Image fill src={partnerBg} alt='partner__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
         <div className='flex justify-between max-md:pr-[6.25vw]'>
             {/* <h2>Thể lệ</h2>

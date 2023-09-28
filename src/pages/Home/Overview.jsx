@@ -15,7 +15,7 @@ import Line from '@/components/common/Line'
 
 const Overview = () => {
   return (
-      <div className='relative'>
+      <div className='relative' id='gioithieu'>
         <Image src={backgroundOverView} alt='background' className='absolute top-0 left-0 h-full -z-10 max-md:h-[186vw]'/>
         <div className=' pt-[5.84vw]'>
           <Image src={overviewTitle} alt='title' className='mx-auto z-100 max-md:w-[80.976vw] max-md:h-[8.3064vw]'/>
@@ -27,11 +27,13 @@ const Overview = () => {
                max-md:w-[86.6616vw] max-md:h-[49.58vw] max-md:bottom-[15%]'/>
             </div>
             <div className='w-[32.60094vw] max-md:w-full mb-[5vw]'>
-              <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold leading-[2.25vw] space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal'>{overview?.titleTop}</h3> 
-              <p className='text-[#E3F7FF] mb-[0.75vw] max-md:text-[2.4vw]'>{overview?.contentTop1}</p>
-              <p className='text-[#E3F7FF] mb-[2.25vw] max-md:text-[2.4vw]'>{overview?.contentTop2}</p>
-              <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold leading-[2.25vw] space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal'>{overview?.titleBottom}</h3> 
-              <p className='text-[#E3F7FF] mb-[3.12vw] max-md:text-[2.4vw]'>{overview?.contentBottom}</p>
+              <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold leading-[2.25vw]
+               space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal max-md:mb-[3.2vw]'>{overview?.titleTop}</h3> 
+              <p className='text-[#E3F7FF] mb-[0.75vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentTop1}</p>
+              <p className='text-[#E3F7FF] mb-[2.25vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentTop2}</p>
+              <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold 
+              max-md:mb-[3.2vw] leading-[2.25vw] space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal'>{overview?.titleBottom}</h3> 
+              <p className='text-[#E3F7FF] mb-[3.12vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentBottom}</p>
               <ButtonCustom text={'ĐĂNG KÝ NGAY'} className='hidden max-md:block absolute bottom-[32.3%] mt-[6vw] -z-10 right-[31.69vw] max-md:static'/>
             </div>
           </div>

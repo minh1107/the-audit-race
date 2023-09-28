@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CountDown = ({time}) => {
+const CountDown = ({time, exprire}) => {
   return (
     <div>
-        {time}
+        {exprire === true ? 0 : time} 
     </div>
   )
 }
