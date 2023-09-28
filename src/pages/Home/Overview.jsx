@@ -12,6 +12,7 @@ import TimeDown from './TimeDown'
 import Line2 from '@/components/common/Line2'
 import ButtonCustom from '@/components/tags/ButtonCustom'
 import Line from '@/components/common/Line'
+import Link from 'next/link'
 
 const Overview = () => {
   return (
@@ -46,7 +47,7 @@ const Overview = () => {
           max-md:w-[49.66vw] max-md:h-[10.87vw] max-md:left-[-10%]'/>
           <Image src={ellipse} alt='' className='absolute bottom-[33.3%] opacity-70 -z-10 right-[7.6vw] h-[2vw] w-[29.52119vw] max-md:bottom-[20%]
           max-md:w-[49.66vw] max-md:h-[10.87vw]'/>
-          <ButtonCustom text={'ĐĂNG KÝ NGAY'} className='absolute bottom-[32.3%] -z-10 right-[31.69vw] max-md:static max-md:hidden'/>
+          <Link href={'/form-register'}><ButtonCustom text={'ĐĂNG KÝ NGAY'} className='absolute bottom-[32.3%] -z-10 right-[31.69vw] max-md:static max-md:hidden'/></Link>
           <div className='max-md:block hidden absolute bottom-[18%] left-[-78%] -z-10 overflow-x-hidden'>
           <svg xmlns="http://www.w3.org/2000/svg" width="700px" height="10" viewBox="0 0 375 10" fill="none">
             <g filter="url(#filter0_d_4676_8707)">
