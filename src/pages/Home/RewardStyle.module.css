@@ -1,0 +1,13 @@
+.list li{
+    width: 22.1875vw;
+}
+@media only screen and (max-width: 767px) {
+    .list li{
+        width: 100%;
+    }
+    .bg{
+        border-radius: 5.632px;
+        border: 0.704px solid #FFF;
+        background-color: #010974;
+    }
+}
