@@ -58,7 +58,7 @@ const Rules = () => {
               </div>
             ))}
             </div>
-            <div className='absolute top-0 left-[30.4vw] w-[0.0625vw] h-full max-md:w-[0.26vw] max-md:left-[12.5vw]' style={{background: 'linear-gradient(92deg, #F07DED 0.27%, #EC4AE7 51.91%, #F281EF 99.31%)'}}></div>
+            <div className='absolute top-0 left-[30.4vw] w-[0.0625vw] h-full max-md:w-[0.26vw] max-md:left-[12.5vw] z-[-1]' style={{background: 'linear-gradient(92deg, #F07DED 0.27%, #EC4AE7 51.91%, #F281EF 99.31%)'}}></div>
             <div className='absolute top-[2.1vw] left-[22.775vw] w-[19.3125vw] h-[15.25vw] rotate-90 max-md:left-[6.5vw]' style={{background: 'linear-gradient(90deg, #01026D 0%, rgba(1, 2, 109, 0.00) 104.94%)'}}></div>
             <Image width={404.79} height={186.5} src={lineListMb} alt='line__list' className='hidden absolute w-[27.7vw] bottom-[0] left-[11.2vw] w-[25.25vw] max-md:block'></Image>
         </div>
