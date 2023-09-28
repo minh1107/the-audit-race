@@ -13,8 +13,8 @@ import closeBtn from '@/assets/images/svg/close-no-circle.svg'
 import classes from './RewardStyle.module.css'
 
 const data = [
-  {timeline: 'first launch',date: '27/09 - 13/10', title: 'Mở đơn', subtitle: 'Thí sinh điền đơn đăng ký thông qua Website của cuộc thi. ', description:'' , goal:'Thông qua đơn đăng ký, BTC sẽ lựa chọn Top 200 thí sinh phù hợp để bước vào Vòng 2.'},
-  {timeline: 'ENTER THE FAST LANE',date: '21/10 - 22/10', title: 'Test offline', subtitle: 'Thí sinh thực hiện bài kiểm tra cá nhân bao gồm 40 câu hỏi trong vòng 60 phút. Nội dung bài kiểm tra gồm các kiến thức: ', description:'<ul><li>KẾ TOÁN ( KẾ TOÁN TÀI CHÍNH, KẾ TOÁN QUẢN TRỊ)</li><li>Kiểm toán</li></ul>' , goal:'Thông qua đơn đăng ký, BTC sẽ lựa chọn Top 200 thí sinh phù hợp để bước vào Vòng 2.'},
+  {timeline: 'first launch',date: '28/09 - 13/10', title: 'Mở đơn', subtitle: 'Thí sinh điền đơn đăng ký thông qua Website của cuộc thi. ', description:'' , goal:'30 thí sinh xuất sắc nhất sẽ tiếp tục đồng hành cùng Cuộc thi.'},
+  {timeline: 'ENTER THE FAST LANE',date: '21/10 - 22/10', title: 'Test offline', subtitle: 'Thí sinh thực hiện bài kiểm tra cá nhân bao gồm 40 câu hỏi trong vòng 60 phút. Nội dung bài kiểm tra gồm các kiến thức: ', description:'<ul><li>KẾ TOÁN (KẾ TOÁN TÀI CHÍNH, KẾ TOÁN QUẢN TRỊ)</li><li>Kiểm toán</li></ul>' , goal:'30 thí sinh xuất sắc nhất sẽ tiếp tục đồng hành cùng Cuộc thi.'},
   {timeline: 'ACCELERATION',date: '28/10 - 05/11', title: 'Thử thách casestudy', subtitle: 'Training & Networking (29/10)', description:'<p>Top 30 thí sinh xuất sắc nhất sẽ được tham gia buổi Training & Networking để được bồi dưỡng các kiến thức chuyên môn giúp ích cho việc giải case study Vòng 3 và gặp gỡ, làm quen các đồng đội và Mentor.</p><p>30 thí sinh sẽ được chia thành 6 đội, mỗi đội sẽ có 05 thành viên và thực hiện giải một case study về Kiểm toán trong vòng 3 ngày dưới sự tư vấn của các Mentor - các Senior trong các Công ty Kiểm toán lớn.</p>' , goal:'Kết thúc vòng 3, 06 thí sinh xuất sắc nhất sẽ bước vào Vòng 4 - Đêm Chung kết.'},
 
 ]

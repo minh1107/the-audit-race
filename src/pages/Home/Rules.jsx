@@ -10,9 +10,10 @@ import lineListMb from '@/assets/images/svg/lineListMb.svg'
 
 
 const data = [
-  {timeline: 'first launch',date: '27/09 - 13/10', title: 'Mở đơn', subtitle: 'Thí sinh điền đơn đăng ký thông qua Website của cuộc thi. ', description:'' , goal:'Thông qua đơn đăng ký, BTC sẽ lựa chọn Top 200 thí sinh phù hợp để bước vào Vòng 2.'},
-  {timeline: 'ENTER THE FAST LANE',date: '21/10 - 22/10', title: 'Test offline', subtitle: 'Thí sinh thực hiện bài kiểm tra cá nhân bao gồm 40 câu hỏi trong vòng 60 phút. Nội dung bài kiểm tra gồm các kiến thức: ', description:'<ul style="display:flex; flex-direction: column; gap: 0.5vw"><li style="border-bottom: 1px solid #0058A9;">KẾ TOÁN ( KẾ TOÁN TÀI CHÍNH, KẾ TOÁN QUẢN TRỊ)</li><li style="border-bottom: 1px solid #0058A9;>KIỂM TOÁN</li><li style="border-bottom: 1px solid #0058A9;>THUẾ</li><li style="border-bottom: 1px solid #0058A9;>IQ (HÌNH HỌC, SỐ HỌC TƯ DUY NGÔN NGỮ,...)</li><li style="border-bottom: 1px solid #0058A9;>KIẾN THỨC KINH TẾ XÃ HỘI</li></ul><p style="margin-top: 0.5vw">*Bài kiểm tra hoàn toàn bằng tiếng anh.</p>' , goal:'Thông qua đơn đăng ký, BTC sẽ lựa chọn Top 200 thí sinh phù hợp để bước vào Vòng 2.'},
-  {timeline: 'ACCELERATION',date: '28/10 - 05/11', title: 'Thử thách casestudy', subtitle: 'Training & Networking (29/10)', description:'<p>Top 30 thí sinh xuất sắc nhất sẽ được tham gia buổi Training & Networking để được bồi dưỡng các kiến thức chuyên môn giúp ích cho việc giải case study Vòng 3 và gặp gỡ, làm quen các đồng đội và Mentor.</p><p style="margin-top: 1vw">30 thí sinh sẽ được chia thành 6 đội, mỗi đội sẽ có 05 thành viên và thực hiện giải một case study về Kiểm toán trong vòng 3 ngày dưới sự tư vấn của các Mentor - các Senior trong các Công ty Kiểm toán lớn.</p>' , goal:'Kết thúc vòng 3, 06 thí sinh xuất sắc nhất sẽ bước vào Vòng 4 - Đêm Chung kết.'},
+  {timeline: 'first launch',date: '28/09 - 13/10', title: 'Mở đơn', subtitle: 'Thí sinh điền đơn đăng ký thông qua Website của cuộc thi. ', description:'' , goal:'30 thí sinh xuất sắc nhất sẽ tiếp tục đồng hành cùng Cuộc thi.'},
+  {timeline: 'ENTER THE FAST LANE',date: '21/10 - 22/10', title: 'Test offline', subtitle: 'Thí sinh thực hiện bài kiểm tra cá nhân bao gồm 40 câu hỏi trong vòng 60 phút. Nội dung bài kiểm tra gồm các kiến thức: ', description:'<ul style="display:flex; flex-direction: column; gap: 0.5vw"><li style="border-bottom: 1px solid #0058A9;">KẾ TOÁN ( KẾ TOÁN TÀI CHÍNH, KẾ TOÁN QUẢN TRỊ)</li><li style="border-bottom: 1px solid #0058A9;>KIỂM TOÁN</li><li style="border-bottom: 1px solid #0058A9;>THUẾ</li><li style="border-bottom: 1px solid #0058A9;>IQ (HÌNH HỌC, SỐ HỌC TƯ DUY NGÔN NGỮ,...)</li><li style="border-bottom: 1px solid #0058A9;>KIẾN THỨC KINH TẾ XÃ HỘI</li></ul><p style="margin-top: 0.5vw">*Bài kiểm tra hoàn toàn bằng tiếng Anh.</p>' , goal:'30 thí sinh xuất sắc nhất sẽ tiếp tục đồng hành cùng Cuộc thi.'},
+  {timeline: 'ACCELERATION',date: '28/10 - 05/11', title: 'Thử thách casestudy', subtitle: 'Training & Networking (29/10)', description:
+  '<p>Top 30 thí sinh xuất sắc nhất sẽ được tham gia buổi Training & Networking để được bồi dưỡng các kiến thức chuyên môn giúp ích cho việc giải case study Vòng 3 và gặp gỡ, làm quen các đồng đội và Mentor.</p><p style="margin-top: 1vw">30 thí sinh sẽ được chia thành 6 đội, mỗi đội sẽ có 05 thành viên và thực hiện giải một case study về Kiểm toán trong vòng 3 ngày dưới sự tư vấn của các Mentor - các Senior trong các Công ty Kiểm toán lớn.</p>' , goal:'Kết thúc vòng 3, 06 thí sinh xuất sắc nhất sẽ bước vào Vòng 4 - Đêm Chung kết.'},
 
 ]
 const Rules = () => {
@@ -39,18 +40,18 @@ const Rules = () => {
                     {item.timeline}
                     </h3>
                 </div>
-                <div className='pl-[12.6875vw] pr-[30.375vw] relative w-[69.9375vw] max-md:pr-[12.4vw] max-md:w-[88.8vw] max-md:pl-[15.4vw]'>
+                <div className='pl-[12.6875vw] pr-[30.375vw] relative w-[70.9375vw] max-md:pr-[12.4vw] max-md:w-[88.8vw] max-md:pl-[15.4vw]'>
                   <div className='flex flex-col'>
                     <span className='text-[1.25vw] text__gradient2 leading-[1.5] tracking-[0.03px] font-bold max-md:text-[3.2vw]'>{item.date}</span>
                     <h4 className='text__gradient2 text-[2.25vw] font-bold leading-[1.5] uppercase font-exoFont max-md:text-[5.3vw]'>{item.title}</h4>
                   </div>
                   <div className="mt-[6.875vw] max-md:mt-[6.4vw]">
                     <h5 className='text-[#E3F7FF] max-md:text-[3.2vw]'>{item.subtitle}</h5>
-                    <div dangerouslySetInnerHTML={{__html: item.description}} className='text-[#A4DEFF] text-[1vw] leading-[1.5] tracking-[-0.08px] mt-[1.5vw] max-md:text-[2.6vw] max-md:mt-[3.7vw]'></div>
+                    <div dangerouslySetInnerHTML={{__html: item.description}} className='text-[#A4DEFF] text-justify text-[1vw] leading-[1.5] tracking-[-0.08px] mt-[1.5vw] max-md:text-[2.6vw] max-md:mt-[3.7vw]'></div>
                   </div>
                   <div className='flex gap-[0.75vw] mt-[2vw] max-md:gap-[1.5vw] max-md:mt-[4.8vw]'>
                     <Image src={doubleArrowImg} alt='double__arrow' width={35.92} height={18.27} className='w-[2.245vw] max-md:w-[5vw]'></Image>
-                    <span className='text-[#E3F7FF] text-[1.25vw] leading-[1.5] tracking-[0.03px] font-bold max-md:text-[3.2vw] max-md:font-medium'> {item.goal} </span>
+                    <span className='text-[#E3F7FF] text-[1.25vw] leading-[1.5] tracking-[0.03px] font-bold max-md:text-[3.2vw] max-md:font-medium justify-evenly'> {item.goal} </span>
                   </div>
                   <Image width={404.79} height={186.5} src={lineListImg} alt='line__list' className='absolute top-[1.5vw] left-0 w-[25.25vw] max-md:hidden'></Image>
                   <Image width={404.79} height={186.5} src={lineListMb} alt='line__list' className='hidden absolute w-[27.7vw] top-[8.5vw] left-0 w-[25.25vw] max-md:block'></Image>

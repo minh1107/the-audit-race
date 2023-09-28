@@ -22,10 +22,10 @@ h1,h2,h3,h4,h5,p,span{
   color:  #EC4AE7;
   text-shadow: 0px 0px 38.99060821533203px rgba(223, 97, 255, 0.38), 0px 0px 11.913796424865723px rgba(255, 97, 239, 0.33), 0px 0px 81.23043060302734px rgba(233, 97, 255, 0.59), 0px 0px 19.495304107666016px rgba(252, 97, 255, 0.06), 0px 0px 21.661449432373047px rgba(228, 57, 183, 0.20);
   font-family: Exo;
-  font-size: 3.24919rem;
+  font-size: 3.24919vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 4.87381rem; /* 150% */
+  line-height: 4.87381vw; /* 150% */
 }
 
 .title__color {
@@ -34,10 +34,10 @@ h1,h2,h3,h4,h5,p,span{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0px 0px 7px rgba(173, 0, 255, 0.88);
-  font-size: 2.25rem;
+  font-size: 2.25vw;
   font-style: normal;
   font-weight: 700;
-  line-height: 3.375rem;
+  line-height: 3.375vw;
 }
 
 .background2 {
@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,p,span{
 }
 
 .info {
-  border-radius: 1.4375rem;
+  border-radius: 1.4375vw;
   border: 3px solid var(--gradient-2, #FFC6FD);
   background: rgba(1, 2, 109, 0.40);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,p,span{
 }
 
 .rules__tree-center {
-  width: 0.0625rem;
+  width: 0.0625vw;
   height: 170.42313vw;
   background: linear-gradient(92deg, #F07DED 0.27%, #EC4AE7 51.91%, #F281EF 99.31%);
 }
@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,p,span{
 .rules__tree-left {
   /* text-align: right; */
   font-family: Exo;
-  font-size: 3rem;
+  font-size: 3vw;
   font-style: normal;
   font-weight: 700;
   line-height: 4.5vw; /* 150% */

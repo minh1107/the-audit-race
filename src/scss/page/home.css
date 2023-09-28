@@ -10,7 +10,7 @@
 }
   @media only screen and (max-width: 768px) { 
     .info {
-        border-radius: 1.4375rem;
+        border-radius: 1.4375vw;
         border: 1.5px solid var(--gradient-2, #FFC6FD);
         background: rgba(1, 2, 109, 0.40);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
