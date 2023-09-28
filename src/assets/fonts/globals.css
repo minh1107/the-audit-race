@@ -45,6 +45,10 @@ h1,h2,h3,h4,h5,p,span{
   opacity: 0.4;
 }
 
+li {
+  text-align: justify;
+}
+
 .info {
   border-radius: 1.4375vw;
   border: 3px solid var(--gradient-2, #FFC6FD);
