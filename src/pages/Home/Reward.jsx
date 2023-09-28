@@ -64,6 +64,9 @@ const Reward = () => {
                         <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
                     </li>
                     <li>
+                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                    </li>
+                    <li>
                         <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
@@ -107,6 +110,9 @@ const Reward = () => {
                         Hiện Kim: 5.000.000VNĐ
                     </li>
                     <li>
+                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                    </li>
+                    <li>
                         <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
@@ -148,6 +154,9 @@ const Reward = () => {
                 <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw]' ref={ref3}>
                     <li>
                         Hiện kim: 5.000.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
                     </li>
                     <li>
                         <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.

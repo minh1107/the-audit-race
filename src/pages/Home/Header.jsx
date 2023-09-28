@@ -13,9 +13,10 @@ const Header = () => {
     const pathname = usePathname()
     console.log(pathname)
     return (
-    <div className='absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden'>
-        <div className=' flex text-main h-[5.94vw] items-center mx-[13.16vw] mr-[16.19vw] justify-between'>
-            <Link href={'/'}><Image src={logoImg} alt='logo' className='w-[9/875vw] h-[2.00894vw] mr-[2.5vw]'/></Link>
+    <div className='absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] max-md:bg-[#01026D] '>
+        <div className=' flex text-main h-[5.94vw] items-center mx-[13.16vw] mr-[16.19vw] justify-between 
+        max-md:items-center max-md:h-[14.6408vw] max-md:w-[calc(100vw-10.88vw)] max-md:mx-[5.44vw]'>
+            <Link href={'/'}><Image src={logoImg} alt='logo' className='w-[9/875vw] h-[2.00894vw] mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[6.53vw]'/></Link>
             <ul className='flex gap-[0.25vw] mr-[1.5vw] max-md:hidden'>
             {
                 headerPaths?.map((item) => (
@@ -25,7 +26,19 @@ const Header = () => {
                 ))
             }
             </ul>
-            {pathname !== '/form-register' && <Link href={'/form-register'}><ButtonCustom text={'Đăng kí dự thi'} /></Link>}
+            {pathname !== '/form-register' && <Link className='max-md:hidden' href={'/form-register'}><ButtonCustom text={'Đăng kí dự thi'} /></Link>}
+
+            <div className='max-md:flex hidden items-center gap-[4.32vw]'>
+                <Link href={'/form-register'}><ButtonCustom text={'Đăng kí dự thi'} /></Link>
+                <div className='hidden max-md:block'>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                    <path d="M3.57617 7.45117H21.5762" stroke="#FFD5FE" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M3.57617 12.4512H21.5762" stroke="#FFD5FE" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M3.57617 17.4512H21.5762" stroke="#FFD5FE" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+            
         </div>
         <Line2 />
     </div>

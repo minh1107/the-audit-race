@@ -7,6 +7,7 @@ import FinalRules from './FinalRules'
 import Reward from './Reward'
 import Partners from './Partners'
 import Registers from './Register'
+import '@/scss/page/home.css'
 
 const Home = () => {
   return (

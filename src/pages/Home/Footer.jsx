@@ -7,6 +7,8 @@ import Image from 'next/image'
 import logoFooterImg from '@/assets/images/svg/logoFooter.svg'
 import '@/scss/page/footer.css'
 import backgroundFooter from '@/assets/images/backgroundFooter.jpg'
+import footerLogoUp from '@/assets/images/footerLogoUp.png'
+import footerLogoDown from '@/assets/images/footerLogoDown.png'
 import footerBlur from '@/assets/images/svg/footerBlur.svg'
 
 const Footer = () => {
@@ -14,6 +16,8 @@ const Footer = () => {
     <div className='flex footer flex-col'>
         <div className='flex bg-[#000018] relative text-white pt-[8.19vw] pb-[6.12vw] max-md:flex-col max-md:pt-[19.09vw] max-md:pb-[18.488vw]'>
             <Image src={footerBlur} alt='background' className='absolute top-0 w-[24vw] blur-2xl right-[10%]'/>
+            <Image src={footerLogoUp} alt='' className='absolute w-[18.875vw] h-[18.875vw] top-[-50%] left-[2%] z-50 translate-y-[50%] max-md:hidden'/>
+            <Image src={footerLogoDown} alt='' className='absolute w-[31.5vw] h-[31.5vw] top-[-50%] left-[-4%] translate-y-[10%] z-30 max-md:hidden'/>
             <div className='footer__left font-exoFont flex flex-col ml-[28.62vw] max-md:ml-[7.736vw]'>
                 <h2 className='text-[1.25vw] mb-[1vw] max-md:text-[3.2vw] max-md:mb-[1.06vw] max-md:leading-[166%]'>VỀ CHÚNG TÔI</h2>
                 <h2 className='w-[19.25vw] mb-[2.31vw] max-md:text-[5.3vw] max-md:leading-[150%] max-md:mb-[4.34vw] max-md:w-[67.11vw]'>CLB KIỂM TOÁN VIÊN TƯƠNG LAI t.FAC - NEU</h2>

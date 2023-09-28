@@ -20,35 +20,35 @@ import bgBlur from '@/assets/images/svg/bgBlur.svg'
 const currentJob = [
   {
     name: 'student',
-    value: '2',
+    value: 'Sinh viên năm 2',
     nameValue: 'Sinh viên năm 2'
   },
   {
     name: 'student',
-    value: '3',
+    value: 'Sinh viên năm 3',
     nameValue: 'Sinh viên năm 3'
   },
 ]
 
 const englishLevel = [
   {
-    name: 'english',
-    value: 'fluent',
+    name: 'englishSkill',
+    value: 'fluent(thành thạo)',
     nameValue: 'Thành thạo'
   },
   {
-    name: 'english',
-    value: 'advanced',
+    name: 'englishSkill',
+    value: 'advanced(Khá)',
     nameValue: 'Khá'
   },
   {
-    name: 'english',
-    value: 'intermediate',
+    name: 'englishSkill',
+    value: 'intermediate(Trung bình)',
     nameValue: 'Trung bình'
   },
   {
-    name: 'english',
-    value: 'Basic',
+    name: 'englishSkill',
+    value: 'Basic (Cơ bản)',
     nameValue: 'Cơ bản'
   },
 ]
@@ -56,12 +56,12 @@ const englishLevel = [
 const learnACCA = [
   {
     name: 'ACCA',
-    value: 'true',
+    value: 'Có',
     nameValue: 'Có'
   },
   {
     name: 'ACCA',
-    value: 'false',
+    value: 'Không',
     nameValue: 'Không'
   },
 ]
@@ -69,17 +69,17 @@ const learnACCA = [
 const learnACCATime = [
   {
     name: 'ACCATime',
-    value: '3',
+    value: 'Trong vòng 3 tháng tới đây',
     nameValue: 'Trong vòng 3 tháng tới đây'
   },
   {
     name: 'ACCATime',
-    value: '6',
+    value: 'Trong vòng 3 đến 6 tháng tới đây',
     nameValue: 'Trong vòng 3 đến 6 tháng tới đây'
   },
   {
     name: 'ACCATime',
-    value: '9',
+    value: 'Sẽ suy nghĩ lại sau 6 tháng',
     nameValue: 'Sẽ suy nghĩ lại sau 6 tháng'
   },
 ]
@@ -92,12 +92,12 @@ const validationSchema = Yup.object().shape({
   specialized: Yup.string().required("Trường này là bắt buộc"),
   email: Yup.string().email("Email không hợp lệ").required("Email là bắt buộc"),
   phone: Yup.string().required("Trường này là bắt buộc"),
-  face: Yup.string().required("Trường này là bắt buộc"),
+  facebook: Yup.string().required("Trường này là bắt buộc"),
   GPA: Yup.string().required("Trường này là bắt buộc"),
-  drive: Yup.string().required("Trường này là bắt buộc"),
+  linkDrive: Yup.string().required("Trường này là bắt buộc"),
   ACCA: Yup.string().required("Trường này là bắt buộc"),
   ACCATime: Yup.string().required("Trường này là bắt buộc"),
-  english: Yup.string().required("Trường này là bắt buộc"),
+  englishSkill: Yup.string().required("Trường này là bắt buộc"),
 });
 const FormRegister = () => {
   const initialValues = {
@@ -108,16 +108,16 @@ const FormRegister = () => {
     specialized: '',
     email: '',
     phone: '',
-    face: '',
-    faceOther: '',
+    facebook: '',
+    facebookOther: '',
     GPA: '',
-    english: '',
+    englishSkill: '',
     achievements: '',
     certificate: '',
     certificateOther: '',
     activity: '',
     expWork: '',
-    drive: '',
+    linkDrive: '',
     want: '',
     ACCA: '',
     ACCATime: '',
@@ -219,11 +219,11 @@ const FormRegister = () => {
                     <InputCustom number={7} text={'Số  điện thoại'} placeholder={'Điền Số điện thoại của bạn'} required={true} name={'phone'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
 
-                    <InputCustom number={8} text={'Link Facebook'} placeholder={'Đường dẫn (link) tài khoản facebook của bạn'} required={true} name={'face'}/>
+                    <InputCustom number={8} text={'Link Facebook'} placeholder={'Đường dẫn (link) tài khoản facebook của bạn'} required={true} name={'facebook'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
 
                     <InputCustom number={9} text={'Tài khoản khác'} placeholder={'Đường dẫn (link) tài khoản LinkedIn, Instagram, Tiktok,... của bạn'} 
-                    required={false} name={'faceOther'}/>
+                    required={false} name={'facebookOther'}/>
                     <div className='mb-[6.94vw]'></div>
 
                     <TextForm text={'HỌC VẤN'}/>
@@ -272,7 +272,7 @@ const FormRegister = () => {
                     </div>
 
                     <InputCustom number={17} text={'Link Drive'} placeholder={"Đặt quyền truy cập công khai và đặt tên theo cú pháp 'Họ Tên_Ngày Sinh'"} 
-                    required={true} name={'drive'}/>
+                    required={true} name={'linkDrive'}/>
                     <div className='mb-[6.94vw]'></div>
 
                     <TextForm text={'CÂU HỎI VỀ CUỘC THI'}/>
