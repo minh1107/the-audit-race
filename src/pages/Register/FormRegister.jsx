@@ -126,7 +126,7 @@ const FormRegister = () => {
   const handleSubmit = (values) => {
     console.log(values)
     alert('Gửi thành công')
-    fetch('https://sheetdb.io/api/v1/836gswg094b3e', {
+    fetch('	https://sheetdb.io/api/v1/6k1myqitp7ybq', {
       method: 'POST',
       headers: {
           'Accept': 'application/json',

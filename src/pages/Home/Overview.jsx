@@ -5,7 +5,7 @@ import racingBoyImg from '@/assets/images/racingboy.png'
 import tradingImg from '@/assets/images/trading.png'
 import backgroundOverView from '@/assets/images/backgroundOverview.png'
 import run1 from '@/assets/images/run.png'
-import overviewTitle from '@/assets/images/svg/overviewTitle.svg'
+import overviewTitle from '@/assets/images/svg/overviewTitle.png'
 import ellipse from '@/assets/images/svg/Ellipse.png'
 import flash from '@/assets/images/svg/flashShort.png'
 import TimeDown from './TimeDown'
@@ -31,7 +31,7 @@ const Overview = () => {
               <p className='text-[#E3F7FF] mb-[3.12vw]'>{overview?.contentBottom}</p>
             </div>
           </div>
-          <div className='absolute bottom-[34%] translate-y-[20%] w-screen -z-10'>
+          <div className='absolute bottom-[34%] translate-y-[20%]  -z-10'>
               <Line2 />
           </div>
           <Image src={run1} alt='' className='absolute bottom-[33%] opacity-50 -z-10 -left-[10%] w-[29.52119vw] h-[6.462vw]'/>
