@@ -5,7 +5,9 @@
   display: none;
 }
 
-
+.text__shadow {
+  text-shadow: 0px 0px 2.7181384563446045px #EC4AE7, 0px 0px 0.9060461521148682px #FA75F6, 0.6040307879447937px 1.2080615758895874px 1.2080615758895874px rgba(0, 0, 0, 0.40);
+}
   @media only screen and (max-width: 768px) { 
     .info {
         border-radius: 1.4375rem;

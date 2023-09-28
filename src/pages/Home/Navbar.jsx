@@ -16,7 +16,7 @@ const Navbar = ({setShow}) => {
       />
       <div className="flex flex-col gap-[3.73vw] ml-[11.2vw] mt-[10.42vw]">
         {headerPaths.map((item) => (
-          <Link onClick={() => setShow(false)}
+          <Link key={item.id} onClick={() => setShow(false)}
             href={item.link}
             className="z-50 text-[4.266vw] font-bold text-white uppercase"
           >

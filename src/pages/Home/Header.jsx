@@ -39,10 +39,10 @@ const Header = () => {
                 ))
             }
             </ul>
-            {pathname !== '/form-register' && <Link className='max-md:hidden' href={'/form-register'}><ButtonCustom text={'Đăng kí dự thi'} /></Link>}
+            {pathname !== '/form-register' && <Link className='max-md:hidden' href={'/form-register'}><ButtonCustom text={'Đăng ký dự thi'} /></Link>}
 
             <div className='max-md:flex hidden items-center gap-[4.32vw]'>
-                <Link href={'/form-register'}><ButtonCustom text={'Đăng kí dự thi'} /></Link>
+                <Link href={'/form-register'}><ButtonCustom text={'Đăng ký dự thi'} /></Link>
                 {!show && <div className='hidden max-md:block' onClick={() => setShow(true)}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                     <path d="M3.57617 7.45117H21.5762" stroke="#FFD5FE" stroke-width="1.5" stroke-linecap="round"/>
