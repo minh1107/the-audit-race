@@ -32,7 +32,7 @@ const Slide = () => {
                 <ButtonTime className="translate-x-[2.31vw]" index={0} title={'Mở đơn'} time={'28/09 - 13/10'} />
                 <ButtonTime className="translate-x-[1.31vw]" index={1} title={'Test Offline'} time={'21/10 - 22/10'} />
                 <ButtonTime className="translate-x-[0.31vw]" index={2} title={'Thử thách Case Study'} time={'29/10 - 05/11'} />
-                <ButtonTime className="-translate-x-[2.3vwF]" index={3} title={'Chung kết'} time={'17/11'} />
+                <ButtonTime className="-translate-x-[2.3vw]" index={3} title={'Chung kết'} time={'17/11'} />
             </div>
             <Image src={racingBoyImg} className='w-[27vw] h-[13.94vw] object-cover absolute left-1/2 
             -translate-x-1/2 max-md:translate-y-[20%] max-md:w-[41vw] max-md:h-[22.1vw]' alt='racing boy '/>

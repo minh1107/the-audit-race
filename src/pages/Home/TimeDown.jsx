@@ -79,6 +79,7 @@ const TimeDown = () => {
                 <span>:</span>
                 <CountDown time={second} exprire={exprire}/>
             </div>
+            <h2 className='text-[2.25vw] font-bold leading-[3.375vw]  title__color max-md:text-[4.26vw] max-md:leading-normal max-md:mb-[4.08vw]'>Đếm ngược</h2>
         </div>
     </div>
   )

@@ -34,8 +34,8 @@ const newArr = [
   {
     title: 'PGS TS. ĐINH THẾ HÙNG',
     img: img3,
-    text1: 'Phó Viện trưởng Viện Kế toán - ',
-    text2: 'Kiểm toán Trường Đại học Kinh tế Quốc dân',
+    text1: 'Phó Viện trưởng Viện Kế toán - Kiểm toán',
+    text2: 'Trường Đại học Kinh tế Quốc dân',
     text3: 'Tham gia The Audit Race giúp nâng cao sự linh hoạt, tính năng động, cơ hội cọ xát, thử sức cho các bạn sinh viên, để từ đó, thích ứng nhanh với môi trường văn hóa của nhà tuyển dụng sau khi ra trường.'
   },
   {

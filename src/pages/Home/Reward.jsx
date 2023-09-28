@@ -128,10 +128,10 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 90% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 43.488.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 75% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
                     </li>
                     <li>
                         <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
@@ -189,7 +189,7 @@ const Reward = () => {
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 100% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>IZONE</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
@@ -290,7 +290,7 @@ const Reward = () => {
                         <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (từ F1 đến F9), trị giá 28.992.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp đến từ ST Lighthouse
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 50% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
                     </li>
                     <li>
                         <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
@@ -398,10 +398,10 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 90% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 43.488.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 75% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
                     </li>
                     <li>
                         <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
@@ -462,7 +462,7 @@ const Reward = () => {
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 100% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>IZONE</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
