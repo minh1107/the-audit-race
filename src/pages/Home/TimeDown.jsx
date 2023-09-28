@@ -16,10 +16,13 @@ const TimeDown = () => {
   const [exprire, setExprire] = useState(false)
 
   useEffect(() => {
-    let d = 3
-    let h = 24
-    let m = 59
-    let s = 59
+    let currentTime = moment(new Date())
+    const currentTimeAfterFormat = currentTime.format('YYYY-MM-DD HH:mm:ss')
+    const duration = moment.duration(moment('2023-10-13 23:59:59', 'YYYY-MM-DD HH:mm:ss').diff(currentTimeAfterFormat))
+    const h = duration.hours() 
+    const m = duration.minutes()
+    const s = duration.seconds()
+    let d = duration.days()
     setHour(h)
     setMinute(m)
     setSecond(s)
