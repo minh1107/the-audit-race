@@ -23,7 +23,7 @@ const Overview = () => {
             <div className='w-[45vw] max-md:w-full'>
               <Image src={tradingImg} alt='Racing boy' className='absolute top-[20.37vw] w-[45.56438vw] h-[23.52638vw] object-fill
                max-md:static max-md:w-[76.6616vw] max-md:h-[39.58vw]'/>
-              <Image src={racingBoyImg} alt='Trading' className='absolute bottom-[30%] w-[45vw] h-[24.5vw] object-contain
+              <Image src={racingBoyImg} alt='Trading' className='absolute bottom-[40%] w-[45vw] h-[24.5vw] object-contain
                max-md:w-[86.6616vw] max-md:h-[49.58vw] max-md:bottom-[15%]'/>
             </div>
             <div className='w-[32.60094vw] max-2xl:w-[38.60094vw] max-md:w-full mb-[5vw] text-justify'>
@@ -40,9 +40,9 @@ const Overview = () => {
           <div className='absolute bottom-[34%] translate-y-[20%]  -z-10'>
           <Line2 />
           </div>
-          <Image src={run1} alt='' className='absolute bottom-[33%] opacity-50 -z-10 -left-[1%] w-[29.52119vw] h-[6.462vw] 
+          <Image src={run1} alt='' className='absolute bottom-[43%] opacity-50 -z-10 -left-[1%] w-[29.52119vw] h-[6.462vw] 
           max-md:left-[-2%] max-md:bottom-[14%] max-md:w-[49.66vw] max-md:h-[10.87vw]'/>
-          <Image src={flash} alt='' className='absolute bottom-[29%] opacity-70 -z-10 left-[4%] w-[29.52119vw] h-[6.462vw] max-md:bottom-[20%]
+          <Image src={flash} alt='' className='absolute bottom-[39%] opacity-70 -z-10 left-[4%] w-[29.52119vw] h-[6.462vw] max-md:bottom-[20%]
           max-md:w-[49.66vw] max-md:h-[10.87vw] max-md:left-[-10%]'/>
           <Image src={ellipse} alt='' className='absolute bottom-[33.3%] opacity-70 -z-10 right-[7.6vw] h-[2vw] w-[29.52119vw] max-md:bottom-[20%]
           max-md:w-[49.66vw] max-md:h-[10.87vw]'/>
