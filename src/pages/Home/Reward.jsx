@@ -25,6 +25,12 @@ const Reward = () => {
     const ref7= useRef()
     const ref8= useRef()
     const ref9= useRef()
+    const ref10= useRef()
+    const ref11= useRef()
+    const ref12= useRef()
+    const ref13= useRef()
+    const ref14= useRef()
+    const ref15= useRef()
     const button1Handler = () => {
         ref1.current.style.height = 'fit-content'
         ref4.current.style.display='none'
@@ -40,26 +46,38 @@ const Reward = () => {
         ref6.current.style.display='none'
         ref9.current.style.display='none'
     }
+    const button4Handler = () => {
+        ref10.current.style.height = 'fit-content'
+        ref13.current.style.display='none'
+    }
+    const button5Handler = () => {
+        ref11.current.style.height = 'fit-content'
+        ref14.current.style.display='none'
+    }
+    const button6Handler = () => {
+        ref12.current.style.height = 'fit-content'
+        ref15.current.style.display='none'
+    }
   return (
-    <div className='relative z-[2] px-[6.25vw] pt-[7.8125vw] pb-[8.875vw] mt-[-0.1vw]'>
+    <div className='relative z-[2] px-[6.25vw] pt-[7.8125vw] pb-[8.875vw] mt-[-0.1vw] max-md:mt-[-0.7vw]'>
         <Image fill src={rewardBg} alt='reward__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
         <div className='flex flex-col items-center'>
-            <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-33.75vw'></Image>
-            <div className='flex mt-[13.3125vw] gap-[1.875vw] relative'>
+            <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[53vw]'></Image>
+            <div className='flex mt-[13.3125vw] gap-[1.875vw] relative max-md:flex-col max-md:mt-[44.8vw] max-md:gap-[40vw]'>
                 <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] left-0 top-0'></Image>
                 <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] right-0 top-[4.5vw]'></Image>
-            <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] mt-[3vw] flex flex-col items-center' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
-                <Image src={reward4} alt='reward4' width={500} height={500} className='absolute w-[13.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-70%]'></Image>
+            <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] mt-[3vw] flex flex-col items-center max-md:w-full max-md:pt-[26.1vw] max-md:rounded-[1.5vw] max-md:order-3 max-md:z-[3]' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
+                <Image src={reward4} alt='reward4' width={500} height={500} className='absolute w-[13.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-70%] max-md:w-[40vw]'></Image>
                 <div className='flex gap-[0.5vw] items-end'> 
-                    <svg className='w-[4.1875vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
+                    <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
                         <path d="M38.4621 0.879395L68.1743 0.880327L60.7308 2.90775H38.4621L6.20362 17.3825H0.672112L38.4621 0.879395Z" fill="#FFC6FD"/>
                     </svg>
-                    <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Á quân 1 </h2>
-                    <svg className='w-[4.1875vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
+                    <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase max-md:text-[6.6vw]' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Á quân 1 </h2>
+                    <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
                         <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                     </svg>
                 </div>
-                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw]' ref={ref1}>
+                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]' ref={ref1}>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
                     </li>
@@ -88,21 +106,21 @@ const Reward = () => {
                         <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                 </ul>
-                <div ref={ref4} className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
-                <button ref={ref7} onClick={button1Handler} className='absolute bottom-[1vw] left-[50%] translate-x-[-50%] px-[1.5vw] py-[0.8vw] text-white font-exoFont font-bold uppercase text-[1vw] border rounded-[1.05vw]'> Xem chi tiết</button>
+                <div ref={ref4} className='absolute max-w-[120%] w-[120%] h-[14.4375vw] bottom-[-0.2vw] left-[50%] translate-x-[-50%] max-md:h-[22vw] max-md:bottom-[-2vw]' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
+                <button ref={ref7} onClick={button1Handler} className='absolute bottom-[1vw] left-[50%] translate-x-[-50%] px-[1.5vw] py-[0.8vw] text-white font-exoFont font-bold uppercase text-[1vw] border rounded-[1.05vw] max-md:text-[4.2vw] max-md:py-[0.9vw] max-md:px-[6.4vw] max-md:rounded-[4vw]'> Xem chi tiết</button>
             </div>
-            <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] flex flex-col items-center' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
-                <Image src={reward5} alt='reward5' width={500} height={500} className='absolute w-[15.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-75%]'></Image>
+            <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] flex flex-col items-center max-md:order-2 max-md:w-full max-md:pt-[26.1vw] max-md:rounded-[1.5vw] max-md:z-[4]' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
+                <Image src={reward5} alt='reward5' width={500} height={500} className='absolute w-[15.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-75%] max-md:w-[50vw]'></Image>
                 <div className='flex gap-[0.5vw] items-end'> 
-                    <svg className='w-[4.1875vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
+                    <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
                         <path d="M38.4621 0.879395L68.1743 0.880327L60.7308 2.90775H38.4621L6.20362 17.3825H0.672112L38.4621 0.879395Z" fill="#FFC6FD"/>
                     </svg>
-                    <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Quán quân </h2>
-                    <svg className='w-[4.1875vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
+                    <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase max-md:text-[6.6vw]' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Quán quân </h2>
+                    <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
                         <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                     </svg>
                 </div>
-                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw]' ref={ref2}>
+                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]' ref={ref2}>
                     <li>
                         Hiện Kim: 5.000.000VNĐ
                     </li>
@@ -131,21 +149,21 @@ const Reward = () => {
                         <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                 </ul>
-                <div ref={ref5} className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
-                <button ref={ref8} onClick={button2Handler} className='absolute bottom-[1vw] left-[50%] translate-x-[-50%] px-[1.5vw] py-[0.8vw] text-white font-exoFont font-bold uppercase text-[1vw] border rounded-[1.05vw]'> Xem chi tiết</button>
+                <div ref={ref5} className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0 max-md:h-[22vw] max-md:bottom-[-2vw]' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
+                <button ref={ref8} onClick={button2Handler} className='absolute bottom-[1vw] left-[50%] translate-x-[-50%] px-[1.5vw] py-[0.8vw] text-white font-exoFont font-bold uppercase text-[1vw] border rounded-[1.05vw] max-md:text-[4.2vw] max-md:py-[0.9vw] max-md:px-[6.4vw] max-md:rounded-[4vw]'> Xem chi tiết</button>
             </div>
-            <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] mt-[6vw] flex flex-col items-center' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
-                <Image src={reward6} alt='reward6' width={500} height={500} className='absolute w-[10.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-70%]'></Image>
+            <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] mt-[6vw] flex flex-col items-center max-md:w-full max-md:pt-[26.1vw] max-md:rounded-[1.5vw] max-md:order-4 max-md:z-[2]' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
+                <Image src={reward6} alt='reward6' width={500} height={500} className='absolute w-[10.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-70%] max-md:w-[40vw]'></Image>
                 <div className='flex gap-[0.5vw] items-end'> 
-                    <svg className='w-[4.1875vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
+                    <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
                         <path d="M38.4621 0.879395L68.1743 0.880327L60.7308 2.90775H38.4621L6.20362 17.3825H0.672112L38.4621 0.879395Z" fill="#FFC6FD"/>
                     </svg>
-                    <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Á quân 2 </h2>
-                    <svg className='w-[4.1875vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
+                    <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase max-md:text-[6.6vw]' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Á quân 2 </h2>
+                    <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
                         <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                     </svg>
                 </div>
-                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw]' ref={ref3}>
+                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]' ref={ref3}>
                     <li>
                         Hiện kim: 5.000.000VNĐ
                     </li>
@@ -174,18 +192,18 @@ const Reward = () => {
                         <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                 </ul>
-                <div ref={ref6} className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
-                <button ref={ref9} onClick={button3Handler} className='absolute bottom-[1vw] left-[50%] translate-x-[-50%] px-[1.5vw] py-[0.8vw] text-white font-exoFont font-bold uppercase text-[1vw] border rounded-[1.05vw]'> Xem chi tiết</button>
+                <div ref={ref6} className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0 max-md:h-[22vw] max-md:bottom-[-2vw]' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
+                <button ref={ref9} onClick={button3Handler} className='absolute bottom-[1vw] left-[50%] translate-x-[-50%] px-[1.5vw] py-[0.8vw] text-white font-exoFont font-bold uppercase text-[1vw] border rounded-[1.05vw] max-md:text-[4.2vw] max-md:py-[0.9vw] max-md:px-[6.4vw] max-md:rounded-[4vw]'> Xem chi tiết</button>
             </div>
             </div>
         </div>
-        <div className='mt-[7vw] flex gap-[7.4375vw] justify-center'>
-            <div className='w-[29.375vw]'>
-                <div className='flex items-center gap-[0.5vw]'>
-                    <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw]'></Image>
-                    <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase'>Top 6</h3>
+        <div className='mt-[7vw] flex gap-[7.4375vw] justify-center max-md:flex-col max-md:mt-[14.4vw]'>
+            <div className='w-[29.375vw] max-md:w-full max-md:flex max-md:flex-col max-md:items-center'>
+                <div className='flex items-center gap-[0.5vw] max-md:gap-[2.1vw]'>
+                    <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw] max-md:w-[9.6vw]'></Image>
+                    <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase max-md:text-[9.6vw]'>Top 6</h3>
                 </div>
-                <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw]'>
+                <ul ref={ref10} className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
                         Hiện Kim: 5.000.000VNĐ
                     </li>
@@ -208,14 +226,15 @@ const Reward = () => {
                         SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                 </ul>
+                <div ref={ref13} onClick={button4Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
             </div>
-            <div className='flex flex-col gap-[2.3125vw]'>
-            <div className='w-[29.375vw]'>
-                <div className='flex items-center gap-[0.5vw]'>
-                    <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw]'></Image>
-                    <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase'>Top 30</h3>
+            <div className='flex flex-col gap-[2.3125vw] max-md:items-center max-md:gap-[7.4375vw]'>
+            <div className='w-[29.375vw] max-md:w-full max-md:flex max-md:flex-col max-md:items-center'>
+                <div className='flex items-center gap-[0.5vw] max-md:gap-[2.1vw]'>
+                    <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw] max-md:w-[9.6vw]'></Image>
+                    <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase max-md:text-[9.6vw]'>Top 30</h3>
                 </div>
-                <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw]'>
+                <ul ref={ref11} className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
                         Hiện Kim: 5.000.000VNĐ
                     </li>
@@ -238,13 +257,14 @@ const Reward = () => {
                         SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                 </ul>
+                <div ref={ref14} onClick={button5Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
             </div>
-            <div className='w-[29.375vw]'>
-                <div className='flex items-center gap-[0.5vw]'>
-                    <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw]'></Image>
-                    <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase'>Top 200</h3>
+            <div className='w-[29.375vw] max-md:w-full max-md:flex max-md:flex-col max-md:items-center'>
+                <div className='flex items-center gap-[0.5vw] max-md:gap-[2.1vw]'>
+                    <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw] max-md:w-[9.6vw]'></Image>
+                    <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase max-md:text-[9.6vw]'>Top 200</h3>
                 </div>
-                <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw]'>
+                <ul ref={ref12} className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
                         Hiện Kim: 5.000.000VNĐ
                     </li>
@@ -267,6 +287,7 @@ const Reward = () => {
                         SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                 </ul>
+                <div ref={ref15} onClick={button6Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
             </div>
             </div>
         </div>
