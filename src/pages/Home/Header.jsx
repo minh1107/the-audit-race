@@ -6,34 +6,42 @@ import { headerPaths } from '@/utils/paths'
 import Link from 'next/link'
 import ButtonCustom from '@/components/tags/ButtonCustom'
 import Line from '@/components/common/Line'
+import bigLogo from '@/assets/images/BigLogo.png'
 import Line2 from '@/components/common/Line2'
 import { usePathname } from 'next/navigation'
 import Navbar from './Navbar'
 import closeImg from '@/assets/images/svg/close.svg'
-
+import { useRouter } from 'next/navigation'
+ 
 const Header = () => {
     const [show, setShow] = useState()
     const pathname = usePathname()
-    const handleScroll = (e) => {
+    const router = useRouter()
+
+    const handleScroll = (e, index) => {
         e.preventDefault();
-        const href = e.currentTarget.href;
-        const targetId = href.replace(/.*\#/, "");
-        const elem = document.getElementById(targetId);
-        elem?.scrollIntoView({
-          behavior: "smooth",
-        });
+        if(index === 0) {
+            router.push('/')
+        } else {
+            const href = e.currentTarget.href;
+            const targetId = href.replace(/.*\#/, "");
+            const elem = document.getElementById(targetId);
+            elem?.scrollIntoView({
+              behavior: "smooth",
+            });
+        }
         
       };
     return (
     <div className={`absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] ${show && 'max-md:bg-[#01026D]'} max-md:fixed`}>
         <div className=' flex text-main h-[5.94vw] items-center mx-[13.16vw] mr-[16.19vw] justify-between 
         max-md:items-center max-md:h-[14.6408vw] max-md:w-[calc(100vw-10.88vw)] max-md:mx-[5.44vw]'>
-            <Link href={'/'}><Image src={logoImg} alt='logo' className='w-[9.875vw] h-[2.00894vw] mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[6.53vw]'/></Link>
+            <Link href={'/'}><Image src={bigLogo} alt='logo' className='w-auto h-[5.00894vw] mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[10.53vw]'/></Link>
             <ul className='flex gap-[0.25vw] mr-[1.5vw] max-md:hidden'>
             {
-                headerPaths?.map((item) => (
-                    <Link onClick={handleScroll} 
-                      href={item?.link} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
+                headerPaths?.map((item, index) => (
+                    <Link onClick={() => handleScroll(index)} 
+                      href={index === 0 ? '' : item?.link} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
                         {item?.name}
                     </Link>
                 ))

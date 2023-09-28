@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <div className='flex footer flex-col' id='vechungtoi'>
         <div className='flex bg-[#000018] relative text-white pt-[8.19vw] pb-[6.12vw] max-md:flex-col max-md:pt-[19.09vw] max-md:pb-[18.488vw]'>
-            <Image src={footerBlur} alt='background' className='absolute top-0 w-[24vw] blur-2xl right-[10%]'/>
+            <Image src={footerBlur} alt='background' className='absolute top-0 w-[24vw] blur-2xl right-[10%] -z-10'/>
             <Image src={footerLogoUp} alt='' className='absolute w-[18.875vw] h-[18.875vw] top-[-50%] left-[2%] z-50 translate-y-[50%] max-md:hidden'/>
             <Image src={footerLogoDown} alt='' className='absolute w-[31.5vw] h-[31.5vw] top-[-50%] left-[-4%] translate-y-[10%] z-30 max-md:hidden'/>
             <div className='footer__left font-exoFont flex flex-col ml-[28.62vw] max-md:ml-[7.736vw]'>
@@ -38,14 +38,14 @@ const Footer = () => {
             <div className='ml-[6.25vw] footer__right contract mr-[1.7vw] max-md:ml-[7.736vw] max-md:mt-[18.568vw]'>
               <h2 className='text-[1.25vw]  mb-[1.06vw] footer__right-title max-md:text-[5.33vw] max-md:mb-[6.2vw]'>LIÊN HỆ</h2>
               <div className='flex flex-col gap-[0.5vw]'>
-                <p className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw]
-                px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'>
-                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CUỘC THI</span> <Image src={toRight} alt='img'/></p>
-                <p className='w-fit cursor-pointer font-exoFont contract__button max-md:mt-[2vw]
+                <Link href={'https://www.facebook.com/theauditrace'} className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw]
+                px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center '>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CUỘC THI</span> <Image src={toRight} alt='img'/></Link>
+                <Link href={'https://www.facebook.com/club.tFAC.neu'} className='w-fit cursor-pointer font-exoFont contract__button max-md:mt-[2vw]
                 flex mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'>
-                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CLB t.FAC</span> <Image src={toRight} alt='img'/></p>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CLB t.FAC</span> <Image src={toRight} alt='img'/></Link>
               </div>
-              <div className='mt-[2vw] flex flex-col gap-[0.62vw] w-[24.9568vw] max-md:w-full max-md:gap-[2.66vw] max-md:mt-[8.53vw]'>
+              <div className='mt-[2vw] flex flex-col gap-[0.62vw] w-[27.9568vw] max-md:w-full max-md:gap-[2.66vw] max-md:mt-[8.53vw]'>
                 <div className='flex gap-[0.94vw] contract__info items-start max-md:gap-[4vw]'>
                     <Image src={phone} alt='img'/>
                     <span className='max-md:text-[3.73vw]'>0908 051 103 (Ms. Hoàng Ngân)</span>
@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div  className='flex gap-[0.94vw] contract__info items-start max-md:gap-[4vw]'>
                     <Image src={local} alt='img'/>
-                    <span className='w-[19.00838vw] max-md:text-[3.73vw] max-md:w-full max-md:leading-normal'>Trường Đại học Kinh tế Quốc dân, 207 Giải Phóng, Hai Bà Trưng, Hà Nội.</span>
+                    <span className='w-[22.670838vw] max-md:text-[3.73vw] max-md:w-full max-md:leading-normal'>Trường Đại học Kinh tế Quốc dân, 207 Giải Phóng, Hai Bà Trưng, Hà Nội.</span>
                 </div>
               </div>
             </div>
