@@ -42,7 +42,7 @@ const FinalRules = () => {
                 </div>
             ))}
         </div>
-        <Image src={frame256} alt='frame256' width={639.68} height={660.08} className='w-[39.9375vw] absolute bottom-0 left-[50%] translate-x-[-50%] z-[-2] max-md:w-[82.2vw]'></Image>
+        <Image src={frame256} alt='frame256' width={639.68} height={660.08} className='w-[39.9375vw] absolute bottom-0 max-md:hidden left-[50%] translate-x-[-50%] z-[-2] max-md:w-[82.2vw]'></Image>
         <Image src={subtract} alt='subtract' width={1600} height={436.54} className='w-full absolute bottom-[-14vw] left-0 max-md:hidden'></Image>
         <Image src={subtract2} alt='subtract2' width={375} height={305} className='hidden max-w-[120%] w-[120%] w-120% absolute bottom-[-65vw] left-[50%] max-md:block translate-x-[-50%]'></Image>
     </div>

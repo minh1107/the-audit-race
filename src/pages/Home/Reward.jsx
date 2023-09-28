@@ -413,7 +413,7 @@ const Reward = () => {
                     </li>
                 </ul>
                 <Image src={reward4} alt='reward4' width={500} height={500} className='absolute w-[18.25vw] top-0 right-[-13vw] max-md:hidden'></Image>
-                <Image onClick={closebutton1Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
+                <Image onClick={closebutton1Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:top-[10%] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
                 </div>
         </div>
         <div ref={ref2} className={`${classes.bg} z-[55] hidden fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pt-[3.6975vw] pb-[7.1875vw] pl-[5.9375vw] pr-[27.4vw] max-md:w-full max-md:h-full max-md:px-[6.9vw] max-md:pt-[9.3vw]`}>
@@ -468,7 +468,7 @@ const Reward = () => {
                     </li>
                 </ul>
                 <Image src={reward5} alt='reward5' width={500} height={500} className='absolute w-[18.25vw] top-0 right-[-13vw] max-md:hidden'></Image>
-                <Image onClick={closebutton2Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
+                <Image onClick={closebutton2Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute max-md:top-[10%] w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
                 </div>
         </div>
         <div ref={ref3} className={`${classes.bg} z-[55] hidden fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pt-[3.6975vw] pb-[7.1875vw] pl-[5.9375vw] pr-[27.4vw] max-md:w-full max-md:h-full max-md:px-[6.9vw] max-md:pt-[9.3vw]`}>
@@ -523,7 +523,7 @@ const Reward = () => {
                     </li>
                 </ul>
                 <Image src={reward6} alt='reward6' width={500} height={500} className='absolute w-[13.25vw] top-0 right-[-13vw] max-md:hidden'></Image>
-                <Image onClick={closebutton3Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
+                <Image onClick={closebutton3Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute max-md:top-[10%] w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
                 </div>
         </div>
         <div ref={ref4} className={`${classes.bg} z-[55] hidden fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pt-[3.6975vw] pb-[7.1875vw] pl-[5.9375vw] pr-[27.4vw] max-md:w-full max-md:h-full max-md:px-[6.9vw] max-md:pt-[9.3vw]`}>
@@ -577,7 +577,7 @@ const Reward = () => {
                         <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
-                <Image onClick={closebutton4Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
+                <Image onClick={closebutton4Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute max-md:top-[10%] w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
                 </div>
         </div>
         <div ref={ref5} className={`${classes.bg} z-[55] hidden fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pt-[3.6975vw] pb-[7.1875vw] pl-[5.9375vw] pr-[27.4vw] max-md:w-full max-md:h-full max-md:px-[6.9vw] max-md:pt-[9.3vw]`}>
@@ -618,7 +618,7 @@ const Reward = () => {
                         <b className='font-bold'>ACE The Future:</b> Vouchers 300.000 VNĐ học TOEIC (nghe đọc hoặc nói viết)hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
-                <Image onClick={closebutton5Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
+                <Image onClick={closebutton5Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute max-md:top-[10%] w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
                 </div>
         </div>
         <div ref={ref6} className={`${classes.bg} z-[55] hidden fixed top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] pt-[3.6975vw] pb-[7.1875vw] pl-[5.9375vw] pr-[27.4vw] max-md:w-full max-md:h-full max-md:px-[6.9vw] max-md:pt-[9.3vw]`}>
@@ -645,7 +645,7 @@ const Reward = () => {
                         <b className='font-bold'>ACE The Future:</b> Học bổng 100% khóa học NỀN TẢNG TIẾNG ANH TOÀN DIỆN tại ACE The Future, trị giá 800.000VNĐ
                     </li>
                 </ul>
-                <Image onClick={closebutton6Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
+                <Image onClick={closebutton6Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute max-md:top-[10%] w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
                 </div>
         </div>
     </div>

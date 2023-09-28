@@ -32,15 +32,18 @@ const Footer = () => {
             <div className='footer__left font-exoFont flex flex-col ml-[28.62vw] max-md:ml-[7.736vw]'>
                 <h2 className='text-[1.25vw] mb-[1vw] max-md:text-[3.2vw] max-md:mb-[1.06vw] max-md:leading-[166%]'>VỀ CHÚNG TÔI</h2>
                 <h2 className='w-[19.25vw] mb-[2.31vw] max-md:text-[5.3vw] max-md:leading-[150%] max-md:mb-[4.34vw] max-md:w-[67.11vw]'>CLB KIỂM TOÁN VIÊN TƯƠNG LAI t.FAC - NEU</h2>
-                <p className='text-[0.875vw] footer__content max-md:w-[84.29vw] max-md:leading-[150%]'>Hoạt động dưới sự bảo trợ của Viện Kế toán - Kiểm toán trường Đại học Kinh tế Quốc dân (SAA) và Hiệp Hội Kế toán Công chứng Anh Quốc (ACCA), CLB Kiểm toán viên tương lai t.FAC đã trải qua 18 năm hình thành và phát triển, tiếp tục thực hiện sứ mệnh đồng hành cùng các bạn sinh viên Kế - Kiểm trên con đường chinh phục tương lai của mình.</p>
+                <p className='text-[0.875vw] footer__content max-md:w-[84.29vw] max-md:leading-[150%] max-md:text-[3.2vw]'>
+                    Hoạt động dưới sự bảo trợ của Viện Kế toán - Kiểm toán trường Đại học Kinh tế Quốc dân (SAA) và Hiệp Hội Kế toán Công chứng Anh Quốc (ACCA), CLB Kiểm toán viên tương lai t.FAC đã trải qua 18 năm hình thành và phát triển, tiếp tục thực hiện sứ mệnh đồng hành cùng các bạn sinh viên Kế - Kiểm trên con đường chinh phục tương lai của mình.</p>
             </div>
             <div className='ml-[6.25vw] footer__right contract mr-[1.7vw] max-md:ml-[7.736vw] max-md:mt-[18.568vw]'>
-              <h2 className='text-[1.25vw]  mb-[1.06vw] footer__right-title max-md:text-[5.33vw] max-md:mb-[3.2vw]'>LIÊN HỆ</h2>
+              <h2 className='text-[1.25vw]  mb-[1.06vw] footer__right-title max-md:text-[5.33vw] max-md:mb-[6.2vw]'>LIÊN HỆ</h2>
               <div className='flex flex-col gap-[0.5vw]'>
-                <p className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw] 
-                px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'><span>FANPAGE CUỘC THI</span> <Image src={toRight} alt='img'/></p>
-                <p className='w-fit cursor-pointer font-exoFont contract__button 
-                flex mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'><span>FANPAGE CLB t.FAC</span> <Image src={toRight} alt='img'/></p>
+                <p className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw]
+                px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CUỘC THI</span> <Image src={toRight} alt='img'/></p>
+                <p className='w-fit cursor-pointer font-exoFont contract__button max-md:mt-[2vw]
+                flex mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CLB t.FAC</span> <Image src={toRight} alt='img'/></p>
               </div>
               <div className='mt-[2vw] flex flex-col gap-[0.62vw] w-[24.9568vw] max-md:w-full max-md:gap-[2.66vw] max-md:mt-[8.53vw]'>
                 <div className='flex gap-[0.94vw] contract__info items-start max-md:gap-[4vw]'>
@@ -53,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div  className='flex gap-[0.94vw] contract__info items-start max-md:gap-[4vw]'>
                     <Image src={local} alt='img'/>
-                    <span className='w-[19.00838vw] max-md:text-[3.73vw] max-md:w-full'>Trường Đại học Kinh tế Quốc dân, 207 Giải Phóng, Hai Bà Trưng, Hà Nội.</span>
+                    <span className='w-[19.00838vw] max-md:text-[3.73vw] max-md:w-full max-md:leading-normal'>Trường Đại học Kinh tế Quốc dân, 207 Giải Phóng, Hai Bà Trưng, Hà Nội.</span>
                 </div>
               </div>
             </div>

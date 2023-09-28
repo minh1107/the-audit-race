@@ -54,4 +54,13 @@
         text-align: left;
     }
     
+    .footer__content {
+        color:  #FFF;
+        font-size: 3.2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; /* 142.857% */
+        letter-spacing: 0.00875vw;
+        text-shadow: none;
+    }
 }

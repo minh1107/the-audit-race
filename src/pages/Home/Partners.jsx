@@ -5,7 +5,7 @@ import partnerBg from '@/assets/images/partnerBg.png'
 import partnerTitle from '@/assets/images/svg/partner.svg'
 
 const data=[{title: 'Bảo trợ chuyên môn', partner: [{title:'ACCA', src:'/ACCA.jpg'}, {title:'SAA',src:'/SAA.png'}]},
-{title: 'Đối tác chuyên môn', partner: [{title:'Grant thorton', src:'/grantthornton.png'}, {title:'Pwc',src:'/pwc.png'}]},
+{title: 'Đối tác chuyên môn', partner: [{title:'Pwc',src:'/pwc.png'}, {title:'Grant thorton', src:'/grantthornton.png'}]},
 {title: 'Nhà tài trợ bạch kim', partner: [{title:'SAPP',src:'/sapp.png'}]},
 {title: 'Nhà tài trợ vàng', partner: [{title:'BISC', src:'/bisc.png'}, {title: 'Smart Train',src:'/smartrain.png'}, {title:'Okhub',src:'/okhub.png'}]},
 {title: 'Nhà tài trợ đồng', partner: [{title:'Izone', src:'/izone.png'}, {title:'Ace the Future',src:'/ace.png'}]},
@@ -30,7 +30,7 @@ const Partners = () => {
                     {item.partner.map((itm, indx) => (
                         <div key={indx} className='max-md:flex-shrink-0'> 
                             {/* <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3> */}
-                            <Image src={itm.src} alt="partner__picture" width={208} height={83} className='w-auto h-[5.1875vw] object-contain max-md:h-[12vw]'></Image>
+                            <Image src={itm.src} alt="partner__picture" width={408} height={83} className='w-auto h-[5.1875vw] object-contain max-md:h-[12vw]'></Image>
                         </div>
                     ))}
                     </div>

@@ -25,7 +25,7 @@ const Header = () => {
         
       };
     return (
-    <div className='absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] max-md:bg-[#01026D] max-md:fixed'>
+    <div className={`absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] ${show && 'max-md:bg-[#01026D]'} max-md:fixed`}>
         <div className=' flex text-main h-[5.94vw] items-center mx-[13.16vw] mr-[16.19vw] justify-between 
         max-md:items-center max-md:h-[14.6408vw] max-md:w-[calc(100vw-10.88vw)] max-md:mx-[5.44vw]'>
             <Link href={'/'}><Image src={logoImg} alt='logo' className='w-[9.875vw] h-[2.00894vw] mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[6.53vw]'/></Link>
