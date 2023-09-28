@@ -119,31 +119,37 @@ const Reward = () => {
                         <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 75% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 60% khóa học IELTS tại IZONE, trị giá 4.400.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 100%, trị giá 1.500.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 6 tháng, trị giá 1.490.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <div className='absolute max-w-[120%] w-[120%] h-[14.4375vw] bottom-[-0.2vw] left-[50%] translate-x-[-50%] max-md:h-[22vw] max-md:bottom-[-2vw]' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
@@ -162,34 +168,40 @@ const Reward = () => {
                 </div>
                 <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Hiện Kim:</b> 8.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 22 triệu học phí các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 55% học phí các môn ACCA (từ MA đến APM), trị giá 61.895.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 100% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 48.320.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 100% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 100%, trị giá 1.500.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 1 năm, trị giá 1.990.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Học bổng đại sứ 100% khóa học Let's ACE-Giao tiếp, Thuyết trình,Phỏng vấn Big4 hoặc TOEIC bất kì tại ACE The Future.
                     </li>
                 </ul>
                 <div className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0 max-md:h-[22vw] max-md:bottom-[-2vw]' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
@@ -208,34 +220,40 @@ const Reward = () => {
                 </div>
                 <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
                     <li>
-                        Hiện kim: 5.000.000VNĐ
+                        <b className='font-bold'>Hiện Kim:</b> 3.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 14 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (từ F1 đến F9) tại BISC.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 50% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 60% khóa học IELTS tại IZONE, trị giá 4.400.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 100%, trị giá 1.500.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 6 tháng, trị giá 1.490.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <div className='absolute w-full h-[14.4375vw] bottom-[-0.2vw] left-0 max-md:h-[22vw] max-md:bottom-[-2vw]' style={{background: 'linear-gradient(0deg, #01026D 0%, rgba(1, 2, 109, 0.00) 100%)'}}></div>
@@ -251,25 +269,40 @@ const Reward = () => {
                 </div>
                 <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Hiện Kim:</b> 1.000.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SAPP:</b> Voucher giảm 1 triệu học phí các môn học ACCA tại SAPP.
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) trị giá 45.080.000 VNĐ đến từ Smart Train
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (từ F1 đến F9), trị giá 28.992.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp đến từ ST Lighthouse
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 60% khóa học IELTS, trị giá 4.400.000 VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa. 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>Color Me:</b> Học bổng 50%, trị giá 750.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 6 tháng, trị giá 1.490.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT tại VOCO Centre. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <div onClick={button4Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
@@ -282,25 +315,28 @@ const Reward = () => {
                 </div>
                 <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) tại Smart Train, trị giá 45.080.000 VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 45% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 21.744.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse.
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 25% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ, trị giá 250.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 40% khóa học IELTS, trị giá 2.200.000 VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>VOCO Centre:</b>  Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 1 tháng.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Vouchers 300.000 VNĐ học TOEIC (nghe đọc hoặc nói viết)hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <div onClick={button5Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
@@ -312,25 +348,13 @@ const Reward = () => {
                 </div>
                 <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 25% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ, trị giá 250.000VNĐ
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV.
                     </li>
                     <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        SAPP: Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ACE The Future:</b> Học bổng 100% khóa học NỀN TẢNG TIẾNG ANH TOÀN DIỆN tại ACE The Future, trị giá 800.000VNĐ
                     </li>
                 </ul>
                 <div onClick={button6Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
@@ -352,34 +376,40 @@ const Reward = () => {
             
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] overflow-hidden flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 75% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 60% khóa học IELTS tại IZONE, trị giá 4.400.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 100%, trị giá 1.500.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 6 tháng, trị giá 1.490.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <Image src={reward4} alt='reward4' width={500} height={500} className='absolute w-[18.25vw] top-0 right-[-13vw] max-md:hidden'></Image>
@@ -401,34 +431,40 @@ const Reward = () => {
             
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Hiện Kim:</b> 8.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 22 triệu học phí các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 55% học phí các môn ACCA (từ MA đến APM), trị giá 61.895.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 100% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 48.320.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 100% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 100% khóa học IELTS tại IZONE, trị giá 8.800.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 100%, trị giá 1.500.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 1 năm, trị giá 1.990.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Học bổng đại sứ 100% khóa học Let's ACE-Giao tiếp, Thuyết trình,Phỏng vấn Big4 hoặc TOEIC bất kì tại ACE The Future.
                     </li>
                 </ul>
                 <Image src={reward5} alt='reward5' width={500} height={500} className='absolute w-[18.25vw] top-0 right-[-13vw] max-md:hidden'></Image>
@@ -450,34 +486,40 @@ const Reward = () => {
             
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Hiện Kim:</b> 3.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 14 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (từ F1 đến F9) tại BISC.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 50% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 60% khóa học IELTS tại IZONE, trị giá 4.400.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 100%, trị giá 1.500.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 6 tháng, trị giá 1.490.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <Image src={reward6} alt='reward6' width={500} height={500} className='absolute w-[13.25vw] top-0 right-[-13vw] max-md:hidden'></Image>
@@ -498,35 +540,41 @@ const Reward = () => {
             </div>
             
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
-                    <li>
-                        Hiện Kim: 5.000.000VNĐ
+            <li>
+                        <b className='font-bold'>Hiện Kim:</b> 1.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>SAPP:</b> Voucher giảm 1 triệu học phí các môn học ACCA tại SAPP.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) trị giá 45.080.000 VNĐ đến từ Smart Train
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (từ F1 đến F9), trị giá 28.992.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp đến từ ST Lighthouse
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 60% khóa học IELTS, trị giá 4.400.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa. 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>Color Me:</b> Học bổng 50%, trị giá 750.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>DOL English:</b> 1 tài khoản độc quyền 6 tháng, trị giá 1.490.000VNĐ
+                    </li>
+                    <li>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT tại VOCO Centre. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 3 tháng tại VOCO Centre.
+                    </li>
+                    <li>
+                        <b className='font-bold'>ACE The Future:</b> Voucher 800.000 VNĐ học TOEIC (nghe đọc hoặc nói viết) hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <Image onClick={closebutton4Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
@@ -546,34 +594,28 @@ const Reward = () => {
             
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) tại Smart Train, trị giá 45.080.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>BISC:</b> Học bổng 45% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 21.744.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 25% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ, trị giá 250.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>IZONE</b> Học bổng 40% khóa học IELTS, trị giá 2.200.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>SparkPrep</b> Voucher sử dụng dịch vụ hỗ trợ hồ sơ du học & luyện thi chuẩn hóa 1-1 tại SparkPrep, trị giá 10.000.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>VOCO Centre:</b>  Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV. Thẻ Membership 1 tháng.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ACE The Future:</b> Vouchers 300.000 VNĐ học TOEIC (nghe đọc hoặc nói viết)hoặc Let's ACE-Giao tiếp, Thuyết trình, Phỏng vấn Big4.
                     </li>
                 </ul>
                 <Image onClick={closebutton5Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>
@@ -594,34 +636,13 @@ const Reward = () => {
             
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
-                        Hiện Kim: 5.000.000VNĐ
+                        <b className='font-bold'>StudyNowOntario:</b> Học bổng 25% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ, trị giá 250.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam</b>
+                        <b className='font-bold'>VOCO Centre:</b> Voucher discount 50% cho khoá học viết MT. Voucher discount 50% cho khoá học viết CV.
                     </li>
                     <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
-                    </li>
-                    <li>
-                        <b className='font-bold'>Sapp:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
+                        <b className='font-bold'>ACE The Future:</b> Học bổng 100% khóa học NỀN TẢNG TIẾNG ANH TOÀN DIỆN tại ACE The Future, trị giá 800.000VNĐ
                     </li>
                 </ul>
                 <Image onClick={closebutton6Handler} src={closeBtn} alt='closebtn' width={30} height={30} className='absolute w-[1.875vw] right-[-15vw] max-md:right-0 max-md:w-[5vw] cursor-pointer'></Image>

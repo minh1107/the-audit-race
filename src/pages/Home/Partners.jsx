@@ -25,7 +25,7 @@ const Partners = () => {
             {data.map((item, index) => (
                 <div key={index} className='pb-[0.5vw] border-b border-solid border-[#493BA1] max-md:pb-[1vw]'>
                     <h2 className='font-exoFont text-[1.5vw] font-bold leading-[2.25] text-[#FFC6FD] uppercase max-md:text-[3.7vw]'>{item.title}</h2>
-                    <div className='flex gap-[2vw] mt-[1.5vw] max-md:mt-[3.4vw] max-md:flex-nowrap max-md:gap-[6vw] max-md:overflow-scroll'>
+                    <div className='flex gap-[2vw] mt-[1.5vw] max-md:mt-[3.4vw] max-md:flex-nowrap max-md:gap-[6vw] max-md:overflow-scroll whitespace-nowrap'>
                     {item.partner.map((itm, indx) => (
                         <div key={indx}> 
                             <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3>
