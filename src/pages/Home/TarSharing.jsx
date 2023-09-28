@@ -9,12 +9,12 @@ import avatar from  '@/assets/images/avatar.jpeg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import img1 from '@/assets/images/svg/avate/1.jpg'
-import img2 from '@/assets/images/svg/avate/2.jpG'
-import img3 from '@/assets/images/svg/avate/3.jpg'
-import img4 from '@/assets/images/svg/avate/4.jpg'
-import img5 from '@/assets/images/svg/avate/5.jpG'
-import img6 from '@/assets/images/svg/avate/6.jpg'
+import img1 from '@/assets/images/svg/avate/image1.jpg'
+import img2 from '@/assets/images/svg/avate/image2.jpg'
+import img3 from '@/assets/images/svg/avate/image3.jpg'
+import img4 from '@/assets/images/svg/avate/image4.jpg'
+import img5 from '@/assets/images/svg/avate/image5.jpg'
+import img6 from '@/assets/images/svg/avate/image6.jpg'
 
 const newArr = [
   {
