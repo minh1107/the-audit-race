@@ -11,7 +11,7 @@ import '@/scss/page/home.css'
 
 const Home = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Slide />    
       <Overview /> 
       <TarSharing />  
