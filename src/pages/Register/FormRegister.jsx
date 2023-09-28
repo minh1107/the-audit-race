@@ -16,6 +16,7 @@ import TextAreaCustom from '@/components/tags/TextAreaCustom'
 import TextForm from '@/components/Form/TextForm'
 import ButtonCustom from '@/components/tags/ButtonCustom'
 import bgBlur from '@/assets/images/svg/bgBlur.svg'
+import Link from 'next/link'
 
 const currentJob = [
   {
@@ -163,8 +164,12 @@ const FormRegister = () => {
             <div className='ml-[6.25vw] mt-[5.62vw] contract mr-[1.7vw]'>
               <h2 className='contract__title mb-[1.06vw]'>LIÊN HỆ</h2>
               <div className='flex flex-col gap-[0.5vw]'>
-                <p className='w-fit cursor-pointer font-exoFont contract__button flex items-center mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px]'>FANPAGE CUỘC THI <Image src={toRight} alt='img'/></p>
-                <p className='w-fit cursor-pointer font-exoFont contract__button flex items-center mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px]'>FANPAGE CLB t.FAC <Image src={toRight} alt='img'/></p>
+                <Link href={'https://www.facebook.com/theauditrace'} className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw]
+                px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center '>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CUỘC THI</span> <Image src={toRight} alt='img'/></Link>
+                <Link href={'https://www.facebook.com/club.tFAC.neu'} className='w-fit cursor-pointer font-exoFont contract__button max-md:mt-[2vw]
+                flex mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CLB t.FAC</span> <Image src={toRight} alt='img'/></Link>
               </div>
               <div className='mt-[5.88vw] flex flex-col gap-[0.62vw] w-[24.9568vw]'>
                 <div className='flex gap-[0.94vw] contract__info items-start'>
