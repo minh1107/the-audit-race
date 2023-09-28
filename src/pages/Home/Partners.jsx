@@ -4,10 +4,11 @@ import barImg from '@/assets/images/svg/thanhngang.svg'
 import partnerBg from '@/assets/images/partnerBg.png'
 import partnerTitle from '@/assets/images/svg/partner.svg'
 
-const data=[{title: 'Nhà tài trợ bạch kim', partner: [{title:'SAPP',src:'/sapp.png'}]},
+const data=[{title: 'Bảo trợ chuyên môn', partner: [{title:'ACCA', src:'/ACCA.jpg'}, {title:'SAA',src:'/SAA.png'}]},
+{title: 'Đối tác chuyên môn', partner: [{title:'Grant thorton', src:'/grantthornton.png'}, {title:'Pwc',src:'/pwc.png'}]},
+{title: 'Nhà tài trợ bạch kim', partner: [{title:'SAPP',src:'/sapp.png'}]},
 {title: 'Nhà tài trợ vàng', partner: [{title:'BISC', src:'/bisc.png'}, {title: 'Smart Train',src:'/smartrain.png'}, {title:'Okhub',src:'/okhub.png'}]},
 {title: 'Nhà tài trợ đồng', partner: [{title:'Izone', src:'/izone.png'}, {title:'Ace the Future',src:'/ace.png'}]},
-{title: 'Bảo trợ chuyên môn', partner: [{title:'Grant thorton', src:'/grantthornton.png'}, {title:'Pwc',src:'/pwc.png'}]},
 {title: 'Nhà tài trợ hiện vật', partner: [{title:'St lighthouse',src:'/stlighthouse.png'}, {title:'Binh An House',src:'/binhanhouse.png'}, {title: 'Color me',src:'/colorme.png'}, {title:'Spark Prep',src:'/sparkprep.png'}, {title: 'Vocco Centre',src:'/vococentre.png'}, {title:'Dol English',src:'/dolenglish.png'}, {title: 'Studynow Ontario',src:'/studynowontario.png'}]},
 {title: 'Bảo trợ truyền thông', partner: [{title:'AdSangTao',src:'/adsangtao.png'}, {title: 'Esight',src:'/esight.png'}, {title:'Ybox',src:'/ybox.png'}, {title:'Edu2Review',src:'/edu2review.png'}]},
 ]
@@ -27,8 +28,8 @@ const Partners = () => {
                     <h2 className='font-exoFont text-[1.5vw] font-bold leading-[2.25] text-[#FFC6FD] uppercase max-md:text-[3.7vw]'>{item.title}</h2>
                     <div className='flex gap-[2vw] mt-[1.5vw] max-md:mt-[3.4vw] max-md:flex-nowrap max-md:gap-[6vw] max-md:overflow-scroll whitespace-nowrap'>
                     {item.partner.map((itm, indx) => (
-                        <div key={indx}> 
-                            <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3>
+                        <div key={indx} className='max-md:flex-shrink-0'> 
+                            {/* <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3> */}
                             <Image src={itm.src} alt="partner__picture" width={208} height={83} className='w-auto h-[5.1875vw] object-contain max-md:h-[12vw]'></Image>
                         </div>
                     ))}
