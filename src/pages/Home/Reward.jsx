@@ -96,7 +96,7 @@ const Reward = () => {
         // ref9.current.style.display='none'
     }
   return (
-    <div className='relative z-[2] px-[6.25vw] pt-[7.8125vw] pb-[8.875vw] mt-[-0.1vw] max-md:mt-[-0.7vw]' id="giaithuong">
+    <div className='relative px-[6.25vw] pt-[7.8125vw] pb-[8.875vw] mt-[-0.1vw] max-md:mt-[-0.7vw] z-51' id="giaithuong">
         <Image fill src={rewardBg} alt='reward__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
         <div className='flex flex-col items-center'>
             <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[100vw]'></Image>
