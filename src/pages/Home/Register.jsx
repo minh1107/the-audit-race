@@ -9,11 +9,7 @@ import Link from 'next/link'
 
 const Registers = () => {
   return (
-<<<<<<< HEAD
-    <div className='relative w-full pt-[5.625vw] pb-[18.5vw] pr-[6.25vw] pl-[13.9375vw] mt-[-0.1vw max-md:px-[5.3vw] max-md:pt-[11.2vw] max-md:pb-[104.5vw] z-40'>
-=======
     <div className='relative w-full pt-[5.625vw] pb-[18.5vw] pr-[6.25vw] pl-[13.9375vw] mt-[-0.1vw] z-40 max-md:px-[5.3vw] max-md:pt-[11.2vw] max-md:pb-[104.5vw]'>
->>>>>>> 8b1aae90204c0412b00eaad5d47fc713529b3244
         <Image fill src={registerBg} alt='partner__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
         <Image fill src={partnerBgMb} alt='partner__bg' className='hidden absolute top-0 left-0 object-cover z-[-1] max-md:block'></Image>
         <div className='flex justify-end'>

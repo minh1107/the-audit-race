@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import React from 'react'
+import React, { useRef } from 'react'
 import bgImg from '@/assets/images/bg2.png'
 import comment from '@/assets/images/svg/comment.svg'
 import buttonLeft from  '@/assets/images/svg/buttonLeft.svg'
@@ -12,6 +12,18 @@ import 'swiper/css/navigation';
 
 import { Navigation } from 'swiper/modules';
 const TarSharing = () => {
+    const swiperRef = useRef(null);
+
+    const changeSlidePrev = (slideIndex) => {
+        if (swiperRef.current) {
+            swiperRef.current.slideTo(slideIndex);
+          }
+      };
+    const changeSlideNext = (slideIndex) => {
+        if (swiperRef.current) {
+            swiperRef.current.slideTo(slideIndex);
+          }
+    };
   return (
     <div className='relative tar-sharing h-[38.25vw] max-md:h-[95vw]'>
         <Image src={bgImg} className='-z-50 absolute h-[40vw] top-0 left-0 w-screen max-md:h-[95vw]' alt='background' />
@@ -25,7 +37,7 @@ const TarSharing = () => {
                 <h2 className='text-[3.24919vw] title2__color ml-[11.78vw] max-md:text-[4.26vw] max-md:leading-normal'>TAR Sharing</h2>
             </div>
             <div className='mt-[11.07vw] flex max-md:ml-[3.28vw] max-md:mt-[4.6vw]'>
-                <button>    
+                <button  onClick={() => changeSlidePrev(0)}>    
                     <Image src={buttonLeft} className='w-[2.5vw] h-[2.5vw] mr-[1vw] max-md:hidden' alt='background' />
                 </button>
                 <Swiper navigation={true} modules={[Navigation]} className="mySwiper w-[44.8125vw] h-[20.125vw] info max-md:w-[69.96vw] max-md:h-[43.41vw]">
@@ -82,8 +94,8 @@ const TarSharing = () => {
                     </div>
                     </SwiperSlide>
                 </Swiper>
-                <button>    
-                    <Image src={buttonRight} className='w-[2.5vw] h-[2.5vw] ml-[1vw] max-md:hidden' alt='background' />
+                <button onClick={() => changeSlideNext()}>     
+                    <Image src={buttonRight}  className='w-[2.5vw] h-[2.5vw] ml-[1vw] max-md:hidden' alt='background' />
                 </button>
             </div>
         </div>
