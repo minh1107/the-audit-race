@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image'
 import rewardBg from '@/assets/images/rewardBg.png'
-import rewardTitle from '@/assets/images/svg/rewardTitle.svg'
+import rewardTitle from '@/assets/images/svg/rewardItem.svg'
 import reward4 from '@/assets/images/reward4.png'
 import reward5 from '@/assets/images/reward5.png'
 import reward6 from '@/assets/images/reward6.png'
@@ -99,7 +99,7 @@ const Reward = () => {
     <div className='relative z-[2] px-[6.25vw] pt-[7.8125vw] pb-[8.875vw] mt-[-0.1vw] max-md:mt-[-0.7vw]' id="giaithuong">
         <Image fill src={rewardBg} alt='reward__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
         <div className='flex flex-col items-center'>
-            <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[53vw]'></Image>
+            <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[100vw]'></Image>
             <div className='flex mt-[13.3125vw] gap-[1.875vw] relative max-md:flex-col max-md:mt-[44.8vw] max-md:gap-[40vw]'>
                 <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] left-0 top-0 max-md:hidden'></Image>
                 <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] right-0 top-[4.5vw] max-md:hidden'></Image>
