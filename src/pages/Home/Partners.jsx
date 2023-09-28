@@ -32,8 +32,8 @@ const Partners = () => {
                             {/* <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3> */}
                             <Image src={itm.src} alt="partner__picture" width={408} height={83} 
                             className={`w-auto h-[5.1875vw] object-contain max-md:h-[12vw]
-                            ${index === 3 && indx === 2 ? 'bg-white h-[4.1875vw]' : ''}
-                            ${index === 0 && indx === 1 ? 'scale-150 bg-white h-[4.1875vw]' : ''} `}></Image>
+                            ${index === 3 && indx === 2 ? 'scale-95 bg-white h-[4.1875vw]' : ''}
+                            ${index === 0 && indx === 1 ? 'scale-100 bg-white h-[4.1875vw]' : ''} `}></Image>
                         </div>
                     ))}
                     </div>

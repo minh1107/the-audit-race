@@ -241,7 +241,7 @@ const Reward = () => {
                         <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (từ F1 đến F9) tại BISC.
                     </li>
                     <li>
-                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 50% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
                     </li>
                     <li>
                         <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ
@@ -517,7 +517,7 @@ const Reward = () => {
                         <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (từ F1 đến F9) tại BISC.
                     </li>
                     <li>
-                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 50% cho 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
+                        <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
                     </li>
                     <li>
                         <b className='font-bold'>StudyNowOntario:</b> Học bổng 100% cho khoá học online: Phát Âm Tiếng Anh với giáo viên bản xứ đến từ StudyNow Ontario, trị giá 1.000.000VNĐ

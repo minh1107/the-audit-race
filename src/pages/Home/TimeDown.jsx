@@ -71,15 +71,14 @@ const TimeDown = () => {
             <h2 className='text-[2.25vw] pt-[2.8vw] font-bold leading-[3.375vw]  title__color max-md:text-[4.26vw] max-md:leading-normal'>ĐẾM NGƯỢC THỜI GIAN</h2>
             <h2 className='text-[2.25vw] font-bold leading-[3.375vw]  title__color max-md:text-[4.26vw] max-md:leading-normal max-md:mb-[4.08vw]'>ĐÓNG CỔNG ĐĂNG KÝ</h2>
             <div className='flex text-[#fff] text-[3.75vw] font-atmospheric leading-[5vw] mt-[1.87vw] max-md:text-[6.4vw] gap-[1.5vw]'>
-                <CountDown time={day} exprire={exprire}/>
+                <CountDown time={day} exprire={exprire}/> 
                 <span>:</span>
                 <CountDown time={hour} exprire={exprire}/>
                 <span>:</span>
-                <CountDown time={minute} exprire={exprire}/>
+                <CountDown time={minute} exprire={exprire}/> 
                 <span>:</span>
-                <CountDown time={second} exprire={exprire}/>
+                <CountDown time={second} exprire={exprire}/> 
             </div>
-            <h2 className='text-[2.25vw] font-bold leading-[3.375vw]  title__color max-md:text-[4.26vw] max-md:leading-normal max-md:mb-[4.08vw]'>Đếm ngược</h2>
         </div>
     </div>
   )
