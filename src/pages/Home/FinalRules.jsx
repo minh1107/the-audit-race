@@ -6,7 +6,7 @@ import bgItem from '@/assets/images/svg/bgItem.svg'
 import bgItem3 from '@/assets/images/svg/bgItem3.svg'
 import frame256 from '@/assets/images/Frame265.png'
 import subtract from '@/assets/images/Subtract.png'
-import subtract2 from '@/assets/images/Subtract2.png'
+import subtract2 from '@/assets/images/subtract2.png'
 
 const data = [
   {title: 'Case study', subtitle: 'Chặng 4.1', description:'<p>Các đội sẽ thuyết trình, phản biện với nhau và trả lời câu hỏi của Ban Giám khảo.</p>', goal:'<p>04 thí sinh có số điểm cao nhất sau chặng 4.1 sẽ được đi tiếp vào Chặng 4.2</p>'},

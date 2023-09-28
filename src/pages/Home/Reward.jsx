@@ -64,8 +64,8 @@ const Reward = () => {
         <div className='flex flex-col items-center'>
             <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[53vw]'></Image>
             <div className='flex mt-[13.3125vw] gap-[1.875vw] relative max-md:flex-col max-md:mt-[44.8vw] max-md:gap-[40vw]'>
-                <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] left-0 top-0'></Image>
-                <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] right-0 top-[4.5vw]'></Image>
+                <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] left-0 top-0 max-md:hidden'></Image>
+                <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] right-0 top-[4.5vw] max-md:hidden'></Image>
             <div className='rounded-[0.5vw] relative border w-[27.9vw] pt-[8.4375vw] mt-[3vw] flex flex-col items-center max-md:w-full max-md:pt-[26.1vw] max-md:rounded-[1.5vw] max-md:order-3 max-md:z-[3]' style={{background: 'linear-gradient(180deg, rgba(255, 158, 252, 0.30) 0%, rgba(255, 158, 252, 0.00) 100%)'}}>
                 <Image src={reward4} alt='reward4' width={500} height={500} className='absolute w-[13.25vw] top-0 left-[50%] translate-x-[-50%] translate-y-[-70%] max-md:w-[40vw]'></Image>
                 <div className='flex gap-[0.5vw] items-end'> 
