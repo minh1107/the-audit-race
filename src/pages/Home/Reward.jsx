@@ -119,6 +119,9 @@ const Reward = () => {
                         <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
                     </li>
                     <li>
+                        <b></b>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam
+                    </li>
+                    <li>
                         <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
@@ -171,6 +174,9 @@ const Reward = () => {
                         <b className='font-bold'>Hiện Kim:</b> 8.000.000VNĐ
                     </li>
                     <li>
+                        Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam
+                    </li>
+                    <li>
                         <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 22 triệu học phí các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
@@ -221,6 +227,9 @@ const Reward = () => {
                 <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 3.000.000VNĐ
+                    </li>
+                    <li>
+                    Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam
                     </li>
                     <li>
                         <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 14 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
@@ -368,7 +377,8 @@ const Reward = () => {
                 <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="69" height="18" viewBox="0 0 69 18" fill="none">
                     <path d="M38.4621 0.879395L68.1743 0.880327L60.7308 2.90775H38.4621L6.20362 17.3825H0.672112L38.4621 0.879395Z" fill="#FFC6FD"/>
                 </svg>
-                <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase max-md:text-[6.6vw]' style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Á quân 1</h2>
+                <h2 className='font-exoFont text-[2.25vw] text__gradient2 font-bold leading-[1.5] uppercase max-md:text-[6.6vw]' 
+                style={{textShadow: '0px 0px 0.5625vw #EC4AE7, 0px 0px 0.1875vw #FA75F6'}}> Á quân 1</h2>
                 <svg className='w-[4.1875vw] max-md:w-[12.5vw]' xmlns="http://www.w3.org/2000/svg" width="68" height="18" viewBox="0 0 68 18" fill="none">
                     <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                 </svg>
@@ -377,6 +387,9 @@ const Reward = () => {
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] overflow-hidden flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
+                    </li>
+                    <li>
+                        <b></b>Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam
                     </li>
                     <li>
                         <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 18 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
@@ -434,6 +447,9 @@ const Reward = () => {
                         <b className='font-bold'>Hiện Kim:</b> 8.000.000VNĐ
                     </li>
                     <li>
+                        Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam
+                    </li>
+                    <li>
                         <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 22 triệu học phí các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
                     </li>
                     <li>
@@ -487,6 +503,9 @@ const Reward = () => {
             <ul className={`${classes.list} text-[#A4DEFF] flex-wrap gap-[1vw] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] flex max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:mt-[5.8vw] max-md:px-[6.9vw] max-md:pl-[8vw]'`}>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 3.000.000VNĐ
+                    </li>
+                    <li>
+                    Cơ hội trở thành thực tập sinh chính thức tại Grant Thornton Vietnam
                     </li>
                     <li>
                         <b className='font-bold'>SAPP:</b> Gói học bổng trị giá 14 triệu cho các môn học ACCA khi đăng ký theo 2 hình thức online & offline.
