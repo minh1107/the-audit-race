@@ -12,8 +12,11 @@ import footerLogoUp from '@/assets/images/footerLogoUp.png'
 import footerLogoDown from '@/assets/images/footerLogoDown.png'
 import footerBlur from '@/assets/images/svg/footerBlur.svg'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const Footer = () => {
+    const pathname = usePathname()
+    console.log(pathname)
     const handleScroll = (e) => {
         e.preventDefault();
         const href = e.currentTarget.href;
@@ -68,23 +71,23 @@ const Footer = () => {
                     <p className='font-exoFont text-[1vw] font-normal leading-[1.5vw]
                      text-[#E3F7FF] mb-[1.19vw] uppercase max-md:leading-[150%] max-md:text-[4.26vw] max-md:mb-[6.13vw]'>QUICK LINKS</p>
                     <ul className='list-footer w-[37.0625vw] justify-between flex max-md:hidden'>
-                        <Link onClick={handleScroll} href="#" className='text-white text-[0.75vw] uppercase'>TRANG CHỦ</Link>
-                        <Link onClick={handleScroll} className='text-white uppercase text-[0.75vw]' href="#gioithieu">Giới thiệu</Link>
-                        <Link onClick={handleScroll} className='text-white uppercase text-[0.75vw]' href="#thele">Thể lệ</Link>
-                        <Link onClick={handleScroll} className='text-white uppercase text-[0.75vw]' href="#giaithuong">Giải thưởng</Link>
-                        <Link onClick={handleScroll} className='text-white uppercase text-[0.75vw]' href="#doitac">Đối tác</Link>
-                        <Link onClick={handleScroll} className='text-white uppercase text-[0.75vw]' href="#vechungtoi">Về chúng tôi</Link>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} href={pathname == '/form-register' ? '/' : '#home'} className='text-white text-[0.75vw] uppercase'>TRANG CHỦ</Link>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[0.75vw]' href={pathname == '/form-register' ? '/#gioithieu' : '#gioithieu'}>Giới thiệu</Link>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[0.75vw]' href={pathname == '/form-register' ? '/#thele' : '#thele'}>Thể lệ</Link>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[0.75vw]' href={pathname == '/form-register' ? '/#giaithuong' : '#giaithuong'}>Giải thưởng</Link>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[0.75vw]' href={pathname == '/form-register' ? '/#doitac' : '#doitac'}>Đối tác</Link>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[0.75vw]' href={pathname == '/form-register' ? '/#vechungtoi' : '#vechungtoi'}>Về chúng tôi</Link>
                     </ul>
                     <ul className='list-footer hidden w-[37.0625vw] justify-between max-md:flex max-md:gap-[10.93vw] max-md:w-[53.33vw] max-md:h-[21.6vw]'>
                         <div className='flex flex-col justify-between'>
-                            <Link onClick={handleScroll} href="#" className='text-white text-[3.2vw] uppercase'>TRANG CHỦ</Link>
-                            <Link onClick={handleScroll} className='text-white uppercase text-[3.2vw]' href="#gioithieu">Giới thiệu</Link>
-                            <Link onClick={handleScroll} className='text-white uppercase text-[3.2vw]' href="#thele">Thể lệ</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white text-[3.2vw] uppercase' href={pathname == '/form-register' ? '/' : '#home'}>TRANG CHỦ</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#gioithieu' : '#gioithieu'}>Giới thiệu</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#thele' : '#thele'}>Thể lệ</Link>
                         </div>
                         <div className='flex flex-col justify-between'>
-                            <Link onClick={handleScroll} className='text-white uppercase text-[3.2vw]' href="#giaithuong">Giải thưởng</Link>
-                            <Link onClick={handleScroll} className='text-white uppercase text-[3.2vw]' href="#doitac">Đối tác</Link>
-                            <Link onClick={handleScroll} className='text-white uppercase text-[3.2vw]' href="#vechungtoi">Về chúng tôi</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#giaithuong' : '#giaithuong'}>Giải thưởng</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#doitac' : '#doitac'}>Đối tác</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#vechungtoi' : '#vechungtoi'}>Về chúng tôi</Link>
                         </div>
                     </ul>
                 </div>

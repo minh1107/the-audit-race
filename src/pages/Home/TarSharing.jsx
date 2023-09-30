@@ -20,8 +20,8 @@ const newArr = [
   {
     title: 'Chị ĐINH THU HOÀI',
     img: img1,
-    text1: 'Chuyên viên tuyển dụng',
-    text2: '& Quản lý Nguồn nhân lực, PwC Việt Nam ',
+    text1: 'Chuyên viên tuyển dụng & Quản lý Nguồn nhân lực,',
+    text2: 'PwC Việt Nam ',
     text3: 'The Audit Race là một sân chơi học thuật được đánh giá cao bởi luôn giữ vững được tính chuyên môn cũng như chất lượng thí sinh tham gia thông qua sự giám sát và hỗ trợ từ phía các thầy cô, chuyên gia trong lĩnh vực.'
   },
   {

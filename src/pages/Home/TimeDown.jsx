@@ -71,13 +71,13 @@ const TimeDown = () => {
             <h2 className='text-[2.25vw] pt-[2.8vw] font-bold leading-[3.375vw]  title__color max-md:text-[4.26vw] max-md:leading-normal'>ĐẾM NGƯỢC THỜI GIAN</h2>
             <h2 className='text-[2.25vw] font-bold leading-[3.375vw]  title__color max-md:text-[4.26vw] max-md:leading-normal max-md:mb-[4.08vw]'>ĐÓNG CỔNG ĐĂNG KÝ</h2>
             <div className='flex text-[#fff] text-[3.75vw] font-atmospheric leading-[5vw] mt-[1.87vw] max-md:text-[6.4vw] gap-[1.5vw]'>
-                <CountDown time={day} exprire={exprire}/> 
+                <CountDown time={day} exprire={exprire}/> <span className='text-[1.5vw] max-md:text-[3.5vw] font-exoFont'>Ngày</span>
                 <span>:</span>
-                <CountDown time={hour} exprire={exprire}/>
+                <CountDown time={hour} exprire={exprire}/> <span className='text-[1.5vw] max-md:text-[3.5vw] font-exoFont'>Giờ</span>
                 <span>:</span>
-                <CountDown time={minute} exprire={exprire}/> 
+                <CountDown time={minute} exprire={exprire}/> <span className='text-[1.5vw] max-md:text-[3.5vw] font-exoFont'>Phút</span>
                 <span>:</span>
-                <CountDown time={second} exprire={exprire}/> 
+                <CountDown time={second} exprire={exprire}/> <span className='text-[1.5vw] max-md:text-[3.5vw] font-exoFont'>Giây</span>
             </div>
         </div>
     </div>

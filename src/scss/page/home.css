@@ -29,5 +29,9 @@
     .swiper-button-prev, .swiper-button-next {
       display: block;
     }
+    .cupImg {
+      height: 55% !important;
+      top: 28% !important;
+    }
     
   }

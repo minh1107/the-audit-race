@@ -12,7 +12,8 @@ const Registers = () => {
   return (
     <div className='relative w-full pt-[5.625vw] pb-[18.5vw] pr-[6.25vw] pl-[13.9375vw] mt-[-0.1vw] z-40 max-md:px-[5.3vw] max-md:pt-[11.2vw] max-md:pb-[104.5vw]'>
         <Image fill src={registerBg} alt='partner__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
-        <Image fill src={cupImg} alt='partner__bg' className='hidden absolute top-[42%] left-[-11%] object-cover z-[-1] max-md:block'></Image>
+        <Image fill src={cupImg} alt='partner__bg' className='hidden absolute max-md:translate-y-[20%]
+         translate-x-[-5%] max-md:top-[46%] cupImg h-[78%] max-md:left-[-42px] object-contain z-[-1] max-md:block'></Image>
         <div className='flex justify-end'>
             {/* <h2>Thể lệ</h2>
             <div>Icon</div> */}

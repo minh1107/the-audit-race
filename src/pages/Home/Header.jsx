@@ -26,7 +26,7 @@ const Header = () => {
         
       };
     return (
-    <div className={`absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] ${show && 'max-md:bg-[#01026D]'} max-md:fixed`}>
+    <div id='home' className={`absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] ${show && 'max-md:bg-[#01026D]'} max-md:fixed`}>
         <div className=' flex text-main h-[5.94vw] items-center mx-[7.16vw] mr-[16.19vw] justify-between 
         max-md:items-center max-md:h-[14.6408vw] max-md:w-[calc(100vw-10.88vw)] max-md:mx-[5.44vw]'>
             <Link href={'/'}><Image src={bigLogo} alt='logo' className='w-max h-[5.00894vw] mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[10.53vw]'/></Link>
@@ -39,8 +39,8 @@ const Header = () => {
                 headerPaths?.map((item, index) => {
                     if(index !== 0)
                     return (
-                        <Link onClick={handleScroll} 
-                          href={index === 0 ? '/' : item?.link} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
+                        <Link onClick={pathname !== '/form-register' && handleScroll} 
+                          href={index === 0 ? '/' : pathname !== '/form-register' ? item?.link : `/${item?.link}`} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
                             {item?.name}
                         </Link>
                     )
