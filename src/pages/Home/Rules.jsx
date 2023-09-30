@@ -46,7 +46,7 @@ const Rules = () => {
                 <div className='pl-[12.6875vw] pr-[29.375vw] relative w-[69.9375vw] max-md:pr-[12.4vw] max-md:w-[88.8vw] max-md:pl-[15.4vw]'>
                   <div className='flex flex-col'>
                     <span className='text-[1.25vw] text__gradient2 leading-[1.5] tracking-[0.03px] font-bold max-md:text-[3.2vw]'>{item.date}</span>
-                    <h4 className='text__gradient2 text-[2.25vw] font-bold leading-[1.5] uppercase font-exoFont max-md:text-[5.3vw]'>{item.title}</h4>
+                    <h4 className='text__gradient2 text-[2.25vw] font-bold leading-[1.5] uppercase font-exoFont max-md:text-[5.2vw] max-md:whitespace-nowrap'>{item.title}</h4>
                   </div>
                   <div>
                   <div className="mt-[5.875vw] max-md:mt-[6.4vw] flex flex-col gap-[2vw]">
