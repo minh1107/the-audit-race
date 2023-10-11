@@ -320,7 +320,7 @@ const FormRegister = () => {
 
                     <p className='check'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
                     <ButtonCustom text={"Gửi đơn đăng ký"}/>
-                    <p className='check mt-3'>Nếu không có thông báo gửi thành công hãy kiểm tra kĩ các ô không được bỏ chống!</p>
+                    <p className='check md:mt-3'>Nếu không có thông báo gửi thành công hãy kiểm tra kĩ các ô không được bỏ chống!</p>
                     <div className='mb-[12.18vw] max-md:mb-[18.6vw]'></div>
                   </Form>
                 )}
