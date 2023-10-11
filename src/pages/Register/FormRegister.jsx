@@ -17,6 +17,7 @@ import TextForm from '@/components/Form/TextForm'
 import ButtonCustom from '@/components/tags/ButtonCustom'
 import bgBlur from '@/assets/images/svg/bgBlur.svg'
 import Link from 'next/link'
+import Swal from 'sweetalert2'
 
 const currentJob = [
   {
@@ -124,26 +125,49 @@ const FormRegister = () => {
     ACCATime: '',
   };
 
-  const handleSubmit = (values) => {
-    console.log(values)
-    alert('Gửi thành công')
-    fetch('	https://sheetdb.io/api/v1/6k1myqitp7ybq', {
-      method: 'POST',
-      headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-          data: [
-              values
-          ]
-      })
-  })
-    .then((response) => response.json())
-    .then((data) => console.log(data));
+  function getCurrentDateTime() {
+    const currentDate = new Date();
   
+    const day = currentDate.getDate().toString().padStart(2, '0');
+    const month = (currentDate.getMonth() + 1).toString().padStart(2, '0');
+    const year = currentDate.getFullYear().toString().slice(-2); 
+    const hours = currentDate.getHours().toString().padStart(2, '0');
+    const minutes = currentDate.getMinutes().toString().padStart(2, '0');
+    const seconds = currentDate.getSeconds().toString().padStart(2, '0');
+  
+    return `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
   }
 
+  const handleSubmit = (values, { isSubmitting, resetForm  }) => {
+    let {name , ...res} = values
+    const currentTime = getCurrentDateTime()
+    name =  name + " (" + currentTime + ")"
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Gửi thành công thông tin!',
+      showConfirmButton: false,
+      timer: 1500
+    })      
+    if (!isSubmitting) {
+      fetch('https://sheetdb.io/api/v1/6k1myqitp7ybq', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          data: [{name: name, ...res}]
+        })
+      })
+      .then((response) => response.json())
+      .then((data) => {
+      });
+    } else {
+      
+    }
+  };
+  
   return (
     <div className='overflow-x-hidden'>
       <div className='relative z-40'>
@@ -198,7 +222,7 @@ const FormRegister = () => {
                 validationSchema={validationSchema}
                 onSubmit={handleSubmit}
               >
-                {({ isSubmitting }) => (
+                {({ isValid, isSubmitting }) => (
                   <Form>
                     <TextForm text={'THÔNG TIN CÁ NHÂN'}/>
                     <div className='max-md:mb-[6.4vw]'></div>
@@ -296,6 +320,7 @@ const FormRegister = () => {
 
                     <p className='check'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
                     <ButtonCustom text={"Gửi đơn đăng ký"}/>
+                    <p className='check mt-3'>Nếu không có thông báo gửi thành công hãy kiểm tra kĩ các ô không được bỏ chống!</p>
                     <div className='mb-[12.18vw] max-md:mb-[18.6vw]'></div>
                   </Form>
                 )}
