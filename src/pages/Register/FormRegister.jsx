@@ -162,9 +162,10 @@ const FormRegister = () => {
       })
       .then((response) => response.json())
       .then((data) => {
+      resetForm()
+
       });
     } else {
-      
     }
   };
   
