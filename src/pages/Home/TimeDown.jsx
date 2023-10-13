@@ -18,7 +18,7 @@ const TimeDown = () => {
   useEffect(() => {
     let currentTime = moment(new Date())
     const currentTimeAfterFormat = currentTime.format('YYYY-MM-DD HH:mm:ss')
-    const duration = moment.duration(moment('2023-10-13 23:59:59', 'YYYY-MM-DD HH:mm:ss').diff(currentTimeAfterFormat))
+    const duration = moment.duration(moment('2023-10-15 23:59:59', 'YYYY-MM-DD HH:mm:ss').diff(currentTimeAfterFormat))
     const h = duration.hours() 
     const m = duration.minutes()
     const s = duration.seconds()
