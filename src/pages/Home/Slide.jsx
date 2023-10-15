@@ -29,7 +29,7 @@ const Slide = () => {
                 <Image src={circle} alt='circle' className='absolute right-[12.31vw] top-1/2 -translate-y-1/2 max-md:left-[76vw] max-md:w-[0.777vw] max-md:h-[0.777vw]'/>
             </div>
             <div className='flex justify-center gap-[5.15vw] mt-[1.06vw] max-md:gap-[10vw] max-md:mt-[2vw]'>
-                <ButtonTime className="translate-x-[2.31vw]" index={0} title={'Mở đơn'} time={'28/09 - 13/10'} />
+                <ButtonTime className="translate-x-[2.31vw]" index={0} title={'Mở đơn'} time={'28/09 - 15/10'} />
                 <ButtonTime className="translate-x-[1.31vw]" index={1} title={'Test Offline'} time={'21/10 - 22/10'} />
                 <ButtonTime className="translate-x-[0.31vw]" index={2} title={'Thử thách Case Study'} time={'29/10 - 05/11'} />
                 <ButtonTime className="-translate-x-[2.3vw]" index={3} title={'Chung kết'} time={'17/11'} />

@@ -10,7 +10,7 @@ import lineListMb from '@/assets/images/svg/lineListMb.svg'
 
 
 const data = [
-  {timeline: 'first launch',date: '28/09 - 13/10', title: 'Mở đơn', detail: [{subtitle: 'Thí sinh điền đơn đăng ký thông qua Website của cuộc thi. ', description:''}] , goal:'Thông qua đơn đăng ký, BTC sẽ lựa chọn Top 200 thí sinh phù hợp để bước vào Vòng 2.'},
+  {timeline: 'first launch',date: '28/09 - 15/10', title: 'Mở đơn', detail: [{subtitle: 'Thí sinh điền đơn đăng ký thông qua Website của cuộc thi. ', description:''}] , goal:'Thông qua đơn đăng ký, BTC sẽ lựa chọn Top 200 thí sinh phù hợp để bước vào Vòng 2.'},
   {timeline: 'ENTER THE FAST LANE',date: '21/10 - 22/10', title: 'Test offline', detail: [{subtitle: 'Thí sinh thực hiện bài kiểm tra cá nhân bao gồm 40 câu hỏi trong vòng 60 phút. Nội dung bài kiểm tra gồm các kiến thức: ', description:'<ul style="display:flex; flex-direction: column; gap: 0.5vw"><li style="border-bottom: 1px solid #0058A9;">KẾ TOÁN (KẾ TOÁN TÀI CHÍNH, KẾ TOÁN QUẢN TRỊ)</li><li style="border-bottom: 1px solid #0058A9">KIỂM TOÁN</li><li style="border-bottom: 1px solid #0058A9">THUẾ</li><li style="border-bottom: 1px solid #0058A9">IQ (HÌNH HỌC, SỐ HỌC, TƯ DUY NGÔN NGỮ,...)</li><li style="border-bottom: 1px solid #0058A9">KIẾN THỨC KINH TẾ XÃ HỘI</li></ul><p style="margin-top: 0.5vw">*Bài kiểm tra hoàn toàn bằng tiếng Anh.</p>'}] , goal:'30 thí sinh xuất sắc nhất sẽ tiếp tục đồng hành cùng cuộc thi.'},
   {timeline: 'ACCELERATION',date: '28/10 - 05/11', title: 'Thử thách case study', detail: 
   [{subtitle: 'Training & Networking (29/10)', 
