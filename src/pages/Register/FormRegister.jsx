@@ -150,7 +150,7 @@ const FormRegister = () => {
       timer: 1500
     })      
     if (!isSubmitting) {
-      fetch('https://sheetdb.io/api/v1/6k1myqitp7ybq', {
+      fetch('https://sheetdb.io/api/v1/4yqzxxzpugq4j', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
