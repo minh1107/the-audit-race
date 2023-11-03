@@ -15,6 +15,11 @@ const headerPaths = [
         link: '/#thele' 
     },
     {
+        id: 7,
+        name: 'Top 6',
+        link: '/#top6' 
+    },
+    {
         id: 4,
         name: 'Giải thưởng',
         link: '/#giaithuong' 

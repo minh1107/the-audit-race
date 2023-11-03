@@ -14,12 +14,12 @@ const Home = () => {
     <div className='overflow-hidden'>
       <Slide />    
       <Overview /> 
-      <TarSharing />  
-      <Rules />
+      {/* <TarSharing />   */}
+      {/* <Rules /> */}
       <FinalRules />
       <Reward />
       <Partners />
-      <Registers />
+      {/* <Registers /> */}
     </div>
   )
 }

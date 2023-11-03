@@ -6,11 +6,17 @@ import partnerTitle from '@/assets/images/svg/partner.svg'
 
 const data=[{title: 'Bảo trợ chuyên môn', partner: [{title:'ACCA', src:'/ACCA.jpg'}, {title:'SAA',src:'/SAA.png'}]},
 {title: 'Đối tác chuyên môn', partner: [{title:'Pwc',src:'/pwc.png'}, {title:'Grant thorton', src:'/grantthornton.png'}]},
-{title: 'Nhà tài trợ bạch kim', partner: [{title:'SAPP',src:'/sapp.png'}]},
+{title: 'Nhà tài trợ bạch kim', partner: [{title:'SAPP',src:'/update/sap.png'}]},
 {title: 'Nhà tài trợ vàng', partner: [{title:'BISC', src:'/bisc.png'}, {title: 'Smart Train',src:'/smartrain.png'}, {title:'Okhub',src:'/logo_okhub.png'}]},
 {title: 'Nhà tài trợ đồng', partner: [{title:'Izone', src:'/izone.png'}, {title:'Ace the Future',src:'/ace.png'}]},
 {title: 'Nhà tài trợ hiện vật', partner: [{title:'St lighthouse',src:'/stlighthouse.png'}, {title:'Binh An House',src:'/binhanhouse.png'}, {title: 'Color me',src:'/colorme.png'}, {title:'Spark Prep',src:'/sparkprep.png'}, {title: 'Vocco Centre',src:'/vococentre.png'}, {title:'Dol English',src:'/dolenglish.png'}, {title: 'Studynow Ontario',src:'/studynowontario.png'}]},
-{title: 'Bảo trợ truyền thông', partner: [{title:'AdSangTao',src:'/adsangtao.png'}, {title: 'Esight',src:'/esight.png'}, {title:'Ybox',src:'/ybox.png'}, {title:'Edu2Review',src:'/edu2review.png'}]},
+{title: 'Bảo trợ truyền thông', partner: [{title:'AdSangTao',src:'/adsangtao.png'}, 
+{title: 'Esight',src:'/esight.png'}, {title:'Ybox',src:'/ybox.png'}, 
+{title:'Edu2Review',src:'/edu2review.png'}]},
+{title: 'Bảo trợ hình ảnh', partner: [{title:'ynm_logo',src:'/ynm_logo.jpg'}]},
+{title: 'Đối tác truyền thông', partner: [{title:'A_A_aof',src:'/A_A_aof.png'}, 
+{title: 'AAC_thăng_long',src:'/AAC_thăng_long.png'}, {title:'afc_ptit',src:'/afc_ptit.jpg'}, 
+{title:'Logo_AAC_BA',src:'/Logo_AAC_BA.png'}]},
 ]
 const Partners = () => {
   return (
@@ -31,10 +37,12 @@ const Partners = () => {
                         <div key={indx} className='max-md:flex-shrink-0'> 
                             {/* <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3> */}
                             <Image src={itm.src} alt="partner__picture" width={408} height={83} 
-                            className={`w-auto h-[5.1875vw] object-contain max-md:h-[12vw]
+                            className={`w-auto h-[5.1875vw] object-contain max-md:h-[12vw] 
                             ${index === 3 && indx === 2 ? 'scale-[92%] bg-white h-[4.1875vw]' : ''}
                             ${index === 4 ? 'scale-95 bg-white h-[4.1875vw]' : ''}
-                            ${index === 0 && indx === 1 ? 'scale-100 bg-white h-[4.1875vw]' : ''} `}></Image>
+                            ${index === 0 && indx === 1 ? 'scale-100 bg-white h-[4.1875vw]' : ''}
+                            ${index === 8 ? 'scale-100 bg-white h-[4.1875vw]' : ''}
+                            `}></Image>
                         </div>
                     ))}
                     </div>
