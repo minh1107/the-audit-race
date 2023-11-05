@@ -20,6 +20,7 @@ import Link from 'next/link'
 import Swal from 'sweetalert2'
 import CheckBoxCustom from '@/components/tags/CheckBoxCustom'
 import Line2 from '@/components/common/Line2'
+import dkdtk from '../../../public/dkdemtk.png'
 
 const learnACCA = [
   {
@@ -211,10 +212,11 @@ const FormRegister = () => {
           </div>
           <div className='w-[0.10019vw] h-auto  line__vertical max-md:hidden translate-y-[-0.75vw]'></div>
           <div className='ml-[5.16vw] w-[58.1875vw] max-md:w-full form-register max-md:ml-0 max-md:pl-[7.96vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
-              <h1 className='form-register__title text-[4.1875vw] mb-[3.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
+              {/* <h1 className='form-register__title text-[4.1875vw] mb-[3.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
               max-md:mb-[6.4vw]'>
                   <span className='max-md:leading-normal' data-aos="fade-up">Đăng ký tham gia</span><p className='font-bold max-md:text-[6.4vw] leading-normal' data-aos="fade-up">Đêm chung kết
-              </p></h1>
+              </p></h1> */}
+              <Image src={dkdtk} className='w-[30vw] mt-[5.69vw] max-md:w-[60vw] mb-[3.12vw] ml-[-0.66vw] select-none' alt='dkdtk'/>
               <Formik
                  validateOnChange={true}
                  validateOnBlur={false}
@@ -224,8 +226,8 @@ const FormRegister = () => {
               >
                 {({ isValid, isSubmitting, errors }) => (
                   <Form>
-                    <TextForm text={'THÔNG TIN CÁ NHÂN'}/>
-                    <div className='max-md:mb-[6.4vw] mb-[2vw]'></div>
+                    {/* <TextForm text={'THÔNG TIN CÁ NHÂN'}/>
+                    <div className='max-md:mb-[6.4vw] mb-[2vw]'></div> */}
 
                     <InputCustom number={1} text={'Họ và Tên'} placeholder={'Tên của bạn'} required={true} name={'name'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
