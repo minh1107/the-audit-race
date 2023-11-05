@@ -52,7 +52,8 @@ line-height: 4.5vw; /* 150% */
 
 .name {
     text-align: center;
-    text-shadow: 0px 0px 9px #EC4AE7, 0px 0px 3px #FA75F6;
+    text-shadow: 0px 0px 10px #FA75F6;
+    color: #FFAEFD;
     font-size: 1.55vw;
     font-style: normal;
     font-weight: 700;

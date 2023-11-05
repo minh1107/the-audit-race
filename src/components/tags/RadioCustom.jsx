@@ -15,7 +15,7 @@ const RadioCustom = ({number, text, required, data}) => {
         ))
       }
     </div>
-    <ErrorMessage name={data[0].name} component="div" className="error mt-[0.5vw] text-red-300 mb-[-1vw] text-[1vw] max-md:text-[4.26vw] absolute" />
+    <ErrorMessage name={data[0].name} component="div" className="error mt-[0.5vw] max-md:bottom-[-8vw] text-red-300 mb-[-1vw] text-[1vw] max-md:text-[4.26vw] absolute" />
   </div>
   )
 }

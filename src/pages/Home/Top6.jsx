@@ -15,7 +15,7 @@ const Avatar = ({className}) => {
                         <svg xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                         <path d="M21.9784 14.3575L38.6982 14.3567L34.5096 12.6175H21.9784L3.82573 0.199895H0.713001L21.9784 14.3575Z" fill="#FFC6FD"/>
                         </svg>
-                        <p className='name w-[16.25vw] font-exoFont line-clamp-1'>Phạm Đình Bảo Anh</p>
+                        <p className='name w-[16.25vw] font-exoFont line-clamp-1 '>Phạm Đình Bảo Anh</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                             <path d="M17.1454 14.3575L0.425537 14.3567L4.61418 12.6175H17.1454L35.298 0.199895H38.4108L17.1454 14.3575Z" fill="#FFC6FD"/>
                         </svg>

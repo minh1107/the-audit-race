@@ -107,6 +107,7 @@ const validationSchema = Yup.object().shape({
   ACCA: Yup.string().required("Trường này là bắt buộc"),
   ACCATime: Yup.string().required("Trường này là bắt buộc"),
 });
+console.log(validationSchema)
 const FormRegister = () => {
   const initialValues = {
     name: '',
@@ -135,6 +136,7 @@ const FormRegister = () => {
   }
 
   const handleSubmit = (values, { isSubmitting, resetForm  }) => {
+    console.log(values)
     let {name , ...res} = values
     const currentTime = getCurrentDateTime()
     name =  name + " (" + currentTime + ")"
@@ -166,7 +168,7 @@ const FormRegister = () => {
   };
   
   return (
-    <div className='' id='register'>
+    <div className='max-md:mt-[20vw]' id='register'>
       <div className='bg-[#01026D] relative'>
         <svg xmlns="http://www.w3.org/2000/svg" className='absolute rotate-45 bg__blur top-0 left-[0%] !w-[30vw] !h-[28vw]' width="709" height="859" viewBox="0 0 709 859" fill="none">
           <g opacity="0.45" filter="url(#filter0_f_4974_7331)">
@@ -198,7 +200,7 @@ const FormRegister = () => {
             </div>
           </div>
           <div className='w-[0.10019vw] h-auto  line__vertical max-md:hidden translate-y-[-0.75vw]'></div>
-          <div className='ml-[5.16vw] w-[58.1875vw] form-register max-md:ml-0 max-md:pl-[3vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
+          <div className='ml-[5.16vw] w-[58.1875vw] max-md:w-full form-register max-md:ml-0 max-md:pl-[3vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
               <h1 className='form-register__title text-[4.1875vw] mb-[3.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
               max-md:mb-[6.4vw]'>
                   <span className='max-md:leading-normal'>Đăng ký tham gia</span><p className='font-bold max-md:text-[6.4vw] leading-normal'>Đêm chung kết
