@@ -100,7 +100,6 @@
     background: url('/src/assets/images/svg/radio.svg');   
     height: 1.75vw;
     width: 1.75vw;
-    background-color: red !important;
 }
 
 .text-bonus {
@@ -151,10 +150,10 @@
 @media only screen and (max-width: 768px) {
     .form-register__title2  {
         color: #E3F7FF;
-        font-size: 20px;
+        font-size: 4.2vw;
         font-style: normal;
         font-weight: 700;
-        line-height: 30px; /* 150% */
+        line-height: normal; /* 150% */
         letter-spacing: 0.03px;
     } 
     .input-custom::placeholder {

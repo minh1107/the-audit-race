@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useEffect } from 'react'
 import bgImg from '@/assets/images/slide.png'
 import Image from 'next/image'
 import '@/scss/page/form.css'
@@ -9,7 +9,7 @@ import mail from '@/assets/images/svg/mail.svg'
 import phone from '@/assets/images/svg/phone.svg' 
 import local from '@/assets/images/svg/local.svg' 
 import * as Yup from "yup";
-import { Formik, Form } from "formik";
+import { Formik, Form, ErrorMessage } from "formik";
 import InputCustom from '@/components/tags/InputCustom'
 import RadioCustom from '@/components/tags/RadioCustom'
 import TextAreaCustom from '@/components/tags/TextAreaCustom'
@@ -107,7 +107,7 @@ const validationSchema = Yup.object().shape({
   ACCA: Yup.string().required("Trường này là bắt buộc"),
   ACCATime: Yup.string().required("Trường này là bắt buộc"),
 });
-console.log(validationSchema)
+
 const FormRegister = () => {
   const initialValues = {
     name: '',
@@ -134,21 +134,14 @@ const FormRegister = () => {
   
     return `${day}/${month}/${year} ${hours}:${minutes}:${seconds}`;
   }
-
-  const handleSubmit = (values, { isSubmitting, resetForm  }) => {
-    console.log(values)
+  
+  const handleSubmit = (values, { isSubmitting, resetForm, validate   }) => {
+    console.log(validate)
     let {name , ...res} = values
     const currentTime = getCurrentDateTime()
     name =  name + " (" + currentTime + ")"
-    Swal.fire({
-      position: 'center',
-      icon: 'success',
-      title: 'Gửi thành công thông tin!',
-      showConfirmButton: false,
-      timer: 1500
-    })      
     if (!isSubmitting) {
-      fetch('https://sheetdb.io/api/v1/', {
+      fetch('https://sheetdb.io/api/v1/xyy24686aihea', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -160,12 +153,29 @@ const FormRegister = () => {
       })
       .then((response) => response.json())
       .then((data) => {
-      resetForm()
-
+        if(data.message) {
+          Swal.fire('Bạn chưa điền đủ thông tin vui lòng xem lại!', 'Lỗi', "warning")
+        } else {
+          resetForm()
+          Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Gửi thành công thông tin!',
+            showConfirmButton: false,
+            timer: 1500
+          })  
+        }
       });
     } else {
     }
   };
+  const handleCheckValidate = (isValid, errors) => {
+    console.log(isValid, errors )
+    if(isValid == false) {
+      Swal.fire('Bạn chưa điền đủ thông tin vui lòng xem lại!', 'Lỗi', "warning")
+    }
+  }
+  
   
   return (
     <div className='max-md:mt-[20vw]' id='register'>
@@ -200,17 +210,19 @@ const FormRegister = () => {
             </div>
           </div>
           <div className='w-[0.10019vw] h-auto  line__vertical max-md:hidden translate-y-[-0.75vw]'></div>
-          <div className='ml-[5.16vw] w-[58.1875vw] max-md:w-full form-register max-md:ml-0 max-md:pl-[3vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
+          <div className='ml-[5.16vw] w-[58.1875vw] max-md:w-full form-register max-md:ml-0 max-md:pl-[7.96vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
               <h1 className='form-register__title text-[4.1875vw] mb-[3.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
               max-md:mb-[6.4vw]'>
                   <span className='max-md:leading-normal'>Đăng ký tham gia</span><p className='font-bold max-md:text-[6.4vw] leading-normal'>Đêm chung kết
               </p></h1>
               <Formik
+                 validateOnChange={true}
+                 validateOnBlur={false}
                 initialValues={initialValues}
                 validationSchema={validationSchema}
                 onSubmit={handleSubmit}
               >
-                {({ isValid, isSubmitting }) => (
+                {({ isValid, isSubmitting, errors }) => (
                   <Form>
                     <TextForm text={'THÔNG TIN CÁ NHÂN'}/>
                     <div className='max-md:mb-[6.4vw] mb-[2vw]'></div>
@@ -246,12 +258,11 @@ const FormRegister = () => {
                     <TextAreaCustom number={10} text={'Bạn có câu hỏi gì dành cho BTC không?'} placeholder={'Điền câu hỏi của bạn'} 
                     required={false} name={'question'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
-
                     <p className='check'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
-                    <ButtonCustom text={"Gửi đơn đăng ký"}/>
+                    <ButtonCustom onclick={() => handleCheckValidate(isValid, errors)} text={"Gửi đơn đăng ký"}/>
                     <div className='mb-[12.18vw] max-md:mb-[18.6vw]'></div>
                   </Form>
-                )}
+)}
               </Formik>
           </div>
         </div>

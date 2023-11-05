@@ -151,15 +151,8 @@ export default function FormSubmit({status, setStatus}) {
     let {name , ...res} = values
     const currentTime = getCurrentDateTime()
     name =  name + " (" + currentTime + ")"
-    Swal.fire({
-      position: 'center',
-      icon: 'success',
-      title: 'Gửi thành công thông tin!',
-      showConfirmButton: false,
-      timer: 1500
-    })      
     if (!isSubmitting) {
-      fetch('https://sheetdb.io/api/v1/4yqzxxzpugq4j', {
+      const res = fetch('https://sheetdb.io/api/v1/4yqzxxzpugq4j', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -169,11 +162,8 @@ export default function FormSubmit({status, setStatus}) {
           data: [{name: name, ...res}]
         })
       })
-      .then((response) => response.json())
-      .then((data) => {
-      resetForm()
 
-      });
+      console.log(res)
     } else {
     }
   };

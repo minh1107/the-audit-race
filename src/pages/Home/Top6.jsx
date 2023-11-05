@@ -7,21 +7,21 @@ import avatar from '../../../public/976a23d80fc7011be6aee1ee2db9c01b.png'
 
 const Avatar = ({className}) => {
     return (
-        <div className={`avatar-container flex ${className}`}>
-            <div className='avatar-frame flex mx-auto flex-col items-center'>
+        <div className={`avatar-container max-md:mx-auto flex ${className}`}>
+            <div className='avatar-frame flex mx-auto max-md:mx-0 flex-col items-center'>
                 <Image alt='' className='rounded-full' src={avatar}/>
-                <div className=''>
+                <div className='max-md:mt-[4vw]'>
                     <div className='flex w-full mb-[1.1vw] mt-[1.44vw] gap-[0.44vw]'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
+                        <svg className='max-md:self-center' xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                         <path d="M21.9784 14.3575L38.6982 14.3567L34.5096 12.6175H21.9784L3.82573 0.199895H0.713001L21.9784 14.3575Z" fill="#FFC6FD"/>
                         </svg>
-                        <p className='name w-[16.25vw] font-exoFont line-clamp-1 '>Phạm Đình Bảo Anh</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
+                        <p className='name max-md:w-full w-[16.25vw] font-exoFont line-clamp-1 '>Phạm Đình Bảo Anh</p>
+                        <svg className='max-md:self-center' xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                             <path d="M17.1454 14.3575L0.425537 14.3567L4.61418 12.6175H17.1454L35.298 0.199895H38.4108L17.1454 14.3575Z" fill="#FFC6FD"/>
                         </svg>
                     </div>
-                    <p className='text-center content font-exoFont'>Quán quân hành trình kinh doanh 2022</p>
-                    <p className='text-center content font-exoFont'>Fiancial Manager tại HANOI PUACA</p>
+                    <p className='text-center content font-exoFont line-clamp-1 max-md:'>Quán quân hành trình kinh doanh 2022</p>
+                    <p className='text-center content font-exoFont line-clamp-1'>Fiancial Manager tại HANOI PUACA</p>
                     
                 </div>
             </div>
@@ -31,10 +31,10 @@ const Avatar = ({className}) => {
 
 const Top6 = () => {
   return (
-    <div className='relative h-[100vw] pt-[6vw]' id='top6'>
+    <div className='relative h-[100vw] max-md:h-[750vw] pt-[6vw]' id='top6'>
         <div className='bg-[#01026D] absolute -z-10 top-0 bottom-0 right-0 left-0'></div>
         <Image src={bgimg} className='absolute -z-10 h-[100vw]' alt='hello' /> 
-        <Top6bg1 className={'absolute top-[11vw] flex justify-between w-full'}/>
+        <Top6bg1 className={'absolute max-md:top-[-2vw] top-[11vw] flex justify-between w-full'}/>
         <div className='flex items-center gap-[1vw] w-full justify-center'>
             <Row1 />
             <p className='title1 font-exoFont'>ĐÊM CHUNG KẾT</p>
@@ -42,7 +42,7 @@ const Top6 = () => {
         </div>
         <p className='title2 font-exoFont'>Velocity Unleash</p>
         <p className='title3 font-exoFont'>TOP  6 THÍ SINH XUẤT SẮC NHẤT</p>
-        <div className='absolute flex flex-wrap justify-between gap-y-[1.5vw] mx-[10.75vw] mt-[5.19vw]'>
+        <div className='absolute flex flex-wrap justify-between gap-y-[1.5vw] max-md:items-center mx-[10.75vw] mt-[5.19vw]'>
             <Avatar />
             {/* <Avatar className={'mt-[2.62vw]'}/> */}
             <Avatar />
