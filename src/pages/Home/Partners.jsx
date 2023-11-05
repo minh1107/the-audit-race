@@ -25,16 +25,16 @@ const Partners = () => {
         <div className='flex justify-between max-md:pr-[6.25vw]'>
             {/* <h2>Thể lệ</h2>
             <div>Icon</div> */}
-            <Image src={partnerTitle} alt='partners__title' width={359} height={143} className='w-[22.4375vw] max-md:w-[42.9vw]'></Image>
+            <Image data-aos="fade-up" src={partnerTitle} alt='partners__title' width={359} height={143} className='w-[22.4375vw] max-md:w-[42.9vw]'></Image>
             <Image src={barImg} alt='bar' width={328.9} height={65.55} className='w-[20.55625vw] max-md:w-[27.7vw]'></Image>
         </div>
         <div className='mt-[9.3125vw] flex flex-col gap-[4.5vw]'>
             {data.map((item, index) => (
                 <div key={index} className='pb-[0.5vw] border-b border-solid border-[#493BA1] max-md:pb-[1vw]'>
-                    <h2 className='font-exoFont text-[1.5vw] font-bold leading-[2.25] text-[#FFC6FD] uppercase max-md:text-[3.7vw]'>{item.title}</h2>
-                    <div className='flex gap-[2vw] mt-[1.5vw] max-md:mt-[3.4vw] max-md:flex-nowrap max-md:gap-[6vw] max-md:overflow-scroll whitespace-nowrap'>
+                    <h2 data-aos="fade-up" className='font-exoFont text-[1.5vw] font-bold leading-[2.25] text-[#FFC6FD] uppercase max-md:text-[3.7vw]'>{item.title}</h2>
+                    <div data-aos="fade-up" className='flex gap-[2vw] mt-[1.5vw] max-md:mt-[3.4vw] max-md:flex-nowrap max-md:gap-[6vw] max-md:overflow-scroll whitespace-nowrap'>
                     {item.partner.map((itm, indx) => (
-                        <div key={indx} className='max-md:flex-shrink-0'> 
+                        <div data-aos="fade-up" key={indx} className='max-md:flex-shrink-0'> 
                             {/* <h3 className='text-[#A824A4] text-[1vw] leading-[2.14] uppercase max-md:text-[2.4vw] max-md:whitespace-nowrap'>{itm.title}</h3> */}
                             <Image src={itm.src} alt="partner__picture" width={408} height={83} 
                             className={`w-auto h-[5.1875vw] object-contain max-md:h-[12vw] 

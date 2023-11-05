@@ -31,21 +31,21 @@ const Overview = () => {
   };
   return (
       <div className='relative' id='gioithieu'>
-        <Image src={backgroundOverView} alt='background' className='absolute top-0 left-0 h-full -z-10 max-md:h-[186vw]'/>
+        <Image  src={backgroundOverView} alt='background' className='absolute top-0 left-0 h-full -z-10 max-md:h-[186vw]'/>
         <div className='pt-[5.84vw]'>
-          <Image src={overviewTitle} alt='title' className='mx-auto z-100 max-md:w-[80.976vw] max-md:h-[8.3064vw]'/>
+          <Image data-aos="fade-up" src={overviewTitle} alt='title' className='mx-auto z-100 max-md:w-[80.976vw] max-md:h-[8.3064vw]'/>
           <div className='mr-[11.69vw] max-2xl:mr-[5.69vw]  ml-[7.96vw] flex mt-[3.86vw] gap-[2.75vw] max-md:flex-col-reverse max-md:mt-[12.93vw]'>
             <div className='w-[45vw] max-md:w-full'>
               <Image src={tradingImg} alt='Racing boy' className='absolute top-[12.37vw] w-[45.56438vw] h-[23.52638vw] object-fill
                max-md:static max-md:w-[76.6616vw] max-md:h-[39.58vw]'/>
-              <Image src={racingBoyImg} alt='Trading' className='absolute bottom-[40%] w-[45vw] h-[24.5vw] object-contain
+              <Image data-aos="fade-right" src={racingBoyImg} alt='Trading' className='absolute bottom-[40%] w-[45vw] h-[24.5vw] object-contain
                max-md:w-[86.6616vw] max-md:h-[49.58vw] max-md:bottom-[15%]'/>
             </div>
             <div className='w-[32.60094vw] max-2xl:w-[38.60094vw] max-md:w-full mb-[5vw] text-justify'>
-              <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold leading-[2.25vw]
+              <h3 data-aos="fade-up" className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold leading-[2.25vw]
                space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal max-md:mb-[3.2vw]'>{overview?.titleTop}</h3> 
-              <p className='text-[#E3F7FF] mb-[0.75vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentTop1}</p>
-              <p className='text-[#E3F7FF] mb-[2.25vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentTop2}</p>
+              <p data-aos="fade-up" className='text-[#E3F7FF] mb-[0.75vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentTop1}</p>
+              <p data-aos="fade-up" className='text-[#E3F7FF] mb-[2.25vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentTop2}</p>
               {/* <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold 
               max-md:mb-[3.2vw] leading-[2.25vw] space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal'>{overview?.titleBottom}</h3>  */}
               {/* <p className='text-[#E3F7FF] mb-[3.12vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentBottom}</p> */}

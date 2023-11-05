@@ -20,15 +20,15 @@ const FinalRules = () => {
         <Image src={background} fill alt='final__background' className='top-0 left-0 z-[-3]'></Image>
         <div className='flex gap-[0.5vw] items-center max-md:justify-center'>
             <Image src={arrow} alt='arrow' width={54.48} height={27.71} className='w-[3.405vw] max-md:hidden'></Image>
-            <h2 className='font-exoFont text-[3vw] font-bold text-[#A4DEFF] leading-[1.5] uppercase max-md:text-[8.8vw]'> Thể lệ chung kết </h2>
+            <h2 data-aos="fade-up" className='font-exoFont text-[3vw] font-bold text-[#A4DEFF] leading-[1.5] uppercase max-md:text-[8.8vw]'> Thể lệ chung kết </h2>
         </div>
         <div className='flex max-md:flex-col'>
             {data.map((item, index) => (
                 <div className={`py-[5.25vw] px-[4.3125vw] relative w-[29.75vw] ${index!==0 ? 'ml-[-1vw] max-md:ml-0 max-md:mt-[-5vw]' : 'ml-0'} ${index===0 && 'mt-[12vw]'} ${index===1 && 'mt-[6vw]'} max-md:w-full max-md:py-[16.8vw] max-md:px-[13.8vw]`} key={index}>
-                    <h4 className='text__gradient2 text-[1.25vw] leading-[1.5] tracking-[0.03px] max-md:text-[4vw]'> {item.subtitle} </h4>
-                    <h3 className='text__gradient2 text-[1.75vw] leading-[1.28] tracking-[0.07px] font-bold uppercase max-md:text-[5.3vw]'>{item.title}</h3>
-                    <div dangerouslySetInnerHTML={{__html: item.description}} className='mt-[1vw] text-[#A4DEFF] text-[1vw] leading-[1.5] tracking-[-0.08px] max-md:text-[3.2vw] max-md:mt-[3.2vw]'></div>
-                    <div className='flex gap-[0.75vw] mt-[1.9375vw] max-md:gap-[2.1vw] max-md:mt-[5.6vw]'>
+                    <h4 data-aos="fade-up" className='text__gradient2 text-[1.25vw] leading-[1.5] tracking-[0.03px] max-md:text-[4vw]'> {item.subtitle} </h4>
+                    <h3 data-aos="fade-up" className='text__gradient2 text-[1.75vw] leading-[1.28] tracking-[0.07px] font-bold uppercase max-md:text-[5.3vw]'>{item.title}</h3>
+                    <div data-aos="fade-up" dangerouslySetInnerHTML={{__html: item.description}} className='mt-[1vw] text-[#A4DEFF] text-[1vw] leading-[1.5] tracking-[-0.08px] max-md:text-[3.2vw] max-md:mt-[3.2vw]'></div>
+                    <div data-aos="fade-up" className='flex gap-[0.75vw] mt-[1.9375vw] max-md:gap-[2.1vw] max-md:mt-[5.6vw]'>
                         <svg className='w-[1.125vw] max-md:w-[3.46vw]' xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
                             <path opacity="0.8" d="M9.19852 0H0.773926L10.3103 9.13346L0.773926 18.2664H9.19852L18.7349 9.13346L9.19852 0Z" fill="#FA75F6"/>
                         </svg>

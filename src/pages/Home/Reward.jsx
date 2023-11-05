@@ -2,7 +2,7 @@
 import React, { useRef } from 'react'
 import Image from 'next/image'
 import rewardBg from '@/assets/images/rewardBg.png'
-import rewardTitle from '@/assets/images/svg/rewardItem.svg'
+import rewardTitle from '@/assets/images/rewardItem.png'
 import reward4 from '@/assets/images/reward4.png'
 import reward5 from '@/assets/images/reward5.png'
 import reward6 from '@/assets/images/reward6.png'
@@ -99,7 +99,7 @@ const Reward = () => {
     <div className='relative px-[6.25vw] pt-[7.8125vw] pb-[8.875vw] mt-[-0.1vw] max-md:mt-[-0.7vw] z-51' id="giaithuong">
         <Image fill src={rewardBg} alt='reward__bg' className='absolute top-0 left-0 object-cover z-[-1]'></Image>
         <div className='flex flex-col items-center'>
-            <Image width={540.74} height={143.65} src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[100vw]'></Image>
+            <Image width={540.74} height={143.65} data-aos="fade-up" src={rewardTitle} alt='reward__title' className='w-[33.75vw] max-md:w-[100vw]'></Image>
             <div className='flex mt-[13.3125vw] gap-[1.875vw] relative max-md:flex-col max-md:mt-[44.8vw] max-md:gap-[40vw]'>
                 <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] left-0 top-0 max-md:hidden'></Image>
                 <Image src={arrow4} width={63} height={33} className='absolute w-[3.9375vw] right-0 top-[4.5vw] max-md:hidden'></Image>
@@ -114,7 +114,7 @@ const Reward = () => {
                         <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                     </svg>
                 </div>
-                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-y-[0.5vw] gap-x-[3vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
+                <ul data-aos="fade-up" className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-y-[0.5vw] gap-x-[3vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 5.000.000VNĐ
                     </li>
@@ -169,7 +169,7 @@ const Reward = () => {
                         <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                     </svg>
                 </div>
-                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
+                <ul data-aos="fade-up" className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 8.000.000VNĐ
                     </li>
@@ -224,7 +224,7 @@ const Reward = () => {
                         <path d="M29.8865 0.879395L0.174309 0.880327L7.61779 2.90775H29.8865L62.145 17.3825H67.6765L29.8865 0.879395Z" fill="#FFC6FD"/>
                     </svg>
                 </div>
-                <ul className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
+                <ul data-aos="fade-up" className='text-[#A4DEFF] px-[2.3125vw] list-disc mt-[1.8125vw] text-[0.875vw] h-[20vw] overflow-hidden flex flex-col gap-[0.5vw] max-md:text-[2.6vw] max-md:gap-[1.6vw] max-md:h-[30vw] max-md:mt-[5.8vw] max-md:px-[6.9vw]'>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 3.000.000VNĐ
                     </li>
@@ -276,7 +276,7 @@ const Reward = () => {
                     <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw] max-md:w-[9.6vw]'></Image>
                     <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase max-md:text-[9.6vw]'>Top 6</h3>
                 </div>
-                <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
+                <ul data-aos="fade-up" className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
                         <b className='font-bold'>Hiện Kim:</b> 1.000.000VNĐ
                     </li>
@@ -322,7 +322,7 @@ const Reward = () => {
                     <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw] max-md:w-[9.6vw]'></Image>
                     <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase max-md:text-[9.6vw]'>Top 30</h3>
                 </div>
-                <ul className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
+                <ul data-aos="fade-up" className='text-[#A4DEFF] list-disc mt-[0.75vw] text-[0.875vw] flex flex-col gap-[0.5vw] max-md:text-[3.2vw] max-md:h-0 max-md:overflow-hidden max-md:pl-[4vw]'>
                     <li>
                         <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) tại Smart Train, trị giá 45.080.000 VNĐ
                     </li>
@@ -350,7 +350,7 @@ const Reward = () => {
                 </ul>
                 <div onClick={button5Handler} className='hidden underline text-[#A4DEFF] text-[3.2vw] max-md:block'>Chi tiết giải thưởng</div>
             </div>
-            <div className='w-[29.375vw] max-md:w-full max-md:flex max-md:flex-col max-md:items-center'>
+            <div data-aos="fade-up" className='w-[29.375vw] max-md:w-full max-md:flex max-md:flex-col max-md:items-center'>
                 <div className='flex items-center gap-[0.5vw] max-md:gap-[2.1vw]'>
                     <Image src={arrow} width={35.92} height={18.27} alt='arrow' className='w-[2.1875vw] max-md:w-[9.6vw]'></Image>
                     <h3 className='font-exoFont text-[2.25vw] text-[#FF9EFC] font-bold leading-[1.5] uppercase max-md:text-[9.6vw]'>Top 200</h3>

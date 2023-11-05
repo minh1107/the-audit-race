@@ -29,16 +29,16 @@ const Footer = () => {
   return (
     <div className='flex footer flex-col' id='vechungtoi'>
         <div className='flex bg-[#000018] relative text-white pt-[8.19vw] pb-[6.12vw] max-md:flex-col max-md:pt-[19.09vw] max-md:pb-[18.488vw]'>
-            <Image src={footerBlur} alt='background' className='absolute top-0 w-[24vw] blur-2xl right-[10%] -z-10'/>
+            <Image  src={footerBlur} alt='background' className='absolute top-0 w-[24vw] blur-2xl right-[10%] -z-10'/>
             <Image src={footerLogoUp} alt='' className='absolute w-[18.875vw] h-[18.875vw] top-[-50%] left-[2%] z-50 translate-y-[50%] max-md:hidden'/>
             <Image src={footerLogoDown} alt='' className='absolute w-[31.5vw] h-[31.5vw] top-[-50%] left-[-4%] translate-y-[10%] z-30 max-md:hidden'/>
-            <div className='footer__left font-exoFont flex flex-col ml-[28.62vw] max-md:ml-[7.736vw]'>
+            <div data-aos="fade-up" className='footer__left font-exoFont flex flex-col ml-[28.62vw] max-md:ml-[7.736vw]'>
                 <h2 className='text-[1.25vw] mb-[1vw] max-md:text-[3.2vw] max-md:mb-[1.06vw] max-md:leading-[166%]'>VỀ CHÚNG TÔI</h2>
                 <h2 className='w-[19.25vw] mb-[2.31vw] max-md:text-[5.3vw] max-md:leading-[150%] max-md:mb-[4.34vw] max-md:w-[67.11vw]'>CLB KIỂM TOÁN VIÊN TƯƠNG LAI t.FAC - NEU</h2>
                 <p className='text-[0.875vw] footer__content max-md:w-[84.29vw] max-md:leading-[150%] max-md:text-[3.2vw]'>
                     Hoạt động dưới sự bảo trợ của Viện Kế toán - Kiểm toán trường Đại học Kinh tế Quốc dân (SAA) và Hiệp Hội Kế toán Công chứng Anh Quốc (ACCA), CLB Kiểm toán viên tương lai t.FAC đã trải qua 18 năm hình thành và phát triển, tiếp tục thực hiện sứ mệnh đồng hành cùng các bạn sinh viên Kế - Kiểm trên con đường chinh phục tương lai của mình.</p>
             </div>
-            <div className='ml-[6.25vw] footer__right contract mr-[1.7vw] max-md:ml-[7.736vw] max-md:mt-[18.568vw]'>
+            <div data-aos="fade-up" className='ml-[6.25vw] footer__right contract mr-[1.7vw] max-md:ml-[7.736vw] max-md:mt-[18.568vw]'>
               <h2 className='text-[1.25vw]  mb-[1.06vw] footer__right-title max-md:text-[5.33vw] max-md:mb-[6.2vw]'>LIÊN HỆ</h2>
               <div className='flex flex-col gap-[0.5vw]'>
                 <Link href={'https://www.facebook.com/theauditrace'} className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw]
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
         <div className='relative'>
             <Image src={backgroundFooter} alt='background' className='absolute -z-10 h-[20.7vw] w-full max-md:h-[100vw]'/>
-            <div className='flex justify-between mx-[6.25vw] mb-[1.02vw] mt-[10.38vw] max-md:mt-[25.24vw] max-md:mb-[6.48vw] max-md:mx-[2.93vw]'>
+            <div data-aos="fade-up" className='flex justify-between mx-[6.25vw] mb-[1.02vw] mt-[10.38vw] max-md:mt-[25.24vw] max-md:mb-[6.48vw] max-md:mx-[2.93vw]'>
                 <div className='self-end'>
                     <p className='font-exoFont text-[1vw] font-normal leading-[1.5vw]
                      text-[#E3F7FF] mb-[1.19vw] uppercase max-md:leading-[150%] max-md:text-[4.26vw] max-md:mb-[6.13vw]'>QUICK LINKS</p>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const RadioCustom = ({number, text, required, data}) => {
   return (
-    <div className='relative'>
+    <div data-aos="fade-up" className='relative'>
     <label className='font-exoFont text-[1.25vw] font-bold  text-[#E3F7FF] mr-[1.12vw] max-md:text-[4.26vw]'>{number}. {text}{required ? '*' : ''}</label>
     <div className='flex flex-col justify-center gap-[0.88vw] mt-[1.62vw] max-md:gap-[1.4vw] max-md:mt-[2.818vw] max-md:mb-[10vw]'>
       {

@@ -3,7 +3,7 @@ import React from 'react'
 
 const TextAreaCustom = ({number, text, required, name, placeholder}) => {
   return (
-    <div className='flex max-md:flex-col gap-[1vw]'>   
+    <div data-aos="fade-up" className='flex max-md:flex-col gap-[1vw]'>   
         <label className='font-exoFont text-[1.5vw] font-bold leading-[2.25vw] text-[#E3F7FF] mr-[1.12vw] max-md:text-[4.26vw] 
         max-md:leading-[6.4vw] max-md:mb-[6.4vw]' htmlFor={name}>{number}. {text}{required ? '*' : ''}:</label>
         <Field className="input-custom flex-1 border-[0.0625vw] outline-none bg-transparent 

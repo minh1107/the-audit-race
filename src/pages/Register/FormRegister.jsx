@@ -198,14 +198,14 @@ const FormRegister = () => {
         <div className='flex z-50'>
           <div className='max-md:hidden'>
             <div className='ml-[6.25vw] mt-[5.62vw] w-[24.9568vw] contract mr-[1.7vw]'>
-              <h2 className='contract__title mb-[1.06vw]'>THEO DÕI CUỘC THI</h2>
+              <h2 data-aos="fade-up" className='contract__title mb-[1.06vw]'>THEO DÕI CUỘC THI</h2>
               <div className='flex flex-col gap-[0.5vw]'>
                 <Link href={'https://www.facebook.com/theauditrace'} className='w-fit cursor-pointer font-exoFont contract__button flex mr-[0.5vw]
                 px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center '>
-                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CUỘC THI</span> <Image src={toRight} className='ml-[0.5vw]' alt='img'/></Link>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal' data-aos="fade-up">FANPAGE CUỘC THI</span> <Image src={toRight} className='ml-[0.5vw]' alt='img'/></Link>
                 <Link href={'https://www.facebook.com/club.tFAC.neu'} className='w-fit cursor-pointer font-exoFont contract__button max-md:mt-[2vw]
                 flex mr-[0.5vw] px-[1.12vw] py-[0.38vw] border-[#8B8B8B] rounded-full border-[1px] items-center'>
-                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal'>FANPAGE CLB t.FAC</span> <Image src={toRight} className='ml-[0.5vw]' alt='img'/></Link>
+                    <span className='max-md:text-[4.26vw] max-md:py-[1.6vw] max-md:px-[4.8vw] max-md:font-normal' data-aos="fade-up">FANPAGE CLB t.FAC</span> <Image src={toRight} className='ml-[0.5vw]' alt='img'/></Link>
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@ const FormRegister = () => {
           <div className='ml-[5.16vw] w-[58.1875vw] max-md:w-full form-register max-md:ml-0 max-md:pl-[7.96vw] max-md:mr-[3vw] max-md:overflow-x-hidden'>
               <h1 className='form-register__title text-[4.1875vw] mb-[3.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
               max-md:mb-[6.4vw]'>
-                  <span className='max-md:leading-normal'>Đăng ký tham gia</span><p className='font-bold max-md:text-[6.4vw] leading-normal'>Đêm chung kết
+                  <span className='max-md:leading-normal' data-aos="fade-up">Đăng ký tham gia</span><p className='font-bold max-md:text-[6.4vw] leading-normal' data-aos="fade-up">Đêm chung kết
               </p></h1>
               <Formik
                  validateOnChange={true}
@@ -258,7 +258,7 @@ const FormRegister = () => {
                     <TextAreaCustom number={10} text={'Bạn có câu hỏi gì dành cho BTC không?'} placeholder={'Điền câu hỏi của bạn'} 
                     required={false} name={'question'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
-                    <p className='check'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
+                    <p data-aos="fade-up" className='check'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
                     <ButtonCustom onclick={() => handleCheckValidate(isValid, errors)} text={"Gửi đơn đăng ký"}/>
                     <div className='mb-[12.18vw] max-md:mb-[18.6vw]'></div>
                   </Form>

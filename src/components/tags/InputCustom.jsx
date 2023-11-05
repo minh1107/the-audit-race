@@ -4,7 +4,7 @@ import '@/scss/page/form.css'
 
 const InputCustom = ({number, text, required, name, placeholder, classText}) => {
   return (
-    <div className='max-md:flex max-md:flex-col max-md:!w-[80vw] flex relative'>   
+    <div data-aos="fade-up" className='max-md:flex max-md:flex-col max-md:!w-[80vw] flex relative'>   
         <label className={`font-exoFont ${classText} text-[1.25vw] font-bold leading-normal text-[#E3F7FF] mr-[1.12vw]
         max-md:text-[4.26vw] max-md:mb-[2.3vw]`} htmlFor={name}>{number}. {text}{required ? '*' : ''}:</label>
         <Field className="input-custom border-[0.0625vw] outline-none bg-transparent 

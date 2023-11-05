@@ -9,19 +9,19 @@ const Avatar = ({className}) => {
     return (
         <div className={`avatar-container max-md:mx-auto flex ${className}`}>
             <div className='avatar-frame flex mx-auto max-md:mx-0 flex-col items-center'>
-                <Image alt='' className='rounded-full' src={avatar}/>
+                <Image data-aos="fade-up" alt='' className='rounded-full' src={avatar}/>
                 <div className='max-md:mt-[4vw]'>
                     <div className='flex w-full mb-[1.1vw] mt-[1.44vw] gap-[0.44vw]'>
                         <svg className='max-md:self-center' xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                         <path d="M21.9784 14.3575L38.6982 14.3567L34.5096 12.6175H21.9784L3.82573 0.199895H0.713001L21.9784 14.3575Z" fill="#FFC6FD"/>
                         </svg>
-                        <p className='name max-md:w-full w-[16.25vw] font-exoFont line-clamp-1 '>Phạm Đình Bảo Anh</p>
+                        <p className='name max-md:w-full w-[16.25vw] font-exoFont line-clamp-1 ' data-aos="fade-up">Phạm Đình Bảo Anh</p>
                         <svg className='max-md:self-center' xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                             <path d="M17.1454 14.3575L0.425537 14.3567L4.61418 12.6175H17.1454L35.298 0.199895H38.4108L17.1454 14.3575Z" fill="#FFC6FD"/>
                         </svg>
                     </div>
-                    <p className='text-center content font-exoFont line-clamp-1 max-md:'>Quán quân hành trình kinh doanh 2022</p>
-                    <p className='text-center content font-exoFont line-clamp-1'>Fiancial Manager tại HANOI PUACA</p>
+                    <p className='text-center content font-exoFont line-clamp-1 max-md:' data-aos="fade-up">Quán quân hành trình kinh doanh 2022</p>
+                    <p className='text-center content font-exoFont line-clamp-1' data-aos="fade-up">Fiancial Manager tại HANOI PUACA</p>
                     
                 </div>
             </div>
@@ -37,11 +37,11 @@ const Top6 = () => {
         <Top6bg1 className={'absolute max-md:top-[-2vw] top-[11vw] flex justify-between w-full'}/>
         <div className='flex items-center gap-[1vw] w-full justify-center'>
             <Row1 />
-            <p className='title1 font-exoFont'>ĐÊM CHUNG KẾT</p>
+            <p className='title1 font-exoFont' data-aos="fade-up">ĐÊM CHUNG KẾT</p>
             <Row1 classname={'rotate-180'} />
         </div>
-        <p className='title2 font-exoFont'>Velocity Unleash</p>
-        <p className='title3 font-exoFont'>TOP  6 THÍ SINH XUẤT SẮC NHẤT</p>
+        <p className='title2 font-exoFont' data-aos="fade-up">Velocity Unleash</p>
+        <p className='title3 font-exoFont' data-aos="fade-up">TOP  6 THÍ SINH XUẤT SẮC NHẤT</p>
         <div className='absolute flex flex-wrap justify-between gap-y-[1.5vw] max-md:items-center mx-[10.75vw] mt-[5.19vw]'>
             <Avatar />
             {/* <Avatar className={'mt-[2.62vw]'}/> */}
@@ -60,7 +60,7 @@ export default Top6
 
 const Row1 = ({classname}) => {
     return ( 
-        <svg className={`${classname} w-[9.00244vw] h-[5.30775vw] mb-[-1vw]`} xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 150 106" fill="none">
+        <svg data-aos="fade-up" className={`${classname} w-[9.00244vw] h-[5.30775vw] mb-[-1vw]`} xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 150 106" fill="none">
   <g filter="url(#filter0_ddd_5212_1223)">
     <path d="M95.409 27H71L98.6301 53.4628L71 79.9241H95.409L123.039 53.4628L95.409 27Z" fill="url(#paint0_linear_5212_1223)"/>
   </g>
@@ -129,7 +129,7 @@ const Row1 = ({classname}) => {
 
 
 const Top6bg1 = ({className}) => (
-    <svg width="1447" className={className} height="234" viewBox="0 0 1447 234" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-aos="fade-up" width="1447" className={className} height="234" viewBox="0 0 1447 234" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_f_4981_476)">
 <ellipse cx="723.5" cy="117" rx="670.5" ry="63.9999" transform="rotate(-180 723.5 117)" fill="url(#paint0_linear_4981_476)" fill-opacity="0.4"/>
 </g>
