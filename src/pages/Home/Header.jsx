@@ -35,7 +35,7 @@ const Header = () => {
             <Link data-aos="fade-right" data-aos-duration="400" href={'/'}><Image src={bigLogo} alt='logo' className='w-max h-[4.00894vw] object-contain mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[10.53vw]'/></Link>
             <ul className='flex gap-[0.25vw] mr-[1.5vw] max-md:hidden'>
             <Link data-aos="fade-right" data-aos-duration="400"
-                      href={'/'} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
+                      href={'/'} className='text-[1vw] header__item font-bold font-exoFont uppercase px-[1vw] '>
                         Trang chủ
                     </Link>
             {
@@ -43,7 +43,7 @@ const Header = () => {
                     if(index !== 0)
                     return (
                         <Link data-aos="fade-right" data-aos-duration="400" onClick={pathname !== '/form-register' && handleScroll} 
-                          href={index === 0 ? '/' : pathname !== '/form-register' ? item?.link : `/${item?.link}`} key={item?.id} className='text-[1vw] font-bold font-exoFont uppercase px-[1vw] '>
+                          href={index === 0 ? '/' : pathname !== '/form-register' ? item?.link : `/${item?.link}`} key={item?.id} className='text-[1vw] header__item font-bold font-exoFont uppercase px-[1vw] '>
                             {item?.name}
                         </Link>
                     )
@@ -52,7 +52,7 @@ const Header = () => {
             </ul>
             {/* {pathname !== '/form-register' && <Link className='max-md:hidden' href={'/form-register'}>
                 <ButtonCustom onclick={() => setStatus(true)} text={'Đăng ký tham gia'} /></Link>} */}
-            <Link data-aos="fade-right" data-aos-duration="400" href={'#register'} onClick={handleScroll}> <ButtonCustom text={'Đăng ký tham gia'} /></Link>
+            <Link data-aos="fade-right" data-aos-duration="400" href={'#register'} className='max-md:hidden' onClick={handleScroll}> <ButtonCustom text={'Đăng ký tham gia'} /></Link>
             <div className='max-md:flex hidden items-center gap-[4.32vw]'>
                 {/* <Link href={'/form-register'}><ButtonCustom text={'Đăng ký dự thi'} /></Link> */}
                 {!show && <div className='hidden max-md:block' onClick={() => setShow(true)}>

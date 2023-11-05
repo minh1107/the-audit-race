@@ -16,7 +16,7 @@ const data = [
   [{subtitle: 'Training & Networking (29/10)', 
   description:'<p>Top 30 thí sinh xuất sắc nhất sẽ được tham gia buổi Training & Networking để được bồi dưỡng các kiến thức chuyên môn giúp ích cho việc giải case study Vòng 3 và gặp gỡ, làm quen các đồng đội và Mentor.</p>'}, 
   {subtitle: 'Giải Case Study', description: '<p style="margin-top: 1vw">30 thí sinh sẽ được chia thành 6 đội, mỗi đội sẽ có 05 thành viên và thực hiện giải một case study về Kiểm toán trong vòng 3 ngày dưới sự tư vấn của các Mentor - các Senior trong các Công ty Kiểm toán lớn.</p>'},
-  {subtitle: 'Pitching & Debate (05/11)', description:'<p>Các đội sẽ thuyết trình phần Giải Case Study, tranh biện với nhau và trả lời câu hỏi từ Ban Giám khảo.</p>'}] , goal:'Kết thúc vòng 3, 06 thí sinh xuất sắc nhất sẽ bước vào Vòng 4 - Đêm Chung kết.'},
+  {subtitle: 'Pitching & Debate (05/11)', description:'TOP 6 thí sinh được chia thành 2 đội và giải một Case Studye cho trước. Tại đêm Chung kết, các đội sẽ thuyết trình, phản biện với nhau và trả lời câu hỏi của Ban Giám khảo.'}] , goal:'Kết thúc vòng 3, 06 thí sinh xuất sắc nhất sẽ bước vào Vòng 4 - Đêm Chung kết.'},
 
 ]
 const Rules = () => {

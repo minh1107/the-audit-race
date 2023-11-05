@@ -55,33 +55,33 @@ const learnACCATime = [
 const cheer = [
   {
     name: 'cheer',
-    value: 'examiner',
-    nameValue: 'Khám giả'
+    value: 'Mai Thu Trang',
+    nameValue: 'Mai Thu Trang'
   },
   {
     name: 'cheer',
-    value: 'cheerleading',
-    nameValue: 'Đội cổ vũ'
+    value: 'Đào Uy Đạt',
+    nameValue: 'Đào Uy Đạt'
   },
   {
     name: 'cheer',
-    value: 'cheerleading',
-    nameValue: 'Đội cổ vũ'
+    value: 'Ngô Tuấn Đức',
+    nameValue: 'Ngô Tuấn Đức'
   },
   {
     name: 'cheer',
-    value: 'cheerleading',
-    nameValue: 'Đội cổ vũ'
+    value: 'Lý Bảo Việt',
+    nameValue: 'Lý Bảo Việt'
   },
   {
     name: 'cheer',
-    value: 'cheerleading',
-    nameValue: 'Đội cổ vũ'
+    value: 'Lương Hoàng Nga',
+    nameValue: 'Lương Hoàng Nga'
   },
   {
     name: 'cheer',
-    value: 'cheerleading',
-    nameValue: 'Đội cổ vũ'
+    value: 'Chu Minh Ánh',
+    nameValue: 'Chu Minh Ánh'
   },
 ]
 
@@ -89,7 +89,7 @@ const attendWith = [
   {
     name: 'attend',
     value: 'examiner',
-    nameValue: 'Khám giả'
+    nameValue: 'Khán giả'
   },
   {
     name: 'attend',
@@ -240,13 +240,13 @@ const FormRegister = () => {
                     placeholder={'Ghi đầy đủ tên trường (VD: Trường Đại học Kinh Tế Quốc Dân)'} required={true} name={'school'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
 
-                    <InputCustom number={5} text={'Mã sinh viên'} placeholder={'Ghi đầy đủ mã sinh viên'} required={false} name={'msv'}/>
+                    <InputCustom number={5} text={'Mã sinh viên'} placeholder={'Ghi đầy đủ mã sinh viên nếu bạn là sinh viên trường Đại học Kinh tế Quốc dân'} required={false} name={'msv'}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
 
                     <RadioCustom number={6} text={'Bạn tham gia với tư cách:'} required={true}  data={attendWith}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
 
-                    <CheckBoxCustom number={7} text={'Bạn là cổ động viên của thí sinh nào? (Đối vởi đội cổ vũ)'} required={false}  data={cheer}/>
+                    <CheckBoxCustom number={7} text={'Bạn là cổ động viên của thí sinh nào? (Đối với đội cổ vũ)'} required={false}  data={cheer}/>
                     <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
 
                     <RadioCustom number={8} text={'Bạn có dự định học ACCA không?'} required={true}  data={learnACCA}/>

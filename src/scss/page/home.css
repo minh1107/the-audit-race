@@ -37,3 +37,6 @@
   }
 
   
+.header__item {
+  -webkit-text-stroke: 0.4px #EC4AE7;
+}

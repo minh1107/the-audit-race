@@ -128,7 +128,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 90% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 43.488.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 90% học phí các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC, trị giá 43.488.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
@@ -183,7 +183,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 55% học phí các môn ACCA (từ MA đến APM), trị giá 61.895.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 100% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 48.320.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 100% học phí các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC, trị giá 48.320.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 100% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
@@ -238,7 +238,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (từ F1 đến F9) tại BISC.
+                        <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC.
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
@@ -287,7 +287,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) trị giá 45.080.000 VNĐ đến từ Smart Train
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (từ F1 đến F9), trị giá 28.992.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (level Applied Knowledge và level Applied Skills), trị giá 28.992.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 50% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
@@ -327,7 +327,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) tại Smart Train, trị giá 45.080.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 45% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 21.744.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 45% học phí các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC, trị giá 21.744.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse.
@@ -398,7 +398,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 90% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 43.488.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 90% học phí các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC, trị giá 43.488.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
@@ -456,7 +456,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 55% học phí các môn ACCA (từ MA đến APM), trị giá 61.895.000VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 100% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 48.320.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 100% học phí các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC, trị giá 48.320.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 100% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp.
@@ -514,7 +514,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 45% học phí các môn ACCA (từ MA đến APM), trị giá 50.715.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (từ F1 đến F9) tại BISC.
+                        <b className='font-bold'>BISC:</b> Học bổng 75% trị giá 36.240.000VNĐ dành cho các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC.
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 70% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse
@@ -569,7 +569,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) trị giá 45.080.000 VNĐ đến từ Smart Train
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (từ F1 đến F9), trị giá 28.992.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 60% học phí các môn ACCA (level Applied Knowledge và level Applied Skills), trị giá 28.992.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp đến từ ST Lighthouse
@@ -616,7 +616,7 @@ const Reward = () => {
                         <b className='font-bold'>Smart Train:</b> Học bổng 40% học phí các môn ACCA (từ MA đến APM) tại Smart Train, trị giá 45.080.000 VNĐ
                     </li>
                     <li>
-                        <b className='font-bold'>BISC:</b> Học bổng 45% học phí các môn ACCA (từ F1 đến F9) tại BISC, trị giá 21.744.000VNĐ
+                        <b className='font-bold'>BISC:</b> Học bổng 45% học phí các môn ACCA (level Applied Knowledge và level Applied Skills) tại BISC, trị giá 21.744.000VNĐ
                     </li>
                     <li>
                         <b className='font-bold'>ST Lighthouse:</b> Học bổng 30% 1 trong 3 khóa học: Luyện giọng, MC cơ bản, MC chuyên nghiệp tại ST Lighthouse.

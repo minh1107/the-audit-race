@@ -84,12 +84,13 @@ const Footer = () => {
                             <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white text-[3.2vw] uppercase' href={pathname == '/form-register' ? '/' : '#home'}>TRANG CHỦ</Link>
                             <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#gioithieu' : '#gioithieu'}>Giới thiệu</Link>
                             <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#thele' : '#thele'}>Thể lệ</Link>
-                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[0.75vw]' href={pathname == '/form-register' ? '/#top6' : '#top6'}>Top 6</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#top6' : '#top6'}>Top 6</Link>
                         </div>
                         <div className='flex flex-col justify-between'>
                             <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#giaithuong' : '#giaithuong'}>Giải thưởng</Link>
                             <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#doitac' : '#doitac'}>Đối tác</Link>
                             <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw]' href={pathname == '/form-register' ? '/#vechungtoi' : '#vechungtoi'}>Về chúng tôi</Link>
+                            <Link onClick={pathname !== '/form-register' && handleScroll} className='text-white uppercase text-[3.2vw] opacity-0' href={pathname == '/form-register' ? '/#vechungtoi' : '#vechungtoi'}>""</Link>
                         </div>
                     </ul>
                 </div>
