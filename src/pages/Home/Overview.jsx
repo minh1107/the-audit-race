@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import { overview } from '@/utils/resources'
 import Image from 'next/image'
 import racingBoyImg from '@/assets/images/svg/logo.png'
@@ -13,8 +14,21 @@ import Line2 from '@/components/common/Line2'
 import ButtonCustom from '@/components/tags/ButtonCustom'
 import Line from '@/components/common/Line'
 import Link from 'next/link'
+import FormSubmit from './FormSubmit'
 
 const Overview = () => {
+  const [status, setStatus] = useState(false)
+  
+  const handleScroll = (e) => {
+    e.preventDefault();
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+    
+  };
   return (
       <div className='relative' id='gioithieu'>
         <Image src={backgroundOverView} alt='background' className='absolute top-0 left-0 h-full -z-10 max-md:h-[186vw]'/>
@@ -35,7 +49,8 @@ const Overview = () => {
               {/* <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold 
               max-md:mb-[3.2vw] leading-[2.25vw] space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal'>{overview?.titleBottom}</h3>  */}
               {/* <p className='text-[#E3F7FF] mb-[3.12vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentBottom}</p> */}
-              <ButtonCustom text={'ĐĂNG KÝ tham gia'} className='hidden max-md:block absolute bottom-[32.3%] mt-[6vw] -z-10 right-[31.69vw] max-md:static'/>
+              <ButtonCustom onclick={() => setStatus(true)} text={'ĐĂNG KÝ tham gia'} 
+              className='hidden max-md:block absolute bottom-[32.3%] mt-[6vw] -z-10 right-[31.69vw] max-md:static'/>
             </div>
           </div>
           <div className='absolute bottom-[34%] translate-y-[20%]  -z-10'>
@@ -47,7 +62,9 @@ const Overview = () => {
           max-md:w-[49.66vw] max-md:h-[10.87vw] max-md:left-[-10%]'/>
           <Image src={ellipse} alt='' className='absolute bottom-[33.3%] opacity-70 -z-10 right-[7.6vw] h-[2vw] w-[29.52119vw] max-md:bottom-[20%]
           max-md:w-[49.66vw] max-md:h-[10.87vw]'/>
-          <Link href={'/form-register'}><ButtonCustom text={'ĐĂNG KÝ tham gia'} className='absolute bottom-[32.3%] -z-10 right-[31.69vw] max-md:static max-md:hidden'/></Link>
+            <Link href={'#register'} onClick={handleScroll}> 
+              <ButtonCustom onclick={() => setStatus(true)} text={'ĐĂNG KÝ tham gia'} className='absolute bottom-[32.3%] -z-10 right-[31.69vw] max-md:static max-md:hidden'/>
+            </Link>
           <div className='max-md:block hidden absolute bottom-[18%] left-[-78%] -z-10 overflow-x-hidden'>
           <svg xmlns="http://www.w3.org/2000/svg" width="700px" height="10" viewBox="0 0 375 10" fill="none">
             <g filter="url(#filter0_d_4676_8707)">
@@ -75,7 +92,7 @@ const Overview = () => {
           <TimeDown />
           <Line2 />
         </div>
-        
+        {/* <FormSubmit setStatus={setStatus} status={status}/> */}
     </div>
   )
 }

@@ -125,7 +125,7 @@
 
 .bg__blur {
     width: 74.14vw;
-    height: 61.05019vw;
+    height: 51.05019vw;
     transform: rotate(-54.1deg);
     flex-shrink: 0;
     fill: #FF00F7;
@@ -205,7 +205,7 @@
         line-height: 4.3vw; /* 133.333% */
         letter-spacing: 0.5px;
         width: 80vw;
-        margin-top: 13.8vw;
+        margin-top: 4.8vw;
         margin-bottom: 6.4vw;
     }
     .contract__button {

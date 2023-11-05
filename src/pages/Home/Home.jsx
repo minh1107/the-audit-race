@@ -8,6 +8,8 @@ import Reward from './Reward'
 import Partners from './Partners'
 import Registers from './Register'
 import '@/scss/page/home.css'
+import FormRegister from '../Register/FormRegister'
+import Top6 from './Top6'
 
 const Home = () => {
   return (
@@ -16,7 +18,9 @@ const Home = () => {
       <Overview /> 
       {/* <TarSharing />   */}
       {/* <Rules /> */}
+      <FormRegister />
       <FinalRules />
+      <Top6 />
       <Reward />
       <Partners />
       {/* <Registers /> */}

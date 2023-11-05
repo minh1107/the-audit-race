@@ -29,15 +29,15 @@ h1,h2,h3,h4,h5,p,span{
 }
 
 .title__color {
-  background: var(--gradient-1, linear-gradient(92deg, #F07DED 0.27%, #EC4AE7 51.91%, #F281EF 99.31%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 7px rgba(173, 0, 255, 0.88);
+  text-shadow: 0px 0px 7px rgba(174, 0, 255, 0.658);
   font-size: 2.25vw;
   font-style: normal;
   font-weight: 700;
   line-height: 3.375vw;
+  background: linear-gradient(92deg, #F07DED 0.27%, #EC4AE7 51.91%, #F281EF 99.31%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .background2 {
@@ -216,4 +216,45 @@ p {
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+}
+
+#style-16::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#style-16::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-16::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+  #style-16::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#style-16::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+#style-16::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: gray;
+}
+
 }

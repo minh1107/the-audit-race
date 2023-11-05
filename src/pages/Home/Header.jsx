@@ -27,6 +27,7 @@ const Header = () => {
         });
         
       };
+
     return (
     <div id='home' className={`absolute z-50 top-0 header whitespace-nowrap overflow-x-hidden max-md:h-[14.6408vw] ${show && 'max-md:bg-[#01026D]'} max-md:fixed`}>
         <div className=' flex text-main h-[5.94vw] items-center mx-[7.16vw] mr-[16.19vw] justify-between 
@@ -51,9 +52,9 @@ const Header = () => {
             </ul>
             {/* {pathname !== '/form-register' && <Link className='max-md:hidden' href={'/form-register'}>
                 <ButtonCustom onclick={() => setStatus(true)} text={'Đăng ký tham gia'} /></Link>} */}
-            <ButtonCustom onclick={() => setStatus(true)} text={'Đăng ký tham gia'} />
+            <Link href={'#register'} onClick={handleScroll}> <ButtonCustom text={'Đăng ký tham gia'} /></Link>
             <div className='max-md:flex hidden items-center gap-[4.32vw]'>
-                <Link href={'/form-register'}><ButtonCustom text={'Đăng ký dự thi'} /></Link>
+                {/* <Link href={'/form-register'}><ButtonCustom text={'Đăng ký dự thi'} /></Link> */}
                 {!show && <div className='hidden max-md:block' onClick={() => setShow(true)}>
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                     <path d="M3.57617 7.45117H21.5762" stroke="#FFD5FE" stroke-width="1.5" stroke-linecap="round"/>
@@ -69,7 +70,7 @@ const Header = () => {
         </div>
         <Line2 />
         {show && <Navbar setShow={setShow}/>}
-        <FormSubmit setStatus={setStatus} status={status}/>
+        {/* <FormSubmit setStatus={setStatus} status={status}/> */}
     </div>
   )
 }
