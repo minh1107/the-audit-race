@@ -49,8 +49,11 @@ const Overview = () => {
               {/* <h3 className='text-[1.75vw] font-exoFont mb-[0.75vw] font-bold 
               max-md:mb-[3.2vw] leading-[2.25vw] space-[0.00438vw] text__color max-md:text-[3.73vw] max-md:leading-normal'>{overview?.titleBottom}</h3>  */}
               {/* <p className='text-[#E3F7FF] mb-[3.12vw] max-md:text-[2.4vw] max-md:mb-[3.2vw]'>{overview?.contentBottom}</p> */}
+            <Link href={'#register'} onClick={handleScroll}> 
               <ButtonCustom onclick={() => setStatus(true)} text={'ĐĂNG KÝ tham gia'} 
               className='hidden max-md:block absolute bottom-[32.3%] mt-[6vw] -z-10 right-[31.69vw] max-md:static'/>
+            </Link>
+
             </div>
           </div>
           <div className='absolute bottom-[34%] translate-y-[20%]  -z-10'>
