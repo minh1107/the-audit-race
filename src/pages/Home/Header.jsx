@@ -1,21 +1,17 @@
 "use client";
-import React, { useState } from "react";
-import logoImg from "@/assets/images/logo.png";
+import { useState } from "react";
 import Image from "next/image";
 import { headerPaths } from "@/utils/paths";
 import Link from "next/link";
 import ButtonCustom from "@/components/tags/ButtonCustom";
-import Line from "@/components/common/Line";
 import bigLogo from "@/assets/images/BigLogo.png";
 import Line2 from "@/components/common/Line2";
 import { usePathname } from "next/navigation";
 import Navbar from "./Navbar";
 import closeImg from "@/assets/images/svg/close.svg";
-import FormSubmit from "./FormSubmit";
 
 const Header = () => {
   const [show, setShow] = useState();
-  const [status, setStatus] = useState(false);
   const pathname = usePathname();
   const handleScroll = (e) => {
     e.preventDefault();
@@ -43,6 +39,7 @@ const Header = () => {
             src={bigLogo}
             alt="logo"
             className="w-max h-[4.00894vw] object-contain mr-[2.5vw] max-md:w-[32.1104vw] max-md:h-[10.53vw]"
+            priority
           />
         </Link>
         <ul className="flex gap-[0.25vw] mr-[1.5vw] max-md:hidden">
@@ -76,8 +73,7 @@ const Header = () => {
               );
           })}
         </ul>
-        {/* {pathname !== '/form-register' && <Link className='max-md:hidden' href={'/form-register'}>
-                <ButtonCustom onclick={() => setStatus(true)} text={'Đăng ký tham gia'} /></Link>} */}
+
         <Link
           data-aos="fade-right"
           data-aos-duration="400"
@@ -129,7 +125,6 @@ const Header = () => {
       </div>
       <Line2 />
       {show && <Navbar setShow={setShow} />}
-      {/* <FormSubmit setStatus={setStatus} status={status}/> */}
     </div>
   );
 };
