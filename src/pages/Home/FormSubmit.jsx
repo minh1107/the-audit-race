@@ -139,7 +139,7 @@ export default function FormSubmit({status, setStatus}) {
   
     const day = currentDate.getDate().toString().padStart(2, '0');
     const month = (currentDate.getMonth() + 1).toString().padStart(2, '0');
-    const year = currentDate.getFullYear().toString().slice(-2); 
+    const year = currentDate.getFullYear().toString().slice(-2); s
     const hours = currentDate.getHours().toString().padStart(2, '0');
     const minutes = currentDate.getMinutes().toString().padStart(2, '0');
     const seconds = currentDate.getSeconds().toString().padStart(2, '0');
@@ -228,7 +228,7 @@ export default function FormSubmit({status, setStatus}) {
 
                       <InputCustom number={10} text={'Bạn có câu hỏi gì dành cho BTC không?'} placeholder={'Tên của bạn'} name={'name'}/>
                       <div className='mb-[2.5vw] max-md:mb-[6.4vw]'></div>
-                      <p className='check max-md:block hidden'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN THAM GIA VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
+                      <p className='hidden check max-md:block'>HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN THAM GIA VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!</p>
                       <Button onClick={onclick} type="submit" className={`font-bold leading-[1.5vw] text-[1vw] uppercase 
                       text-[#FFF8FF] h-[3.375vw] w-[14.9375vw] px-[1.5vw] shadow-button bg-button
                       rounded-full border-[0.09375vw] max-md:block hidden border-[#FFDBC7] max-md:w-[50.4vw] 
