@@ -99,8 +99,8 @@ const validationSchema = Yup.object().shape({
   phone: Yup.string().required("Trường này là bắt buộc"),
   school: Yup.string().required("Trường này là bắt buộc"),
   attend: Yup.string().required("Trường này là bắt buộc"),
-  ACCA: Yup.string().required("Trường này là bắt buộc"),
-  ACCATime: Yup.string().required("Trường này là bắt buộc"),
+  // ACCA: Yup.string().required("Trường này là bắt buộc"),
+  // ACCATime: Yup.string().required("Trường này là bắt buộc"),
 });
 
 const FormRegister = () => {
@@ -277,17 +277,17 @@ const FormRegister = () => {
               </p></h1> */}
             <Image
               src={dkdtk}
-              className="w-[30vw] mt-[5.69vw] max-md:w-[60vw] mb-[3.12vw] ml-[-0.66vw] select-none max-lg:hidden"
+              className="w-[30vw] mt-[5.69vw] max-md:w-[60vw] mb-[3.12vw] ml-[-0.66vw] select-none "
               alt="dkdtk"
             />
-            <div className="flex items-center lg:hidden max-md:mt-[5.33vw] max-md:mb-[6.4vw]">
-              <ChervonMb
+            {/* <div className="flex items-center lg:hidden max-md:mt-[5.33vw] max-md:mb-[6.4vw]"> */}
+              {/* <ChervonMb
                 className={"max-md:w-[6.22vw] max-md:h-[5.14vw] mr-[0.94vw]"}
-              />
-              <h2 className="max-md:text-[5.33vw] max-md:font-bold max-md:leading-normal max-md:tracking-[0.008vw] text-[#E3F7FF]">
+              /> */}
+              {/* <h2 className="max-md:text-[5.33vw] max-md:font-bold max-md:leading-normal max-md:tracking-[0.008vw] text-[#E3F7FF]">
                 THÔNG TIN CÁ NHÂN
-              </h2>
-            </div>
+              </h2> */}
+            {/* </div> */}
             <Formik
               validateOnChange={true}
               validateOnBlur={false}
@@ -367,7 +367,7 @@ const FormRegister = () => {
                   />
                   <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
-                  <RadioCustom
+                  {/* <RadioCustom
                     number={8}
                     text={"Bạn có dự định học ACCA không?"}
                     required={true}
@@ -380,11 +380,11 @@ const FormRegister = () => {
                     text={"Bạn dự định học ACCA trong khoảng thời gian nào?"}
                     required={true}
                     data={learnACCATime}
-                  />
-                  <div className="mb-[4vw]"></div>
+                  /> */}
+                  {/* <div className="mb-[4vw]"></div> */}
 
                   <TextAreaCustom
-                    number={10}
+                    number={8}
                     text={"Bạn có câu hỏi gì dành cho BTC không?"}
                     placeholder={"Điền câu hỏi của bạn"}
                     required={false}

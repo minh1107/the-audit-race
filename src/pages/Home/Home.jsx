@@ -27,7 +27,6 @@ const Home = () => {
       <Reward />
       <FormRegister />
       <FinalRules />
-      
       <Partners />
     </div>
   );
