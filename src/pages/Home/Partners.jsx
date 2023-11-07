@@ -154,7 +154,7 @@ const Partners = () => {
                             }
                             ${
                               index === 6
-                                ? "scale-100 bg-white h-[4.1875vw] w-[12.6vw]"
+                                ? "scale-100 bg-white max-md:w-auto h-[4.1875vw] "
                                 : ""
                             }
                             `}
