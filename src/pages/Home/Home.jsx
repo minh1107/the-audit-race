@@ -23,10 +23,11 @@ const Home = () => {
     <div className="overflow-hidden">
       <Slide />
       <Overview />
-      <FormRegister />
-      <FinalRules />
       <Top6 />
       <Reward />
+      <FormRegister />
+      <FinalRules />
+      
       <Partners />
     </div>
   );
