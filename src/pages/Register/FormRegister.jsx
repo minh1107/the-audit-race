@@ -173,7 +173,7 @@ const FormRegister = () => {
               icon: "success",
               title: "Gửi thành công thông tin!",
               showConfirmButton: false,
-              timer: 1500,
+              timer: 5000,
             });
           }
         });
