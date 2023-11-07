@@ -53,7 +53,7 @@ const data = [
       {
         subtitle: "Pitching & Debate (05/11)",
         description:
-          "TOP 6 thí sinh được chia thành 2 đội và giải một Case Studye cho trước. Tại đêm Chung kết, các đội sẽ thuyết trình, phản biện với nhau và trả lời câu hỏi của Ban Giám khảo.",
+          "TOP 6 thí sinh được chia thành 2 đội và giải một Case Study cho trước. Tại đêm Chung kết, các đội sẽ thuyết trình, phản biện với nhau và trả lời câu hỏi của Ban Giám khảo.",
       },
     ],
     goal: "Kết thúc vòng 3, 06 thí sinh xuất sắc nhất sẽ bước vào Vòng 4 - Đêm Chung kết.",

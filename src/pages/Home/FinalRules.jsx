@@ -9,7 +9,7 @@ import subtract from '@/assets/images/Subtract.png'
 import subtract2 from '@/assets/images/subtract2.png'
 
 const data = [
-  {title: 'Case study', subtitle: 'Chặng 4.1', description:'<p>TOP 6 thí sinh được chia thành 2 đội và giải một Case Studye cho trước. Tại đêm Chung kết, các đội sẽ thuyết trình, phản biện với nhau và trả lời câu hỏi của Ban Giám khảo.</p>', goal:'<p>04 thí sinh có số điểm cao nhất sau Chặng 4.1 sẽ được đi tiếp vào Chặng 4.2</p>'},
+  {title: 'Case study', subtitle: 'Chặng 4.1', description:'<p>TOP 6 thí sinh được chia thành 2 đội và giải một Case Study cho trước. Tại đêm Chung kết, các đội sẽ thuyết trình, phản biện với nhau và trả lời câu hỏi của Ban Giám khảo.</p>', goal:'<p>04 thí sinh có số điểm cao nhất sau Chặng 4.1 sẽ được đi tiếp vào Chặng 4.2</p>'},
   {title: 'TRẢ LỜI CÂU HỎI', subtitle: 'Chặng 4.2', description:'<p>04 thí sinh trả lời các câu hỏi trắc nghiệm và tự luận ngắn trong lĩnh vực: Kế toán - Kiểm toán.</p>' , goal:'<p>03 thí sinh có tổng số điểm Chặng 4.1 và 4.2 cao nhất sẽ bước tiếp vào Chặng 4.3</p>'},
   {title: 'HÙNG BIỆN', subtitle: 'Chặng 4.3', description:'<p>03 thí sinh hùng biện và trả lời các câu hỏi của Ban Giám khảo về một chủ đề mà BTC cung cấp trong đêm Chung kết.</p><p style="margin-top: 0.5vw">Thứ tự hùng biện được các thí sinh bốc thăm ngay trên sân khấu.</p>' , goal:'<p>Thí sinh có tổng điểm cao nhất sau 3 chặng sẽ trở thành Quán quân của cuộc thi.</p> <p>Các thí sinh có số điểm cao tiếp theo sẽ lần lượt trở thành Á quân 1 và Á quân 2</p>'}
 
