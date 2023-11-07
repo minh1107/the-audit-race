@@ -39,7 +39,7 @@ const Overview = () => {
             <div className='w-[45vw] max-md:w-full'>
               <Image src={tradingImg} alt='Racing boy' className='absolute top-[12.37vw] w-[45.56438vw] h-[23.52638vw] object-fill
                max-md:static max-md:w-[76.6616vw] max-md:z-[-100] max-md:h-[39.58vw]'/>
-              <Image src={racingBoyImg} alt='Trading' className='absolute bottom-[-6vw] left-0 w-[60vw] h-[35vw] object-contain
+              <Image src={racingBoyImg} alt='Trading' className='absolute bottom-[-6vw] left-0 w-[60vw] h-[30vw] object-contain
                max-md:w-[86.6616vw] max-md:h-[49.58vw] max-md:bottom-[-6%] max-md:left-[8vw]'/>
             </div>
             <div className='w-[32.60094vw] max-2xl:w-[38.60094vw] max-md:w-full mb-[5vw] text-justify'>

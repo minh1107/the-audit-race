@@ -25,8 +25,8 @@ const Home = () => {
       <Overview />
       <Top6 />
       <Reward />
-      <FormRegister />
       <FinalRules />
+      <FormRegister />
       <Partners />
     </div>
   );

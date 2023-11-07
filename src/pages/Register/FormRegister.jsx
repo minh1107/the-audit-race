@@ -182,6 +182,7 @@ const FormRegister = () => {
   return (
     <div id="register">
       <div className="bg-[#01026D] relative">
+      <Line2 />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="absolute rotate-45 bg__blur top-0 left-[0%] !w-[30vw] !h-[28vw]"
@@ -391,10 +392,10 @@ const FormRegister = () => {
                     name={"question"}
                   />
                   <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
-                  <p data-aos="fade-up" className="check">
+                  {/* <p data-aos="fade-up" className="check">
                     HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ
                     VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!
-                  </p>
+                  </p> */}
                   <ButtonCustom
                     onclick={() => handleCheckValidate(isValid, errors)}
                     text={"Gửi đơn đăng ký"}

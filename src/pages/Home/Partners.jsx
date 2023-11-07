@@ -5,6 +5,8 @@ import partnerBg from "@/assets/images/partnerBg.png";
 import partnerTitle from "@/assets/images/svg/partner.svg";
 
 const data = [
+  {title: 'Bảo trợ chuyên môn', partner: [{title:'ACCA', src:'/ACCA.jpg'}, {title:'SAA',src:'/SAA.png'}]},
+{title: 'Đối tác chuyên môn', partner: [{title:'Pwc',src:'/pwc.png'}, {title:'Grant thorton', src:'/grantthornton.png'}]},
   {
     title: "Nhà tài trợ bạch kim",
     partner: [{ title: "SAPP", src: "/update/sap.png" }],
@@ -24,20 +26,20 @@ const data = [
       { title: "Ace the Future", src: "/ace.png" },
     ],
   },
-  {
-    title: "Bảo trợ chuyên môn",
-    partner: [
-      { title: "GRANT THORNTON ", src: "/grant.jpg" },
-      { title: "PWC", src: "/pwc.png" },
-    ],
-  },
-  //   {
-  //     title: "Đối tác chuyên môn",
-  //     partner: [
-  //       { title: "Pwc", src: "/pwc.png" },
-  //       { title: "Grant thorton", src: "/grantthornton.png" },
-  //     ],
-  //   },
+  // {
+  //   title: "Bảo trợ chuyên môn",
+  //   partner: [
+  //     { title: "GRANT THORNTON ", src: "/grant.jpg" },
+  //     { title: "PWC", src: "/pwc.png" },
+  //   ],
+  // },
+    // {
+    //   title: "Đối tác chuyên môn",
+    //   partner: [
+    //     { title: "Pwc", src: "/pwc.png" },
+    //     { title: "Grant thorton", src: "/grantthornton.png" },
+    //   ],
+    // },
   {
     title: "Nhà tài trợ hiện vật",
     partner: [

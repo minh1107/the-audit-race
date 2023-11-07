@@ -38,7 +38,7 @@ const Top6 = () => {
   return (
     <div className='relative h-[100vw] max-md:h-[200vw]  pt-[6vw]' id='top6'>
         <div className='bg-[#01026D] absolute -z-10 top-0 bottom-0 right-0 left-0'></div>
-        <Image src={bgimg} className='absolute -z-10 h-[100vw] max-md:h-[200vw]' alt='hello' /> 
+        <Image src={bgimg} className='absolute -z-10 w-full h-[100vw] max-md:h-[200vw]' alt='hello' /> 
         <Top6bg1 className={'absolute max-md:top-[-2vw] top-[11vw] flex justify-between w-full'}/>
         <div className='flex items-center gap-[1vw] w-full justify-center'>
             <Row1 />
