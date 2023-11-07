@@ -16,7 +16,7 @@ const data = [
 ]
 const FinalRules = () => {
   return (
-    <div className='relative w-full pt-[4.1875vw] px-[5.9375vw] pb-[19.4375vw] mt-[-0.2vw] max-md:px-[2.6vw] max-md:pb-[26.6vw] max-md:mt-[-1vw]'>
+    <div id="thele" className='relative w-full pt-[4.1875vw] px-[5.9375vw] pb-[19.4375vw] mt-[-0.2vw] max-md:px-[2.6vw] max-md:pb-[26.6vw] max-md:mt-[-1vw]'>
         <Image src={background} fill alt='final__background' className='top-0 left-0 z-[-3]'></Image>
         <div className='flex gap-[0.5vw] items-center max-md:justify-center'>
             <Image src={arrow} alt='arrow' width={54.48} height={27.71} className='w-[3.405vw] max-md:hidden'></Image>

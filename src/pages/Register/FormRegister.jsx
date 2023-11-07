@@ -269,7 +269,7 @@ const FormRegister = () => {
               </div>
             </div>
           </div>
-          <div className="w-[0.10019vw] h-auto  line__vertical max-md:hidden translate-y-[-0.75vw]"></div>
+          <div className="w-[0.10019vw] h-auto  line__vertical max-md:hidden translate-y-[-0vw]"></div>
           <div className="ml-[5.16vw] w-[58.1875vw] max-md:w-full form-register max-md:ml-0 max-md:pl-[7.96vw] max-md:mr-[3vw] max-md:overflow-x-hidden">
             {/* <h1 className='form-register__title text-[4.1875vw] mb-[3.12vw] mt-[3.97vw] font-exoFont uppercase max-md:text-[5.3vw] 
               max-md:mb-[6.4vw]'>
