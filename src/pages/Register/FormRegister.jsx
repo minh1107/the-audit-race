@@ -55,27 +55,27 @@ const cheer = [
   },
   {
     name: "cheer",
-    value: "Đào Uy Đạt",
+    value: "Dao Uy Dat",
     nameValue: "Đào Uy Đạt",
   },
   {
     name: "cheer",
-    value: "Ngô Tuấn Đức",
+    value: "Ngo Tuan Duc",
     nameValue: "Ngô Tuấn Đức",
   },
   {
     name: "cheer",
-    value: "Lý Bảo Việt",
+    value: "Ly Bao Viet",
     nameValue: "Lý Bảo Việt",
   },
   {
     name: "cheer",
-    value: "Lương Hoàng Nga",
+    value: "Luong hoang Nga",
     nameValue: "Lương Hoàng Nga",
   },
   {
     name: "cheer",
-    value: "Chu Minh Ánh",
+    value: "Chu Minh Anh",
     nameValue: "Chu Minh Ánh",
   },
 ];
