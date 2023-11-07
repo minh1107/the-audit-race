@@ -135,6 +135,17 @@ const FormRegister = () => {
     let { name, ...res } = values;
     const currentTime = getCurrentDateTime();
     name = name + " (" + currentTime + ")";
+    let timerInterval;
+    Swal.fire({
+      html: "Đang gửi dữ liệu lên",
+      timerProgressBar: true,
+      didOpen: () => {
+        Swal.showLoading();
+      },
+      willClose: () => {
+        clearInterval(timerInterval);
+      }
+    })
     if (!isSubmitting) {
       fetch("https://sheetdb.io/api/v1/xyy24686aihea", {
         method: "POST",
@@ -148,6 +159,7 @@ const FormRegister = () => {
       })
         .then((response) => response.json())
         .then((data) => {
+          
           if (data.message) {
             Swal.fire(
               "Bạn chưa điền đủ thông tin vui lòng xem lại!",
@@ -165,8 +177,7 @@ const FormRegister = () => {
             });
           }
         });
-    } else {
-    }
+    } 
   };
   const handleCheckValidate = (isValid, errors) => {
     console.log(isValid, errors);
