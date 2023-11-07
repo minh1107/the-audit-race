@@ -42,9 +42,7 @@ z-index: 0;
     height: 17.325vw;
     flex-shrink: 0;
     border-radius: 17.325vw;
-    border: 1px solid #FFC6FD;
-    border-radius: 17.325vw;
-    border: 8px solid #FFC6FD;
+    border: 0.5rem solid #FFC6FD;
     box-shadow: 0px 0px 31.68px 0px rgba(223, 97, 255, 0.38), 0px 0px 9.68px 0px rgba(255, 97, 239, 0.33), 0px 0px 66px 0px rgba(233, 97, 255, 0.59), 0px 0px 15.84px 0px rgba(252, 97, 255, 0.06), 0px 0px 17.6px 0px rgba(228, 57, 183, 0.20);
     }
 
@@ -78,17 +76,17 @@ letter-spacing: -0.005vw;
 
 @media only screen and (max-width: 768px) {
     .avatar-container {
-        width: auto;
-        height: 118.74133vw;
+        width: 38vw;
+        height: 51.74133vw;
     }
     .avatar-frame {
-        width: 73.92vw;
-        height: 73.92vw;
+        width: 28.26667vw;
+        height: 28.26667vw;
         flex-shrink: 0;
         border-radius: 73.92vw;
         border: 1px solid #FFC6FD;
         border-radius: 73.92rem;
-        border: 8px solid #FFC6FD;
+        border: 4px solid #FFC6FD;
         box-shadow: 0px 0px 31.68px 0px rgba(223, 97, 255, 0.38), 0px 0px 9.68px 0px rgba(255, 97, 239, 0.33), 0px 0px 66px 0px rgba(233, 97, 255, 0.59), 0px 0px 15.84px 0px rgba(252, 97, 255, 0.06), 0px 0px 17.6px 0px rgba(228, 57, 183, 0.20);
     }
     .title2 {
@@ -97,24 +95,16 @@ letter-spacing: -0.005vw;
     }
     .name {
         text-align: center;
-        /* outer 2 */
         text-shadow: 0px 0px 10px #FA75F6;
-
-        /* H4/Bold */
-        font-family: Exo;
-        font-size: 5.46667vw;
+        font-size: 2.73333vw;
         font-style: normal;
         font-weight: 700;
-        line-height: 9.6vw; /* 128.571% */
         letter-spacing: 0.01867vw;
     }
     .content {
         color: var(--primary-10, #A4DEFF);
         text-align: center;
-
-        /* Body/Bold */
-        font-family: Roboto;
-        font-size: 4.26667vw;
+        font-size: 2.66667vw;
         font-style: normal;
         font-weight: 700;
         line-height: 6.4vw; /* 150% */

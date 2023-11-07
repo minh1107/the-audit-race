@@ -5,23 +5,28 @@ import '@/scss/page/top6.css'
 import bgimg from '../../../public/bgtop6.png'
 import avatar from '../../../public/976a23d80fc7011be6aee1ee2db9c01b.png'
 
-const Avatar = ({className}) => {
-    return (
+const Avatar = ({className, img, id, name, school, id1, id2}) => {
+    return (  
         <div className={`avatar-container max-md:mx-auto flex ${className}`}>
-            <div className='avatar-frame flex mx-auto max-md:mx-0 flex-col items-center'>
-                <Image data-aos="fade-up" alt='' className='rounded-full' src={avatar}/>
-                <div className='max-md:mt-[4vw]'>
-                    <div className='flex w-full mb-[1.1vw] mt-[1.44vw] gap-[0.44vw]'>
+            <div className=' flex mx-auto max-md:mx-0 flex-col items-center'>
+                <div className='avatar-frame overflow-hidden'>
+                  <Image  alt='' className={`${id && 'w-[17.625vw] scale-125 h-[17.625vw] object-cover max-md:w-[87vw] max-md:h-[87vw] max-md:translate-y-[-20vw] max-md:scale-[100%]'}
+                  ${id1 && 'w-[16.625vw] scale-125 h-[23.625vw]  object-contain  max-md:w-[100vw] max-md:scale-[160%] max-md:translate-y-[7vw]'}
+                  ${id2 && 'w-[17.625vw] scale-125 h-[20.625vw] object-contain translate-x-[-1vw] max-md:translate-y-[-25vw] max-md:w-[87vw] max-md:h-[87vw]'}
+                  `} width={1000} height={1000} src={img}/>
+                </div>
+                <div className='max-md:mt-[2.13vw]'>
+                    <div className='flex w-full mb-[0.2vw] mt-[1.44vw] gap-[0.44vw]'>
                         <svg className='max-md:self-center' xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                         <path d="M21.9784 14.3575L38.6982 14.3567L34.5096 12.6175H21.9784L3.82573 0.199895H0.713001L21.9784 14.3575Z" fill="#FFC6FD"/>
                         </svg>
-                        <p className='name max-md:w-full w-[16.25vw] font-exoFont line-clamp-1 ' data-aos="fade-up">Phạm Đình Bảo Anh</p>
+                        <p className='name max-md:w-full w-[16.25vw] font-exoFont line-clamp-1 uppercase max-md:mt-[2vw]' data-aos="fade-up">{name}</p>
                         <svg className='max-md:self-center' xmlns="http://www.w3.org/2000/svg" width="39" height="15" viewBox="0 0 39 15" fill="none">
                             <path d="M17.1454 14.3575L0.425537 14.3567L4.61418 12.6175H17.1454L35.298 0.199895H38.4108L17.1454 14.3575Z" fill="#FFC6FD"/>
                         </svg>
                     </div>
-                    <p className='text-center content font-exoFont line-clamp-1 max-md:' data-aos="fade-up">Quán quân hành trình kinh doanh 2022</p>
-                    <p className='text-center content font-exoFont line-clamp-1' data-aos="fade-up">Fiancial Manager tại HANOI PUACA</p>
+                    <p className='text-center content font-exoFont line-clamp-1 max-md:text-[2.66667vw]' data-aos="fade-up">{school}</p>
+                    {/* <p className='text-center content font-exoFont line-clamp-1' data-aos="fade-up">Fiancial Manager tại HANOI PUACA</p> */}
                     
                 </div>
             </div>
@@ -31,26 +36,26 @@ const Avatar = ({className}) => {
 
 const Top6 = () => {
   return (
-    <div className='relative h-[100vw] max-md:h-[750vw] pt-[6vw]' id='top6'>
+    <div className='relative h-[100vw] max-md:h-[200vw]  pt-[6vw]' id='top6'>
         <div className='bg-[#01026D] absolute -z-10 top-0 bottom-0 right-0 left-0'></div>
-        <Image src={bgimg} className='absolute -z-10 h-[100vw]' alt='hello' /> 
+        <Image src={bgimg} className='absolute -z-10 h-[100vw] max-md:h-[200vw]' alt='hello' /> 
         <Top6bg1 className={'absolute max-md:top-[-2vw] top-[11vw] flex justify-between w-full'}/>
         <div className='flex items-center gap-[1vw] w-full justify-center'>
             <Row1 />
             <p className='title1 font-exoFont' data-aos="fade-up">ĐÊM CHUNG KẾT</p>
             <Row1 classname={'rotate-180'} />
         </div>
-        <p className='title2 font-exoFont' data-aos="fade-up">Velocity Unleash</p>
+        <Image src={'/velocity_unleash.png'} alt='vococentre' className='w-[40vw] mx-auto items-center' data-aos="fade-up" width={1000} height={1000}/> 
         <p className='title3 font-exoFont' data-aos="fade-up">TOP  6 THÍ SINH XUẤT SẮC NHẤT</p>
         <div className='absolute flex flex-wrap justify-between gap-y-[1.5vw] max-md:items-center mx-[10.75vw] mt-[5.19vw]'>
-            <Avatar />
+            <Avatar img={'/top1.jpg'} name={'Đào Uy Đạt'} school={'Trường Đại học Ngoại thương'}/>
             {/* <Avatar className={'mt-[2.62vw]'}/> */}
-            <Avatar />
-            <Avatar />
-            <Avatar />
-            {/* <Avatar className={'mt-[-2.62vw]'}/> */}
-            <Avatar />
-            <Avatar />
+            <Avatar img={'/top2.png'} id1={true} name={'Lương Hoàng Nga'} school={'Trường Đại học Ngoại thương'}/>
+            <Avatar img={'/top3.JPG'} id={true}  name={'Lý Bảo Việt'} school={'Trường Đại học Ngoại thương'}/>
+            <Avatar img={'/top4.jpg'} name={'Mai Thu Trang'} school={'Trường Đại học Kinh tế Quốc dân'}/>
+            {/* <Avatar className={'mt-[-2.62vw]'} name={''}/> */}
+            <Avatar img={'/top5.png'} id2={true} name={'Ngô Tuấn Đức'} school={'Trường Đại học Kinh tế Quốc dân'}/>
+            <Avatar img={'/top6.png'} name={'Chu Minh Ánh'} school={'Trường Đại học Kinh tế Quốc dân'}/>
         </div>
     </div>
   )

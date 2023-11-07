@@ -57,23 +57,24 @@ const data = [
       { title: "Esight", src: "/esight.png" },
       { title: "Ybox", src: "/ybox.png" },
       { title: "Edu2Review", src: "/edu2review.png" },
-      { title: "AAC", src: "/aac.jpg" },
-      { title: "ACCOUNTING & FINANCE CLUB", src: "/afc_ptit.jpg" },
+      // { title: "AAC", src: "/aac.jpg" },
+      // { title: "ACCOUNTING & FINANCE CLUB", src: "/afc_ptit.jpg" },
     ],
   },
-  //   {
-  //     title: "Bảo trợ hình ảnh",
-  //     partner: [{ title: "ynm_logo", src: "/ynm_logo.jpg" }],
-  //   },
-  //   {
-  //     title: "Đối tác truyền thông",
-  //     partner: [
-  //       { title: "A_A_aof", src: "/A_A_aof.png" },
-  //       { title: "AAC_thăng_long", src: "/AAC_thăng_long.png" },
-  //       { title: "afc_ptit", src: "/afc_ptit.jpg" },
-  //       { title: "Logo_AAC_BA", src: "/Logo_AAC_BA.png" },
-  //     ],
-  //   },
+    {
+      title: "Đối tác truyền thông",
+      partner: [
+        { title: "A_A_aof", src: "/A_A_aof.png" },
+        { title: "Logo_AAC_BA", src: "/Logo_AAC_BA.png" },
+        { title: "Logo_HRC", src: "/Logo_HRC.png" },
+        { title: "AAC_thăng_long", src: "/AAC_thăng_long.png" },
+        { title: "afc_ptit", src: "/afc_ptit.jpg" },
+      ],
+    },
+    {
+      title: "Bảo trợ hình ảnh",
+      partner: [{ title: "ynm_logo", src: "/ynm_logo.jpg" }],
+    },
 ];
 const Partners = () => {
   return (
@@ -147,8 +148,13 @@ const Partners = () => {
                                 : ""
                             }
                             ${
-                              index === 8
-                                ? "scale-100 bg-white h-[4.1875vw]"
+                              index === 7
+                                ? "scale-100 bg-white h-[4.1875vw] w-[12.6vw]"
+                                : ""
+                            }
+                            ${
+                              index === 6
+                                ? "scale-100 bg-white h-[4.1875vw] w-[12.6vw]"
                                 : ""
                             }
                             `}
