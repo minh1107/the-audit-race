@@ -417,7 +417,6 @@ const FormRegister = () => {
             </Formik>
           </div>
         </div>
-        <Line2 />
       </div>
     </div>
   );
