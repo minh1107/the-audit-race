@@ -307,7 +307,7 @@ const FormRegister = () => {
                     required={true}
                     name={"name"}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <InputCustom
                     number={2}
@@ -316,7 +316,7 @@ const FormRegister = () => {
                     required={true}
                     name={"email"}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <InputCustom
                     number={3}
@@ -325,7 +325,7 @@ const FormRegister = () => {
                     required={true}
                     name={"phone"}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <InputCustom
                     number={4}
@@ -336,7 +336,7 @@ const FormRegister = () => {
                     required={true}
                     name={"school"}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <InputCustom
                     number={5}
@@ -347,7 +347,7 @@ const FormRegister = () => {
                     required={false}
                     name={"msv"}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <RadioCustom
                     number={6}
@@ -355,7 +355,7 @@ const FormRegister = () => {
                     required={true}
                     data={attendWith}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <CheckBoxCustom
                     number={7}
@@ -365,7 +365,7 @@ const FormRegister = () => {
                     required={false}
                     data={cheer}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <RadioCustom
                     number={8}
@@ -373,7 +373,7 @@ const FormRegister = () => {
                     required={true}
                     data={learnACCA}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
 
                   <RadioCustom
                     number={9}
@@ -390,7 +390,7 @@ const FormRegister = () => {
                     required={false}
                     name={"question"}
                   />
-                  <div className="mb-[1vw] max-md:mb-[6.4vw]"></div>
+                  <div className="mb-[2.25vw] max-md:mb-[6.4vw]"></div>
                   <p data-aos="fade-up" className="check">
                     HÃY KIỂM TRA LẠI CÁC CÂU TRẢ LỜI TRƯỚC KHI GỬI ĐƠN ĐĂNG KÝ
                     VÀ LUÔN SẴN SÀNG CHO HÀNH TRÌNH ĐÁNG NHỚ SẮP TỚI!

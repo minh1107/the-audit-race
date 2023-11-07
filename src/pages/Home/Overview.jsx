@@ -21,7 +21,7 @@ const Overview = () => {
         />
         <Image
           className="object-contain w-full h-full lg:hidden"
-          src={"/bg-timedown-mb.jpg"}
+          src={"/bg-timedown-mb.png"}
           alt="background time down"
           fill
           sizes="100vw"
