@@ -150,12 +150,12 @@ const Partners = () => {
                                 : ""
                             }
                             ${
-                              index === 7
+                              index === 4
                                 ? "scale-100 bg-white h-[4.1875vw] w-[12.6vw]"
                                 : ""
                             }
                             ${
-                              index === 6
+                              index === 7
                                 ? "scale-100 bg-white max-md:w-auto  h-[4.1875vw] "
                                 : ""
                             }
