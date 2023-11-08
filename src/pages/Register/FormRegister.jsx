@@ -147,7 +147,7 @@ const FormRegister = () => {
       }
     })
     if (!isSubmitting) {
-      fetch("https://sheetdb.io/api/v1/xyy24686aihea", {
+      fetch("https://sheetdb.io/api/v1/1e84kjw7j34bs", {
         method: "POST",
         headers: {
           Accept: "application/json",
