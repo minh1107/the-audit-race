@@ -20,7 +20,6 @@ module.exports = {
       },
       backgroundImage: {
         button: 'linear-gradient(92deg, #F07DED 0.27%, #EC4AE7 51.91%, #F281EF 99.31%)',
-        
       },
       fontFamily: {
         exoFont: ['exo'],
